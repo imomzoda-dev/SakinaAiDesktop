@@ -20,6 +20,20 @@
 
 ---
 
+## ✨ New in 1.1.6
+
+<img src="docs/screenshots/27-design-export-menu.png" alt="Design — export a deck to PowerPoint" width="900" />
+
+- **Export decks to PowerPoint (.pptx).** Every slide keeps its artwork (backgrounds, charts, cards — as a 2× picture) and all text becomes native, **editable PowerPoint text boxes** with the same lines, fonts, sizes, colours and alignment. Opens cleanly in PowerPoint; about 90 KB per slide.
+- **Tajik interface** proofread end to end — grammar, consistent terminology, translated Git commands; dates and numbers now use Tajik formatting.
+- **Command palette** (Ctrl+K): *New presentation…*, *New design…*, *Create with AI*, Design and AI Workspace.
+- **Design in the background** can be cancelled; the dock's *Open* button now expands the running job on any page (it used to make the card disappear).
+
+| | |
+|---|---|
+| <img src="docs/screenshots/28-pptx-in-powerpoint.png" alt="Exported deck rendered by PowerPoint" /> | <img src="docs/screenshots/17-design-slides.png" alt="The same deck in Sakina" /> |
+| **Rendered by PowerPoint** — the exported .pptx, text editable | **The same deck in Sakina** |
+
 ## ✨ New in 1.1.5
 
 <img src="docs/screenshots/22-customize-connectors.png" alt="Customize — connectors with logos and collections" width="900" />
@@ -43,7 +57,7 @@
 
 - **AI Workspace (generative UI).** Change the app in plain words — *"Add a calendar on the right in Liquid Glass style"*, *"Make it wider"*, *"Show CPU and GPU load"*, *"Undo that"*. The model plans declarative, validated operations; 12 working widgets (calendar, tasks, notes, calculator, clock, system & GPU monitor, model monitor, charts, KPI cards, tables, progress, custom), drag-and-drop between the right panel, the dashboard and floating panels, undo/redo with snapshots, export/import. Works with every connected model — local or cloud.
 - **Safe AI-made widgets.** Generated code runs only in an isolated sandbox (own origin, strict CSP, no network, no Node.js, no IPC) after you review its permissions and approve it; every version can be rolled back.
-- **Design** — like Claude Design: **Slides**, **Design**, **Design in codebase** (follows your project's tokens and stack) and **Design system**. Refine by text, keep every version, preview on desktop / tablet / phone, present full screen, export to **PDF** or **HTML**.
+- **Design** — like Claude Design: **Slides**, **Design**, **Design in codebase** (follows your project's tokens and stack) and **Design system**. Refine by text, keep every version, preview on desktop / tablet / phone, present full screen, export to **PowerPoint**, **PDF** or **HTML**.
 - **A real code workspace.** Right-click any file or folder: new file/folder, rename, cut/copy/paste, duplicate, delete (restorable), copy path, reveal in Explorer, open in the default app. Built-in previews for **Word, Excel, PowerPoint**, images, PDF, audio and video.
 - **232 Skills** — +132 professional programming & design skills (ui-ux-pro-max, Vercel, Emil Kowalski, Matt Pocock, wshobson/agents, GSAP, Supabase, Android, WordPress…), categories, sorting, one-click starter packs and updates from GitHub.
 - **Downloads per version** in *Settings → Updates*, **Check for updates** in *About*, and iOS-style glass notifications.
@@ -59,6 +73,7 @@
 
 | Version | Downloads |
 |---|---|
+| [v1.1.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) | [![v1.1.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.6/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) |
 | [v1.1.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) | [![v1.1.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.5/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) |
 | [v1.1.4](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) | [![v1.1.4](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.4/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) |
 | [v1.1.3](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.3) | [![v1.1.3](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.3/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.3) |

@@ -19,6 +19,20 @@
 
 ---
 
+## ✨ Новое в 1.1.6
+
+<img src="docs/screenshots/27-design-export-menu.png" alt="Design — экспорт презентации в PowerPoint" width="900" />
+
+- **Экспорт презентаций в PowerPoint (.pptx).** Оформление каждого слайда (фоны, графики, карточки) сохраняется картинкой в двойном разрешении, а весь текст становится настоящими **редактируемыми полями PowerPoint** с теми же строками, шрифтами, размерами, цветами и выравниванием. Файл открывается в PowerPoint без предупреждений, около 90 КБ на слайд.
+- **Таджикский интерфейс** полностью вычитан — грамматика, единые термины, команды Git на таджикском; даты и числа в таджикском формате.
+- **Палитра команд** (Ctrl+K): «Новая презентация…», «Новый дизайн…», «Создать с ИИ», Design и «Пространство ИИ».
+- **Design в фоне** можно отменить; кнопка «Открыть» в индикаторе теперь разворачивает идущую генерацию на любой странице (раньше карточка исчезала).
+
+| | |
+|---|---|
+| <img src="docs/screenshots/28-pptx-in-powerpoint.png" alt="Экспортированная презентация в PowerPoint" /> | <img src="docs/screenshots/17-design-slides.png" alt="Та же презентация в Sakina" /> |
+| **Так её показывает PowerPoint** — файл .pptx, текст редактируется | **Та же презентация в Sakina** |
+
 ## ✨ Новое в 1.1.5
 
 <img src="docs/screenshots/22-customize-connectors.png" alt="Персонализация — коннекторы с логотипами и подборками" width="900" />
@@ -42,7 +56,7 @@
 
 - **Пространство ИИ (Generative UI).** Меняйте программу обычными словами — *«Добавь календарь справа в стиле Liquid Glass»*, *«Сделай его шире»*, *«Покажи загрузку процессора и видеокарты»*, *«Верни как было»*. Модель составляет декларативные проверяемые операции; 12 рабочих виджетов (календарь, задачи, заметки, калькулятор, часы, монитор системы и GPU, монитор модели, графики, KPI-карточки, таблицы, прогресс, свои), перетаскивание между правой панелью, дашбордом и плавающими панелями, отмена/повтор со снимками, экспорт и импорт. Работает с любой подключённой моделью — локальной или облачной.
 - **Безопасные виджеты от ИИ.** Сгенерированный код выполняется только в изолированной песочнице (свой источник, строгий CSP, без сети, Node.js и IPC) после того, как вы проверите разрешения и подтвердите установку; любую версию можно откатить.
-- **Design** — как Claude Design: **Слайды**, **Дизайн**, **Дизайн в кодовой базе** (учитывает токены и стек вашего проекта) и **Дизайн-система**. Доработка текстом, история версий, предпросмотр на компьютере / планшете / телефоне, показ на весь экран, экспорт в **PDF** и **HTML**.
+- **Design** — как Claude Design: **Слайды**, **Дизайн**, **Дизайн в кодовой базе** (учитывает токены и стек вашего проекта) и **Дизайн-система**. Доработка текстом, история версий, предпросмотр на компьютере / планшете / телефоне, показ на весь экран, экспорт в **PowerPoint**, **PDF** и **HTML**.
 - **Настоящее рабочее место.** Правый клик по файлу или папке: новый файл/папка, переименование, вырезать/копировать/вставить, дублировать, удалить (с восстановлением), копировать путь, показать в проводнике, открыть в программе по умолчанию. Встроенный просмотр **Word, Excel, PowerPoint**, изображений, PDF, аудио и видео.
 - **232 навыка** — +132 профессиональных навыка для программирования и дизайна (ui-ux-pro-max, Vercel, Emil Kowalski, Matt Pocock, wshobson/agents, GSAP, Supabase, Android, WordPress…), категории, сортировка, готовые наборы в один клик и обновление с GitHub.
 - **Число скачиваний каждой версии** в *Настройки → Обновления*, **проверка обновлений** в *О программе* и уведомления в стиле iOS.
@@ -58,6 +72,7 @@
 
 | Версия | Скачивания |
 |---|---|
+| [v1.1.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) | [![v1.1.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.6/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) |
 | [v1.1.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) | [![v1.1.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.5/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) |
 | [v1.1.4](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) | [![v1.1.4](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.4/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) |
 | [v1.1.3](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.3) | [![v1.1.3](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.3/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.3) |
