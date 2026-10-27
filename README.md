@@ -4,7 +4,7 @@
 
 # Sakina AI Desktop
 
-**A professional desktop workspace for AI — cloud models, your own local and LAN models, an agent that works with your files and terminal, Skills, Connectors and Plugins.**
+**A professional desktop workspace for AI — cloud models, your own local and LAN models, an agent that works with your files and terminal, an AI Workspace you change by talking to it, Design, Skills, Connectors and Plugins.**
 
 [![Latest release](https://img.shields.io/github/v/release/imomzoda-dev/SakinaAiDesktop?label=release&color=D97757)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/total?color=D97757)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases)
@@ -19,6 +19,35 @@
 </div>
 
 ---
+
+## ✨ New in 1.1.4
+
+<img src="docs/screenshots/15-ai-workspace.png" alt="AI Workspace — widgets created from the chat" width="900" />
+
+- **AI Workspace (generative UI).** Change the app in plain words — *"Add a calendar on the right in Liquid Glass style"*, *"Make it wider"*, *"Show CPU and GPU load"*, *"Undo that"*. The model plans declarative, validated operations; 12 working widgets (calendar, tasks, notes, calculator, clock, system & GPU monitor, model monitor, charts, KPI cards, tables, progress, custom), drag-and-drop between the right panel, the dashboard and floating panels, undo/redo with snapshots, export/import. Works with every connected model — local or cloud.
+- **Safe AI-made widgets.** Generated code runs only in an isolated sandbox (own origin, strict CSP, no network, no Node.js, no IPC) after you review its permissions and approve it; every version can be rolled back.
+- **Design** — like Claude Design: **Slides**, **Design**, **Design in codebase** (follows your project's tokens and stack) and **Design system**. Refine by text, keep every version, preview on desktop / tablet / phone, present full screen, export to **PDF** or **HTML**.
+- **A real code workspace.** Right-click any file or folder: new file/folder, rename, cut/copy/paste, duplicate, delete (restorable), copy path, reveal in Explorer, open in the default app. Built-in previews for **Word, Excel, PowerPoint**, images, PDF, audio and video.
+- **232 Skills** — +132 professional programming & design skills (ui-ux-pro-max, Vercel, Emil Kowalski, Matt Pocock, wshobson/agents, GSAP, Supabase, Android, WordPress…), categories, sorting, one-click starter packs and updates from GitHub.
+- **Downloads per version** in *Settings → Updates*, **Check for updates** in *About*, and iOS-style glass notifications.
+
+| | |
+|---|---|
+| <img src="docs/screenshots/16-design.png" alt="Design" /> | <img src="docs/screenshots/17-design-slides.png" alt="Slides" /> |
+| **Design** — slides, designs and design systems | **Slides** — refine by text, present, export to PDF |
+| <img src="docs/screenshots/18-design-page.png" alt="Design preview" /> | <img src="docs/screenshots/19-explorer-office.png" alt="Explorer and Excel preview" /> |
+| **Design** — versions and live preview | **Code workspace** — context menu and Excel preview |
+
+## Downloads by version
+
+| Version | Downloads |
+|---|---|
+| [v1.1.4](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) | [![v1.1.4](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.4/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) |
+| [v1.1.3](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.3) | [![v1.1.3](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.3/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.3) |
+| [v1.1.2](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.2) | [![v1.1.2](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.2/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.2) |
+| **All versions** | [![Total](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/total?label=total&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases) |
+
+Counters come live from GitHub; the app shows the same numbers in *Settings → Updates → Versions and downloads*.
 
 ## Why Sakina
 
@@ -36,7 +65,10 @@
 | 🧠 **Models & routing** | Cloud and local providers, multi-key rotation, live health of local servers, automatic default model, smart / privacy-first / local-only routing |
 | 🖥️ **Local & LAN AI** | 28 server types with a 6-step connection test; detects Open WebUI / Ollama / OpenAI-compatible servers and fixes the address in one click |
 | 🛠️ **Agent & code workspace** | File explorer, Monaco editor, PowerShell / CMD / Git Bash terminal, Git panel, task checklist, approvals for risky actions, undo of file changes |
-| ✨ **Skills** | Catalog of 100 popular skills (Anthropic, obra/superpowers, addyosmani/agent-skills…), create your own, import from folder / .zip / GitHub; used automatically or with `/skill-name` |
+| 🪄 **AI Workspace** | Widgets and dashboards created and changed from the chat, 12 built-in widgets, sandboxed custom widgets, drag-and-drop, undo/redo, snapshots, export/import |
+| 🎨 **Design** | Slides, designs, designs in your codebase and design systems made by AI; versions, device preview, presentation mode, PDF / HTML export |
+| ✨ **Skills** | Catalog of 232 popular skills in 13 categories (Anthropic, ui-ux-pro-max, Vercel, obra/superpowers, wshobson/agents…), starter packs, updates from GitHub, your own skills; used automatically or with `/skill-name` |
+| 📄 **Any file** | Word, Excel, PowerPoint, PDF, images, audio and video open inside the app; explorer context menu with every file action |
 | 🔌 **Connectors** | 19 verified MCP connectors (GitHub, Context7, DeepWiki, Microsoft Learn, Playwright, Notion, Brave Search, Supabase, Sentry…) — tokens stored encrypted |
 | 🧩 **Plugins** | The official Anthropic marketplace (300+ plugins) and any GitHub marketplace in Claude Code format: skills, slash commands and connectors |
 | 🧭 **Comfort** | Global hotkey `Ctrl+Shift+Space`, tray icon, command palette `Ctrl+K`, shortcuts `Ctrl+/`, drafts per chat, response styles, notifications, light/dark themes, collapsible sidebar |
@@ -48,8 +80,8 @@
 |---|---|
 | <img src="docs/screenshots/02-welcome-light.png" alt="Welcome screen" /> | <img src="docs/screenshots/09-workspace.png" alt="Code workspace" /> |
 | **Welcome** — light theme | **Code workspace** — editor, terminal, AI agent |
-| <img src="docs/screenshots/04-skills-catalog.png" alt="Skills catalog" /> | <img src="docs/screenshots/03-skills.png" alt="My skills" /> |
-| **Skills catalog** — 100 popular skills from GitHub | **My skills** — enable, view, remove |
+| <img src="docs/screenshots/20-skills-catalog.png" alt="Skills catalog" /> | <img src="docs/screenshots/03-skills.png" alt="My skills" /> |
+| **Skills catalog** — 232 skills, categories and starter packs | **My skills** — enable, view, update, remove |
 | <img src="docs/screenshots/05-plugins.png" alt="Plugins" /> | <img src="docs/screenshots/07-connectors-catalog.png" alt="Connectors" /> |
 | **Plugins** — official Anthropic marketplace | **Connectors** — one-click MCP |
 | <img src="docs/screenshots/08-models.png" alt="Models" /> | <img src="docs/screenshots/11-shortcuts.png" alt="Shortcuts" /> |
@@ -68,6 +100,11 @@
 ### Updating
 
 Sakina checks GitHub Releases at start and every 4 hours (can be turned off in *Settings → Updates*). When a new version appears, a card slides open in the sidebar: **GitHub** opens the release notes, **Update** downloads it with a progress bar, verifies its SHA-512 and offers **Restart and update**. Installing a newer installer manually works too — it shows **Update 1.x → 1.y** instead of *Install* and keeps your chats, projects, settings and keys.
+
+| | | |
+|---|---|---|
+| <img src="docs/screenshots/12-update-available.png" alt="New version found" /> | <img src="docs/screenshots/13-update-downloading.png" alt="Downloading" /> | <img src="docs/screenshots/14-update-ready.png" alt="Ready to restart" /> |
+| **New version found** | **Downloading** | **Ready to restart** |
 
 ## Your own model on another computer
 
@@ -93,6 +130,8 @@ In Sakina: **Models → Local AI → Add local server**, pick the server type (O
 **Is it free?** Yes — Sakina AI Desktop is free to use for personal and commercial work under the [EULA](LICENSE.md). AI providers bill you according to their own prices.
 
 **Do I need an internet connection?** Not with local models. Cloud providers, the skills/plugins catalogs and update checks need internet.
+
+**Can the AI break the app by changing the interface?** No. The model only sends declarative operations that are validated before anything changes; generated code runs in an isolated sandbox and only after your approval; every change can be undone.
 
 **Can I use Claude Code skills and plugins?** Yes: Skills use the same `SKILL.md` format, and plugins in Claude Code format contribute their skills, slash commands and MCP servers. Subagents and hooks are listed but not executed.
 
