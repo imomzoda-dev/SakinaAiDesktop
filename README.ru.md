@@ -19,6 +19,23 @@
 
 ---
 
+## ✨ Новое в 1.1.5
+
+<img src="docs/screenshots/22-customize-connectors.png" alt="Персонализация — коннекторы с логотипами и подборками" width="900" />
+
+- **Персонализация** — Skills, Коннекторы и Плагины в одном разделе, как в Claude: переключатель разделов, «Мои / Обзор», поиск, фильтр и «Добавить»; подборки, «Самые популярные» и разделы по категориям, карточки с настоящими логотипами сервисов, отметкой официального разработчика и типом входа, окно подробностей с инструментами сервера.
+- **58 коннекторов** (было 19): Linear, Atlassian (Jira, Confluence), Asana, monday.com, ClickUp, Slack, Zapier, Canva, Miro, Webflow, Wix, Vercel, Cloudflare, Stripe, PayPal, Square, Neon, Prisma Postgres, MongoDB, Airtable, HubSpot, PostHog, Perplexity и другие — каждый адрес и пакет проверен. Сервисы с аккаунтом подключаются в один клик со входом в браузере.
+- **Импорт MCP-серверов** из Claude Desktop или вставкой JSON-конфигурации (Cursor, VS Code) — импортированные серверы создаются выключенными, ключи хранятся зашифрованными.
+- **Design в фоне** — живой прогресс с этапами; кнопка **«Свернуть в фон»** превращает окно в компактный индикатор справа сверху, пока вы работаете дальше, и сообщает, когда дизайн готов.
+- **Умный редактор кода** — подсказки как в VS Code для Python, Go, Rust, Java, C#, C/C++, PHP, Ruby, Kotlin, Dart, SQL и командных оболочек: набрали `pri` → `print`, подписи, описания, сниппеты, члены модулей, ваши функции и классы, подсказки параметров. **ИИ-дополнение** предлагает следующие строки серым текстом (Tab — принять).
+
+| | |
+|---|---|
+| <img src="docs/screenshots/23-connector-details.png" alt="Подробности коннектора" /> | <img src="docs/screenshots/26-python-intellisense.png" alt="Подсказки Python" /> |
+| **Подробности коннектора** — разработчик, вход, инструменты | **Редактор кода** — подсказки и ИИ-дополнение |
+| <img src="docs/screenshots/24-design-progress.png" alt="Прогресс Design" /> | <img src="docs/screenshots/25-design-background.png" alt="Design в фоне" /> |
+| **Design** — живой прогресс с этапами | **Фоновая генерация** — работайте дальше и получите уведомление |
+
 ## ✨ Новое в 1.1.4
 
 <img src="docs/screenshots/15-ai-workspace.png" alt="Пространство ИИ — виджеты, созданные из чата" width="900" />
@@ -41,6 +58,7 @@
 
 | Версия | Скачивания |
 |---|---|
+| [v1.1.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) | [![v1.1.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.5/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) |
 | [v1.1.4](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) | [![v1.1.4](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.4/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) |
 | [v1.1.3](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.3) | [![v1.1.3](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.3/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.3) |
 | [v1.1.2](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.2) | [![v1.1.2](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.2/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.2) |
@@ -68,7 +86,7 @@
 | 🎨 **Design** | Слайды, дизайны, дизайн в кодовой базе и дизайн-системы от ИИ: версии, предпросмотр на устройствах, режим показа, экспорт в PDF / HTML |
 | ✨ **Skills** | Каталог из 232 популярных навыков в 13 категориях (Anthropic, ui-ux-pro-max, Vercel, obra/superpowers, wshobson/agents…), готовые наборы, обновление с GitHub, свои навыки; применяются автоматически или командой `/имя` |
 | 📄 **Любые файлы** | Word, Excel, PowerPoint, PDF, изображения, аудио и видео открываются прямо в программе; контекстное меню проводника со всеми действиями |
-| 🔌 **Коннекторы** | 19 проверенных MCP-коннекторов (GitHub, Context7, DeepWiki, Microsoft Learn, Playwright, Notion, Brave Search, Supabase, Sentry…) — токены хранятся зашифрованными |
+| 🔌 **Коннекторы** | 58 проверенных MCP-коннекторов (GitHub, Context7, DeepWiki, Microsoft Learn, Playwright, Notion, Brave Search, Supabase, Sentry…) — токены хранятся зашифрованными |
 | 🧩 **Плагины** | Официальный маркетплейс Anthropic (300+ плагинов) и любые маркетплейсы GitHub в формате Claude Code: навыки, slash-команды и коннекторы |
 | 🧭 **Удобство** | Глобальная клавиша `Ctrl+Shift+Space`, значок в трее, палитра команд `Ctrl+K`, справка `Ctrl+/`, черновики, стили ответа, уведомления, светлая и тёмная темы, сворачиваемый сайдбар |
 | 🔒 **Безопасность** | Защита путей, анализ риска команд, правила разрешений, журнал аудита, резервные копии с проверкой SHA-256, копия базы перед каждым обновлением схемы |

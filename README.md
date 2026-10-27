@@ -20,6 +20,23 @@
 
 ---
 
+## ✨ New in 1.1.5
+
+<img src="docs/screenshots/22-customize-connectors.png" alt="Customize — connectors with logos and collections" width="900" />
+
+- **Customize** — Skills, Connectors and Plugins in one place, like Claude: section switch, Mine / Browse, search, filter and **Add**; featured collections, "most popular" and category sections, cards with real service logos, verified developers and sign-in type, a details window with the server's tools.
+- **58 connectors** (was 19): Linear, Atlassian (Jira, Confluence), Asana, monday.com, ClickUp, Slack, Zapier, Canva, Miro, Webflow, Wix, Vercel, Cloudflare, Stripe, PayPal, Square, Neon, Prisma Postgres, MongoDB, Airtable, HubSpot, PostHog, Perplexity and more — every endpoint and package checked. Account-based services connect in one click with sign-in in your browser.
+- **Import MCP servers** from Claude Desktop or by pasting a JSON config (Cursor, VS Code) — imported servers start disabled, secrets are stored encrypted.
+- **Design in the background** — a live progress bar with stages; **Minimize to background** turns the window into a compact indicator at the top right while you keep working, and tells you when the design is ready.
+- **Smart code editor** — IntelliSense like VS Code for Python, Go, Rust, Java, C#, C/C++, PHP, Ruby, Kotlin, Dart, SQL and shells: type `pri` → `print`, signatures, docs, snippets, module members, your own functions and classes, parameter hints. **AI completion** suggests the next lines as grey text (Tab accepts).
+
+| | |
+|---|---|
+| <img src="docs/screenshots/23-connector-details.png" alt="Connector details" /> | <img src="docs/screenshots/26-python-intellisense.png" alt="Python IntelliSense" /> |
+| **Connector details** — developer, sign-in, tools | **Code editor** — IntelliSense and AI completion |
+| <img src="docs/screenshots/24-design-progress.png" alt="Design progress" /> | <img src="docs/screenshots/25-design-background.png" alt="Design in the background" /> |
+| **Design** — live progress with stages | **Background generation** — keep working, get notified |
+
 ## ✨ New in 1.1.4
 
 <img src="docs/screenshots/15-ai-workspace.png" alt="AI Workspace — widgets created from the chat" width="900" />
@@ -42,6 +59,7 @@
 
 | Version | Downloads |
 |---|---|
+| [v1.1.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) | [![v1.1.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.5/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) |
 | [v1.1.4](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) | [![v1.1.4](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.4/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) |
 | [v1.1.3](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.3) | [![v1.1.3](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.3/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.3) |
 | [v1.1.2](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.2) | [![v1.1.2](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.2/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.2) |
@@ -69,7 +87,7 @@ Counters come live from GitHub; the app shows the same numbers in *Settings → 
 | 🎨 **Design** | Slides, designs, designs in your codebase and design systems made by AI; versions, device preview, presentation mode, PDF / HTML export |
 | ✨ **Skills** | Catalog of 232 popular skills in 13 categories (Anthropic, ui-ux-pro-max, Vercel, obra/superpowers, wshobson/agents…), starter packs, updates from GitHub, your own skills; used automatically or with `/skill-name` |
 | 📄 **Any file** | Word, Excel, PowerPoint, PDF, images, audio and video open inside the app; explorer context menu with every file action |
-| 🔌 **Connectors** | 19 verified MCP connectors (GitHub, Context7, DeepWiki, Microsoft Learn, Playwright, Notion, Brave Search, Supabase, Sentry…) — tokens stored encrypted |
+| 🔌 **Connectors** | 58 verified MCP connectors (GitHub, Context7, DeepWiki, Microsoft Learn, Playwright, Notion, Brave Search, Supabase, Sentry…) — tokens stored encrypted |
 | 🧩 **Plugins** | The official Anthropic marketplace (300+ plugins) and any GitHub marketplace in Claude Code format: skills, slash commands and connectors |
 | 🧭 **Comfort** | Global hotkey `Ctrl+Shift+Space`, tray icon, command palette `Ctrl+K`, shortcuts `Ctrl+/`, drafts per chat, response styles, notifications, light/dark themes, collapsible sidebar |
 | 🔒 **Safety** | Path guard, command risk analysis, permission rules, audit log, backups with SHA-256 verification, database copy before every schema upgrade |
