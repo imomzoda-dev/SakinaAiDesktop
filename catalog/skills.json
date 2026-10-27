@@ -1,0 +1,1006 @@
+{
+  "generatedAt": "2026-10-27",
+  "count": 100,
+  "skills": [
+    {
+      "name": "frontend-design",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/frontend-design",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design"
+    },
+    {
+      "name": "canvas-design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/canvas-design",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design"
+    },
+    {
+      "name": "claude-api",
+      "description": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration. TRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any…",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/claude-api",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/claude-api"
+    },
+    {
+      "name": "doc-coauthoring",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the …",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/doc-coauthoring",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring"
+    },
+    {
+      "name": "docx",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of co…",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/docx",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/docx"
+    },
+    {
+      "name": "pdf",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, …",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/pdf",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pdf"
+    },
+    {
+      "name": "pptx",
+      "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an…",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/pptx",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pptx"
+    },
+    {
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/webapp-testing",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing"
+    },
+    {
+      "name": "xlsx",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new …",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/xlsx",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx"
+    },
+    {
+      "name": "academy-guide",
+      "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\"…",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/academy-guide",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/academy-guide"
+    },
+    {
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to …",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/algorithmic-art",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art"
+    },
+    {
+      "name": "brand-guidelines",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/brand-guidelines",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines"
+    },
+    {
+      "name": "discernment-nudge",
+      "description": "After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, or emails, estimates or projections, analysis or interpretation of data, factual claims they may rely on, or a multi-step argument — invok…",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/discernment-nudge",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/discernment-nudge"
+    },
+    {
+      "name": "internal-comms",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident …",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/internal-comms",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms"
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/mcp-builder",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder"
+    },
+    {
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for bette…",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/skill-creator",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator"
+    },
+    {
+      "name": "slack-gif-creator",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/slack-gif-creator",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator"
+    },
+    {
+      "name": "theme-factory",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/theme-factory",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "path": "skills/web-artifacts-builder",
+      "stars": 184054,
+      "license": null,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder"
+    },
+    {
+      "name": "writing-plans",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/writing-plans",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/writing-plans"
+    },
+    {
+      "name": "brainstorming",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/brainstorming",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/brainstorming"
+    },
+    {
+      "name": "executing-plans",
+      "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/executing-plans",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/executing-plans"
+    },
+    {
+      "name": "receiving-code-review",
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/receiving-code-review",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/receiving-code-review"
+    },
+    {
+      "name": "requesting-code-review",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/requesting-code-review",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/requesting-code-review"
+    },
+    {
+      "name": "systematic-debugging",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/systematic-debugging",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/systematic-debugging"
+    },
+    {
+      "name": "test-driven-development",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/test-driven-development",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development"
+    },
+    {
+      "name": "using-git-worktrees",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/using-git-worktrees",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees"
+    },
+    {
+      "name": "writing-skills",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/writing-skills",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/writing-skills"
+    },
+    {
+      "name": "diagnosing-superpowers",
+      "description": "Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too long\", \"why is it so expensive\", \"what is it doing\" — or wants to build a bug report for the superpowers maintainers, f…",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/diagnosing-superpowers",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/diagnosing-superpowers"
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/dispatching-parallel-agents",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/finishing-a-development-branch",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch"
+    },
+    {
+      "name": "subagent-driven-development",
+      "description": "Use when executing implementation plans with independent tasks in the current session",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/subagent-driven-development",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development"
+    },
+    {
+      "name": "using-superpowers",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/using-superpowers",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/using-superpowers"
+    },
+    {
+      "name": "verification-before-completion",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "path": "skills/verification-before-completion",
+      "stars": 305745,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/verification-before-completion"
+    },
+    {
+      "name": "api-and-interface-design",
+      "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/api-and-interface-design",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/api-and-interface-design"
+    },
+    {
+      "name": "browser-testing-with-devtools",
+      "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools…",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/browser-testing-with-devtools",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/browser-testing-with-devtools"
+    },
+    {
+      "name": "code-review-and-quality",
+      "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch. Use when asked to review a diff or a pull request, even whe…",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/code-review-and-quality",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality"
+    },
+    {
+      "name": "debugging-and-error-recovery",
+      "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why — a systematic approach to finding and fixing the root c…",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/debugging-and-error-recovery",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-and-error-recovery"
+    },
+    {
+      "name": "documentation-and-adrs",
+      "description": "Records decisions and documentation. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/documentation-and-adrs",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/documentation-and-adrs"
+    },
+    {
+      "name": "frontend-ui-engineering",
+      "description": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-g…",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/frontend-ui-engineering",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/frontend-ui-engineering"
+    },
+    {
+      "name": "git-workflow-and-versioning",
+      "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, splitting uncommitted work in a messy working tree into clean atomic commits, opening or reviewing a pull request (PR), pushing to a remote, or when you need to organize work a…",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/git-workflow-and-versioning",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/git-workflow-and-versioning"
+    },
+    {
+      "name": "performance-optimization",
+      "description": "Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regressions, when Core Web Vitals or load times need improvement, when N+1 query patterns need fixing, or when profiling reveals bottlenecks.",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/performance-optimization",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/performance-optimization"
+    },
+    {
+      "name": "planning-and-task-breakdown",
+      "description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/planning-and-task-breakdown",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/planning-and-task-breakdown"
+    },
+    {
+      "name": "security-and-hardening",
+      "description": "Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when handling user input, authentication, data storage, or external integrations, or when checking a login flow is safe against the OWASP Top Ten. Use when building any feature that accepts untrusted dat…",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/security-and-hardening",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/security-and-hardening"
+    },
+    {
+      "name": "ci-cd-and-automation",
+      "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/ci-cd-and-automation",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/ci-cd-and-automation"
+    },
+    {
+      "name": "code-simplification",
+      "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/code-simplification",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/code-simplification"
+    },
+    {
+      "name": "constraint-driven-development",
+      "description": "Establishes a project's quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane default thresholds when they have no number in mind, records everything in CONSTRAINTS.md, and watches the diff for a weakened bar — new @t…",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/constraint-driven-development",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/constraint-driven-development"
+    },
+    {
+      "name": "context-engineering",
+      "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/context-engineering",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/context-engineering"
+    },
+    {
+      "name": "deprecation-and-migration",
+      "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in production, such as renaming or dropping a column without downtime (expand/contract). Use when deciding whether…",
+      "repo": "addyosmani/agent-skills",
+      "branch": "main",
+      "path": "skills/deprecation-and-migration",
+      "stars": 110881,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/deprecation-and-migration"
+    },
+    {
+      "name": "exploratory-data-analysis",
+      "description": "Performs bounded, local exploratory analysis of explicitly supported scientific files. Supports redacted CSV/TSV/JSON profiles; optional NumPy, HDF5, FASTA/FASTQ, and basic image metadata inspection; missingness/leakage audits; outlier and transformation sensitivity; and rigorous EDA report scaff…",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/exploratory-data-analysis",
+      "stars": 54822,
+      "license": "MIT",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/exploratory-data-analysis"
+    },
+    {
+      "name": "literature-review",
+      "description": "Conducts systematic, scoping, and narrative literature reviews using PubMed, arXiv, bioRxiv, Semantic Scholar, and other appropriate sources. Use for research synthesis, reproducible literature searches, screening, citation checking, or preparing Markdown and PDF reviews. Tracks search coverage, …",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/literature-review",
+      "stars": 54822,
+      "license": "MIT",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/literature-review"
+    },
+    {
+      "name": "statistical-analysis",
+      "description": "Guided statistical analysis for research data - test selection, assumption checking, effect sizes, power analysis, Bayesian alternatives, and APA-formatted reporting. Use whenever a user wants to compare groups, test a hypothesis, analyze experimental or survey data, check statistical assumptions…",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/statistical-analysis",
+      "stars": 54822,
+      "license": "MIT",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/statistical-analysis"
+    },
+    {
+      "name": "analytical-method-validation",
+      "description": "Plans, executes, and documents validation, verification, and transfer of analytical procedures under the governing framework - ICH Q2(R2) and Q14, USP <1220>/<1225>/<1226>, ICH M10 bioanalytical, CLSI EP, or ISO/IEC 17025. Use for HPLC, LC-MS/MS, GC, CE, ICP-MS, dissolution, qNMR, qPCR, NIR, and …",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/analytical-method-validation",
+      "stars": 54822,
+      "license": "MIT",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/analytical-method-validation"
+    },
+    {
+      "name": "anndata",
+      "description": "Handles annotated matrices in single-cell analysis, .h5ad and Zarr files, and integration with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census.",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/anndata",
+      "stars": 54822,
+      "license": "MIT",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/anndata"
+    },
+    {
+      "name": "biopython",
+      "description": "Provides Biopython workflows for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Supports batch processing, custom molecular-biology pipelines, BLAST automation, structure analysis, and motif analysis.",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/biopython",
+      "stars": 54822,
+      "license": "MIT",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/biopython"
+    },
+    {
+      "name": "database-lookup",
+      "description": "Queries documented public database APIs with explicit endpoints, filters, pagination, and provenance. Used when a scientific, regulatory, financial, or other database-backed fact must be retrieved reproducibly from a named source rather than inferred from general knowledge.",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/database-lookup",
+      "stars": 54822,
+      "license": "MIT",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/database-lookup"
+    },
+    {
+      "name": "datalad",
+      "description": "Retrieves, versions, and publishes scientific datasets with DataLad and git-annex, and captures computational provenance with datalad run, rerun, and containers-run. Use when cloning or fetching data from OpenNeuro, DANDI, datasets.datalad.org, or any DataLad dataset; when a file in a dataset rea…",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/datalad",
+      "stars": 54822,
+      "license": "MIT",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/datalad"
+    },
+    {
+      "name": "api-design-reviewer",
+      "description": "Comprehensive REST API design review with automated linting, breaking-change detection, and design scorecards. Catches inconsistent conventions, missing versioning, and design smells before APIs ship. Use when reviewing a PR that adds or changes API endpoints, auditing an existing API for v2 migr…",
+      "repo": "alirezarezvani/claude-skills",
+      "branch": "main",
+      "path": "engineering/skills/api-design-reviewer",
+      "stars": 28791,
+      "license": "MIT",
+      "url": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skills/api-design-reviewer"
+    },
+    {
+      "name": "security-pen-testing",
+      "description": "Use when the user asks to perform security audits, penetration testing, vulnerability scanning, OWASP Top 10 checks, or offensive security assessments. Covers static analysis, dependency scanning, secret detection, API security testing, and pen test report generation.",
+      "repo": "alirezarezvani/claude-skills",
+      "branch": "main",
+      "path": "engineering-team/skills/security-pen-testing",
+      "stars": 28791,
+      "license": "MIT",
+      "url": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/skills/security-pen-testing"
+    },
+    {
+      "name": "api-test-suite-builder",
+      "description": "Use when the user asks to generate API tests, create integration test suites, test REST endpoints, or build contract tests.",
+      "repo": "alirezarezvani/claude-skills",
+      "branch": "main",
+      "path": "engineering/skills/api-test-suite-builder",
+      "stars": 28791,
+      "license": "MIT",
+      "url": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skills/api-test-suite-builder"
+    },
+    {
+      "name": "database-designer",
+      "description": "Use when the user asks to design database schemas, plan data migrations, optimize queries, choose between SQL and NoSQL, or model data relationships.",
+      "repo": "alirezarezvani/claude-skills",
+      "branch": "main",
+      "path": "engineering/skills/database-designer",
+      "stars": 28791,
+      "license": "MIT",
+      "url": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skills/database-designer"
+    },
+    {
+      "name": "database-schema-designer",
+      "description": "Use when the user asks to create ERD diagrams, normalize database schemas, design table relationships, or plan schema migrations.",
+      "repo": "alirezarezvani/claude-skills",
+      "branch": "main",
+      "path": "engineering/skills/database-schema-designer",
+      "stars": 28791,
+      "license": "MIT",
+      "url": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skills/database-schema-designer"
+    },
+    {
+      "name": "sql-database-assistant",
+      "description": "Use when the user asks to write SQL queries, optimize database performance, generate migrations, explore database schemas, or work with ORMs like Prisma, Drizzle, TypeORM, or SQLAlchemy.",
+      "repo": "alirezarezvani/claude-skills",
+      "branch": "main",
+      "path": "engineering/skills/sql-database-assistant",
+      "stars": 28791,
+      "license": "MIT",
+      "url": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skills/sql-database-assistant"
+    },
+    {
+      "name": "statistical-analyst",
+      "description": "Run hypothesis tests, analyze A/B experiment results, calculate sample sizes, and interpret statistical significance with effect sizes. Use when you need to validate whether observed differences are real, size an experiment correctly before launch, or interpret test results with confidence.",
+      "repo": "alirezarezvani/claude-skills",
+      "branch": "main",
+      "path": "engineering/statistical-analyst/skills/statistical-analyst",
+      "stars": 28791,
+      "license": "MIT",
+      "url": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/statistical-analyst/skills/statistical-analyst"
+    },
+    {
+      "name": "universal-scraping-architect",
+      "description": "Use for web scraping, crawling, document extraction, API parsing, or building validation-heavy data pipelines using Firecrawl or local Python scripts.",
+      "repo": "alirezarezvani/claude-skills",
+      "branch": "main",
+      "path": "engineering/universal-scraping-architect/skills/universal-scraping-architect",
+      "stars": 28791,
+      "license": "MIT",
+      "url": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/universal-scraping-architect/skills/universal-scraping-architect"
+    },
+    {
+      "name": "research-summarizer",
+      "description": "Structured research summarization agent skill for non-dev users. Handles academic papers, web articles, reports, and documentation. Extracts key findings, generates comparative analyses, and produces properly formatted citations. Use when: user wants to summarize a research paper, compare multipl…",
+      "repo": "alirezarezvani/claude-skills",
+      "branch": "main",
+      "path": "product-team/research-summarizer/skills/research-summarizer",
+      "stars": 28791,
+      "license": "MIT",
+      "url": "https://github.com/alirezarezvani/claude-skills/tree/main/product-team/research-summarizer/skills/research-summarizer"
+    },
+    {
+      "name": "ux-researcher-designer",
+      "description": "UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing frameworks, and research synthesis. Use when conducting user research, creating personas, mapping user journeys, planning usability tests, or validating de…",
+      "repo": "alirezarezvani/claude-skills",
+      "branch": "main",
+      "path": "product-team/skills/ux-researcher-designer",
+      "stars": 28791,
+      "license": "MIT",
+      "url": "https://github.com/alirezarezvani/claude-skills/tree/main/product-team/skills/ux-researcher-designer"
+    },
+    {
+      "name": "api-designer",
+      "description": "Use when designing REST or GraphQL APIs, creating OpenAPI specifications, or planning API architecture. Invoke for resource modeling, versioning strategies, pagination patterns, error handling standards.",
+      "repo": "Jeffallan/claude-skills",
+      "branch": "main",
+      "path": "skills/api-designer",
+      "stars": 12076,
+      "license": "MIT",
+      "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/api-designer"
+    },
+    {
+      "name": "architecture-designer",
+      "description": "Use when designing new high-level system architecture, reviewing existing designs, or making architectural decisions. Invoke to create architecture diagrams, write Architecture Decision Records (ADRs), evaluate technology trade-offs, design component interactions, and plan for scalability. Use fo…",
+      "repo": "Jeffallan/claude-skills",
+      "branch": "main",
+      "path": "skills/architecture-designer",
+      "stars": 12076,
+      "license": "MIT",
+      "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/architecture-designer"
+    },
+    {
+      "name": "security-reviewer",
+      "description": "Identifies security vulnerabilities, generates structured audit reports with severity ratings, and provides actionable remediation guidance. Use when conducting security audits, reviewing code for vulnerabilities, or analyzing infrastructure security. Invoke for SAST scans, penetration testing, D…",
+      "repo": "Jeffallan/claude-skills",
+      "branch": "main",
+      "path": "skills/security-reviewer",
+      "stars": 12076,
+      "license": "MIT",
+      "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/security-reviewer"
+    },
+    {
+      "name": "angular-architect",
+      "description": "Generates Angular 17+ standalone components, configures advanced routing with lazy loading and guards, implements NgRx state management, applies RxJS patterns, and optimizes bundle performance. Use when building Angular 17+ applications with standalone components or signals, setting up NgRx store…",
+      "repo": "Jeffallan/claude-skills",
+      "branch": "main",
+      "path": "skills/angular-architect",
+      "stars": 12076,
+      "license": "MIT",
+      "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/angular-architect"
+    },
+    {
+      "name": "cloud-architect",
+      "description": "Designs cloud architectures, creates migration plans, generates cost optimization recommendations, and produces disaster recovery strategies across AWS, Azure, and GCP. Use when designing cloud architectures, planning migrations, or optimizing multi-cloud deployments. Invoke for Well-Architected …",
+      "repo": "Jeffallan/claude-skills",
+      "branch": "main",
+      "path": "skills/cloud-architect",
+      "stars": 12076,
+      "license": "MIT",
+      "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/cloud-architect"
+    },
+    {
+      "name": "code-documenter",
+      "description": "Generates, formats, and validates technical documentation — including docstrings, OpenAPI/Swagger specs, JSDoc annotations, doc portals, and user guides. Use when adding docstrings to functions or classes, creating API documentation, building documentation sites, or writing tutorials and user gui…",
+      "repo": "Jeffallan/claude-skills",
+      "branch": "main",
+      "path": "skills/code-documenter",
+      "stars": 12076,
+      "license": "MIT",
+      "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/code-documenter"
+    },
+    {
+      "name": "code-reviewer",
+      "description": "Analyzes code diffs and files to identify bugs, security vulnerabilities (SQL injection, XSS, insecure deserialization), code smells, N+1 queries, naming issues, and architectural concerns, then produces a structured review report with prioritized, actionable feedback. Use when reviewing pull req…",
+      "repo": "Jeffallan/claude-skills",
+      "branch": "main",
+      "path": "skills/code-reviewer",
+      "stars": 12076,
+      "license": "MIT",
+      "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/code-reviewer"
+    },
+    {
+      "name": "database-optimizer",
+      "description": "Optimizes database queries and improves performance across PostgreSQL and MySQL systems. Use when investigating slow queries, analyzing execution plans, or optimizing database performance. Invoke for index design, query rewrites, configuration tuning, partitioning strategies, lock contention reso…",
+      "repo": "Jeffallan/claude-skills",
+      "branch": "main",
+      "path": "skills/database-optimizer",
+      "stars": 12076,
+      "license": "MIT",
+      "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/database-optimizer"
+    },
+    {
+      "name": "debugging-wizard",
+      "description": "Parses error messages, traces execution flow through stack traces, correlates log entries to identify failure points, and applies systematic hypothesis-driven methodology to isolate and resolve bugs. Use when investigating errors, analyzing stack traces, finding root causes of unexpected behavior…",
+      "repo": "Jeffallan/claude-skills",
+      "branch": "main",
+      "path": "skills/debugging-wizard",
+      "stars": 12076,
+      "license": "MIT",
+      "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/debugging-wizard"
+    },
+    {
+      "name": "fastapi-expert",
+      "description": "Use when building high-performance async Python APIs with FastAPI and Pydantic V2. Invoke to create REST endpoints, define Pydantic models, implement authentication flows, set up async SQLAlchemy database operations, add JWT authentication, build WebSocket endpoints, or generate OpenAPI documenta…",
+      "repo": "Jeffallan/claude-skills",
+      "branch": "main",
+      "path": "skills/fastapi-expert",
+      "stars": 12076,
+      "license": "MIT",
+      "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/fastapi-expert"
+    },
+    {
+      "name": "content-research-writer",
+      "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "branch": "master",
+      "path": "content-research-writer",
+      "stars": 78035,
+      "license": null,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer"
+    },
+    {
+      "name": "changelog-generator",
+      "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "branch": "master",
+      "path": "changelog-generator",
+      "stars": 78035,
+      "license": null,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator"
+    },
+    {
+      "name": "developer-growth-analysis",
+      "description": "Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs.",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "branch": "master",
+      "path": "developer-growth-analysis",
+      "stars": 78035,
+      "license": null,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/developer-growth-analysis"
+    },
+    {
+      "name": "domain-name-brainstormer",
+      "description": "Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "branch": "master",
+      "path": "domain-name-brainstormer",
+      "stars": 78035,
+      "license": null,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/domain-name-brainstormer"
+    },
+    {
+      "name": "lead-research-assistant",
+      "description": "Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals.",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "branch": "master",
+      "path": "lead-research-assistant",
+      "stars": 78035,
+      "license": null,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/lead-research-assistant"
+    },
+    {
+      "name": "meeting-insights-analyzer",
+      "description": "Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportunities to listen. Perfect for professionals seeking to improve their communicat…",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "branch": "master",
+      "path": "meeting-insights-analyzer",
+      "stars": 78035,
+      "license": null,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer"
+    },
+    {
+      "name": "artifacts-builder",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "branch": "master",
+      "path": "artifacts-builder",
+      "stars": 78035,
+      "license": null,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/artifacts-builder"
+    },
+    {
+      "name": "competitive-ads-extractor",
+      "description": "Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, problems, and creative approaches are working. Helps inspire and improve your own ad campaigns.",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "branch": "master",
+      "path": "competitive-ads-extractor",
+      "stars": 78035,
+      "license": null,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/competitive-ads-extractor"
+    },
+    {
+      "name": "design-taste-frontend",
+      "description": "tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curated gallery sites (One Page Love, Awwwards Sites of the Day). Deals researched directions (idea, composition, type, palette, photographs, section blueprints) from a library, enforces a stric…",
+      "repo": "Leonxlnx/taste-skill",
+      "branch": "main",
+      "path": "skills/taste-skill",
+      "stars": 103174,
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/taste-skill"
+    },
+    {
+      "name": "last30days",
+      "description": "Research what people actually say about any topic in the last 30 days. Pulls posts and engagement from Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, and the web. Includes a doctor health check to diagnose broken or missing sources.",
+      "repo": "mvanhorn/last30days-skill",
+      "branch": "main",
+      "path": "skills/last30days",
+      "stars": 65613,
+      "license": "MIT",
+      "url": "https://github.com/mvanhorn/last30days-skill/tree/main/skills/last30days"
+    },
+    {
+      "name": "humanizer",
+      "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says. Use when editing or reviewing prose for AI tells: not-X-but-Y contrasts, one-line closers, staged openers, forced triads, dashes everywhere, inflated claims, sales language, stock AI words, bold labels, or filler.…",
+      "repo": "blader/humanizer",
+      "branch": "main",
+      "path": "",
+      "stars": 61135,
+      "license": "MIT",
+      "url": "https://github.com/blader/humanizer/tree/main"
+    },
+    {
+      "name": "prompt-master",
+      "description": "Generates optimized prompts for AI tools. Activates only when the user explicitly asks to write, fix, improve, or adapt a prompt for a specific AI tool (LLM, Cursor, Midjourney, image AI, video AI, coding agents, etc.). Does not activate for general conversation, coding tasks, document writing, o…",
+      "repo": "nidhinjs/prompt-master",
+      "branch": "main",
+      "path": "",
+      "stars": 15120,
+      "license": "MIT",
+      "url": "https://github.com/nidhinjs/prompt-master/tree/main"
+    },
+    {
+      "name": "dev-browser",
+      "description": "Browser automation with persistent named pages via the dev-browser CLI. Use when users ask to navigate websites, fill forms, take screenshots, extract web data, test web apps, log into sites, or automate browser workflows. Trigger phrases include \"go to [url]\", \"click on\", \"fill out the form\", \"t…",
+      "repo": "SawyerHood/dev-browser",
+      "branch": "main",
+      "path": "skills/dev-browser",
+      "stars": 6703,
+      "license": "MIT",
+      "url": "https://github.com/SawyerHood/dev-browser/tree/main/skills/dev-browser"
+    },
+    {
+      "name": "ab-test-analyzer",
+      "description": "Statistical significance calculator for A/B test results with sample size requirements, segment breakdowns, and hypothesis generation. Use when feeding test results, checking statistical significance, calculating sample sizes, analyzing experiment outcomes, or generating next test ideas based on …",
+      "repo": "irinabuht12-oss/marketing-skills",
+      "branch": "main",
+      "path": "skills/ab-test-analyzer",
+      "stars": 5885,
+      "license": null,
+      "url": "https://github.com/irinabuht12-oss/marketing-skills/tree/main/skills/ab-test-analyzer"
+    },
+    {
+      "name": "ab-test-setup-and-analysis",
+      "description": "Designs statistically valid split tests for ads, audiences, landing pages, or bid strategies. Calculates required sample sizes before you start, monitors results during the test, and calls winners when statistical significance is actually reached — not when you feel like one is winning. Platform:…",
+      "repo": "irinabuht12-oss/marketing-skills",
+      "branch": "main",
+      "path": "skills/ab-test-setup-and-analysis",
+      "stars": 5885,
+      "license": null,
+      "url": "https://github.com/irinabuht12-oss/marketing-skills/tree/main/skills/ab-test-setup-and-analysis"
+    },
+    {
+      "name": "geo-performance-analysis",
+      "description": "Breaks down campaign performance by geographic location at whatever level matters — country, state, city, DMA, zip code. Flags underperforming geos that are quietly eating budget and high-performing ones that deserve more spend. Recommends geo bid adjustments or campaign splits. Platform: Google …",
+      "repo": "irinabuht12-oss/marketing-skills",
+      "branch": "main",
+      "path": "skills/geo-performance-analysis",
+      "stars": 5885,
+      "license": null,
+      "url": "https://github.com/irinabuht12-oss/marketing-skills/tree/main/skills/geo-performance-analysis"
+    },
+    {
+      "name": "account-structure-review",
+      "description": "Evaluates your campaign and ad set structure against your actual goals and budget. Flags over-segmentation that fragments your data, under-segmentation that hides performance differences, budget allocation issues, and consolidation opportunities that would improve algorithmic delivery and your ab…",
+      "repo": "irinabuht12-oss/marketing-skills",
+      "branch": "main",
+      "path": "skills/account-structure-review",
+      "stars": 5885,
+      "license": null,
+      "url": "https://github.com/irinabuht12-oss/marketing-skills/tree/main/skills/account-structure-review"
+    },
+    {
+      "name": "audience-overlap-analysis",
+      "description": "Compares your Meta ad sets and identifies where audiences overlap significantly, causing your ads to compete against each other in the same auctions. Tells you exactly which ad sets are cannibalizing each other and how much it's costing you in inflated CPMs. Platform: Meta.",
+      "repo": "irinabuht12-oss/marketing-skills",
+      "branch": "main",
+      "path": "skills/audience-overlap-analysis",
+      "stars": 5885,
+      "license": null,
+      "url": "https://github.com/irinabuht12-oss/marketing-skills/tree/main/skills/audience-overlap-analysis"
+    },
+    {
+      "name": "budget-scenario-planner",
+      "description": "Models what happens to your CPA, ROAS, conversion volume, and impression share when you increase or decrease budget by any amount. Uses your actual account data and historical diminishing returns patterns, not generic industry assumptions. Platform: Google and Meta.",
+      "repo": "irinabuht12-oss/marketing-skills",
+      "branch": "main",
+      "path": "skills/budget-scenario-planner",
+      "stars": 5885,
+      "license": null,
+      "url": "https://github.com/irinabuht12-oss/marketing-skills/tree/main/skills/budget-scenario-planner"
+    },
+    {
+      "name": "audio-design",
+      "description": "Implement game audio practice — bus/mixer architecture and gain in decibels, ducking (sidechain), adaptive/dynamic music via layering and re-sequencing, SFX variation, and beat synchronization. Engine-neutral. Use when the user mentions audio mixing, audio buses, adaptive/dynamic music, ducking, …",
+      "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+      "branch": "main",
+      "path": "skills/disciplines/audio-design",
+      "stars": 4931,
+      "license": "Apache-2.0",
+      "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main/skills/disciplines/audio-design"
+    },
+    {
+      "name": "level-design",
+      "description": "Design and build playable levels — the blockout/whitebox-to-playable workflow, player metrics and grid layout, pacing and flow (tension/rest curve), gating and the critical path, and encounter design. Engine-neutral practice. Use when the user mentions level design, blockout/whitebox/greybox, lev…",
+      "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+      "branch": "main",
+      "path": "skills/disciplines/level-design",
+      "stars": 4931,
+      "license": "Apache-2.0",
+      "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main/skills/disciplines/level-design"
+    },
+    {
+      "name": "visual-novel",
+      "description": "Build a visual novel: a branching script, character and background display, a text box with choices, save/load, backlog, and skip/auto. Use for a VN, dating sim, or branching story game.",
+      "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+      "branch": "main",
+      "path": "skills/genres/visual-novel",
+      "stars": 4931,
+      "license": "Apache-2.0",
+      "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main/skills/genres/visual-novel"
+    },
+    {
+      "name": "godot-gdscript-headless-testing",
+      "description": "Run GDScript test suites from the command line with `godot --headless`, using a SceneTree/MainLoop runner script that exits non-zero on failure so CI can gate merges. Use when a Godot project needs unit tests without opening the editor, when wiring a CI job (GitHub Actions or similar) that must f…",
+      "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+      "branch": "main",
+      "path": "skills/godot/godot-gdscript-headless-testing",
+      "stars": 4931,
+      "license": "Apache-2.0",
+      "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main/skills/godot/godot-gdscript-headless-testing"
+    }
+  ]
+}
