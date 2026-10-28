@@ -19,6 +19,17 @@
 
 ---
 
+## ✨ Новое в 1.3.3
+
+- **Знакомство — один раз на аккаунт:** оно больше не появляется после выхода и повторного входа или при каждом запуске. Завершённая настройка хранится в самом аккаунте и на компьютере.
+- **Удаление аккаунта:** понятное окно показывает, что удаляется на сервере и что остаётся на компьютере, просит пароль и e-mail и по желанию стирает чаты на этом компьютере. На сервере достаточно одной SQL-функции — привилегированных ключей в программе нет.
+- **Рабочее место:** панель ИИ сворачивается в тонкую полосу (кнопка в заголовке, сама полоса или Ctrl+Alt+B) и показывает, что агент работает или ждёт ответа.
+
+<p align="center">
+  <img src="docs/screenshots/account-delete.png" alt="Удаление аккаунта" width="49%" />
+  <img src="docs/screenshots/workspace-ai-collapsed.png" alt="Рабочее место со свёрнутой панелью ИИ" width="49%" />
+</p>
+
 ## ✨ Новое в 1.3.2
 
 - **Исправления аккаунтов:** знакомство больше не повторяется при каждом запуске, никнейм сохраняется всегда, а изменения профиля хранятся на компьютере и синхронизируются автоматически, если сервер аккаунтов их пока не принимает. Ссылка из письма, подтвердившая адрес, сразу ведёт ко входу.
@@ -171,6 +182,7 @@
 
 | Версия | Скачивания |
 |---|---|
+| [v1.3.3](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.3) | [![v1.3.3](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.3/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.3) |
 | [v1.3.2](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.2) | [![v1.3.2](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.2/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.2) |
 | [v1.3.1](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.1) | [![v1.3.1](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.1/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.1) |
 | [v1.3.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.0) | [![v1.3.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.0/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.0) |
