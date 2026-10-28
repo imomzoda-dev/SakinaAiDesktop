@@ -20,6 +20,14 @@
 
 ---
 
+## ✨ New in 1.3.1
+
+- **Sign-in screens:** an animated developer card at the bottom of the brand panel (GitHub · *Developed by Imomzoda Mehriddin*) over gently drifting glows, a soft dot grid and twinkling sparks — still when reduced motion is on.
+
+<p align="center">
+  <img src="docs/screenshots/account-login-dark.png" alt="Sign in — dark theme" width="80%" />
+</p>
+
 ## ✨ New in 1.3.0 — your Sakina account
 
 - **Sakina account:** e-mail sign-up with confirmation, sign-in, password reset — the e-mail link opens the app. The session is stored encrypted (Windows DPAPI) and restored on start.
@@ -150,6 +158,7 @@
 
 | Version | Downloads |
 |---|---|
+| [v1.3.1](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.1) | [![v1.3.1](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.1/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.1) |
 | [v1.3.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.0) | [![v1.3.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.0/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.0) |
 | [v1.2.1](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.1) | [![v1.2.1](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.1/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.1) |
 | [v1.2.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) | [![v1.2.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.0/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) |
