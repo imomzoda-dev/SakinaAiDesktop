@@ -20,6 +20,10 @@
 
 ---
 
+## ✨ New in 1.3.2
+
+- **Account fixes:** the first-run setup no longer repeats on every start, nicknames always save, and profile changes are kept on this computer and synced automatically when the account server refuses them. An e-mail link that confirms the address but cannot sign in by itself now leads straight to sign-in.
+
 ## ✨ New in 1.3.1
 
 - **Sign-in screens:** an animated developer card at the bottom of the brand panel (GitHub · *Developed by Imomzoda Mehriddin*) over gently drifting glows, a soft dot grid and twinkling sparks — still when reduced motion is on.
@@ -158,6 +162,7 @@
 
 | Version | Downloads |
 |---|---|
+| [v1.3.2](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.2) | [![v1.3.2](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.2/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.2) |
 | [v1.3.1](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.1) | [![v1.3.1](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.1/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.1) |
 | [v1.3.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.0) | [![v1.3.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.0/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.0) |
 | [v1.2.1](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.1) | [![v1.2.1](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.1/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.1) |
