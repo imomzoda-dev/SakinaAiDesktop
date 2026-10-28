@@ -20,6 +20,29 @@
 
 ---
 
+## ✨ New in 1.2.1 — Claude Code features and a real IDE
+
+- **Checkpoints & rewind** (like `/rewind` in Claude Code). Every message has *Rewind to here*, and `/rewind` works in the input box: restore **code and conversation**, only the conversation or only the code. Files the agent changed, created or deleted after that message come back, and the message returns to the input box to edit and resend.
+- **Subagents (`task` tool).** The agent hands broad research to a read-only subagent with its own context — optionally in the role of one of your agents — and gets back a concise report.
+- **The agent asks you** (like AskUserQuestion): options as cards, keys 1–5, your own answer, or *Skip* to let it decide.
+- **Background processes.** Dev servers, watchers and long builds run in the background; the agent reads only new output and stops them. The new **Processes** panel shows live output with *Stop* and *Send to chat*.
+- **Hooks** (*Settings → Hooks*), compatible with Claude Code: your commands on `PreToolUse`, `PostToolUse`, `UserPromptSubmit` and `Stop`; JSON on stdin, exit code 2 blocks. Six templates (Prettier after edits, block `git push --force`, protect `.env`, command log…) and a *Test run* button. Hooks are only added by you — never read from project files.
+- **The code workspace is now a full IDE:** **Ctrl+P** quick open with fuzzy search and `file.ts:42` line jumps, a **Tasks** panel (package.json scripts for npm/pnpm/yarn/bun, Makefile, Cargo, Go, .NET, Python/Django, Flutter, deno — one click to run), a **status bar** (Git branch, errors/warnings, processes, line/column, indentation, encoding, EOL, language), **breadcrumbs** and a **tab menu** (close others/right/saved/all, copy path, reveal).
+- **Design polish:** one consistent page-title style, the brand scrollbar in the sidebar, no more cut-off status on the Training page.
+
+<p align="center">
+  <img src="docs/screenshots/31-workspace-tasks-processes.png" alt="Tasks, background processes and status bar" width="49%" />
+  <img src="docs/screenshots/30-quick-open.png" alt="Quick open (Ctrl+P)" width="49%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/34-rewind.png" alt="Rewind to a checkpoint" width="49%" />
+  <img src="docs/screenshots/35-question.png" alt="The agent asks a question" width="49%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/32-hooks.png" alt="Hooks" width="49%" />
+  <img src="docs/screenshots/33-hook-dialog.png" alt="Hook editor with a test run" width="49%" />
+</p>
+
 ## ✨ New in 1.2.0
 
 - **Training — teach your local models.** Ready courses (*Tajik language*, *Working with data*, *Data analysis*, *Building agents*, *Popular frameworks*, *Testing projects*, *Business documents*) or your own. Build a new Ollama model with the role, parameters and examples built in, write examples by hand, import JSONL/CSV or generate them with AI (also from your documents), and **test the trained model against the base one**. A complete **LoRA fine-tuning kit** adapts to any NVIDIA GPU — GTX 1050 … RTX 5090 and A6000 (model size, bf16/fp16, batch, memory saving and the right CUDA build of PyTorch are chosen automatically) — or the CPU.
@@ -108,6 +131,7 @@
 
 | Version | Downloads |
 |---|---|
+| [v1.2.1](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.1) | [![v1.2.1](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.1/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.1) |
 | [v1.2.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) | [![v1.2.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.0/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) |
 | [v1.1.9](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) | [![v1.1.9](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.9/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) |
 | [v1.1.8](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) | [![v1.1.8](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.8/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) |
@@ -136,7 +160,7 @@ Counters come live from GitHub; the app shows the same numbers in *Settings → 
 | 💬 **Chat** | Streaming answers, Markdown, tables, code highlighting, Mermaid, HTML/SVG preview, reasoning ("thinking") blocks, attachments incl. PDF text, branching edits, search, export |
 | 🧠 **Models & routing** | Cloud and local providers, multi-key rotation, live health of local servers, automatic default model, smart / privacy-first / local-only routing |
 | 🖥️ **Local & LAN AI** | 28 server types with a 6-step connection test; detects Open WebUI / Ollama / OpenAI-compatible servers and fixes the address in one click |
-| 🛠️ **Agent & code workspace** | File explorer, Monaco editor, PowerShell / CMD / Git Bash terminal, Git panel, task checklist, approvals for risky actions, undo of file changes |
+| 🛠️ **Agent & code workspace** | File explorer, Monaco editor, Ctrl+P quick open, project tasks, background processes, status bar, PowerShell / CMD / Git Bash terminal, Git panel, subagents, questions from the agent, hooks, checkpoints & rewind, approvals for risky actions |
 | 🪄 **AI Workspace** | Widgets and dashboards created and changed from the chat, 12 built-in widgets, sandboxed custom widgets, drag-and-drop, undo/redo, snapshots, export/import |
 | 🎨 **Design** | Slides, designs, designs in your codebase and design systems made by AI; versions, device preview, presentation mode, PDF / HTML export |
 | ✨ **Skills** | Catalog of 232 popular skills in 13 categories (Anthropic, ui-ux-pro-max, Vercel, obra/superpowers, wshobson/agents…), starter packs, updates from GitHub, your own skills; used automatically or with `/skill-name` |

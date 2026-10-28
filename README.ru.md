@@ -19,6 +19,29 @@
 
 ---
 
+## ✨ Новое в 1.2.1 — функции Claude Code и настоящая IDE
+
+- **Контрольные точки и откат** (как `/rewind` в Claude Code). У каждого сообщения есть «Откатить сюда», в поле ввода работает `/rewind`: можно вернуть **код и диалог**, только диалог или только код. Файлы, которые агент изменил, создал или удалил после сообщения, восстанавливаются, а само сообщение возвращается в поле ввода.
+- **Субагенты (инструмент `task`).** Агент поручает широкий поиск субагенту с отдельным контекстом и правами только на чтение — при желании в роли одного из ваших агентов — и получает краткий отчёт.
+- **Агент задаёт вопросы** (как AskUserQuestion): варианты-карточки, клавиши 1–5, свой ответ или «Пропустить».
+- **Фоновые процессы.** Dev-серверы, watcher-ы и долгие сборки работают в фоне; агент читает только новый вывод и останавливает их. Новая панель **«Процессы»** показывает живой вывод, кнопки «Остановить» и «Отправить в чат».
+- **Хуки** («Настройки → Хуки»), совместимые с Claude Code: ваши команды на `PreToolUse`, `PostToolUse`, `UserPromptSubmit` и `Stop`; JSON в stdin, код выхода 2 блокирует. Шесть шаблонов (Prettier после правок, запрет `git push --force`, защита `.env`, журнал команд…) и кнопка «Проверить». Хуки добавляете только вы — из файлов проекта они не берутся.
+- **Рабочее место — полноценная IDE:** **Ctrl+P** с нечётким поиском и переходом `file.ts:42`, панель **«Задачи»** (скрипты package.json для npm/pnpm/yarn/bun, Makefile, Cargo, Go, .NET, Python/Django, Flutter, deno — запуск в один клик), **строка состояния** (ветка Git, ошибки и предупреждения, процессы, строка/столбец, отступы, кодировка, конец строки, язык), **хлебные крошки** и **меню вкладок**.
+- **Дизайн:** единый стиль заголовков страниц, фирменная полоса прокрутки в сайдбаре, статус на странице «Обучение» больше не обрезается.
+
+<p align="center">
+  <img src="docs/screenshots/31-workspace-tasks-processes.png" alt="Задачи, фоновые процессы и строка состояния" width="49%" />
+  <img src="docs/screenshots/30-quick-open.png" alt="Быстрый переход к файлу (Ctrl+P)" width="49%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/34-rewind.png" alt="Откат к контрольной точке" width="49%" />
+  <img src="docs/screenshots/35-question.png" alt="Вопрос агента" width="49%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/32-hooks.png" alt="Хуки" width="49%" />
+  <img src="docs/screenshots/33-hook-dialog.png" alt="Редактор хука с проверкой" width="49%" />
+</p>
+
 ## ✨ Новое в 1.2.0
 
 - **«Обучение» — учите свои локальные модели.**
@@ -117,6 +140,7 @@
 
 | Версия | Скачивания |
 |---|---|
+| [v1.2.1](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.1) | [![v1.2.1](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.1/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.1) |
 | [v1.2.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) | [![v1.2.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.0/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) |
 | [v1.1.9](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) | [![v1.1.9](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.9/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) |
 | [v1.1.8](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) | [![v1.1.8](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.8/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) |
