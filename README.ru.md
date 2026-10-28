@@ -19,6 +19,31 @@
 
 ---
 
+## ✨ Новое в 1.2.0
+
+- **«Обучение» — учите свои локальные модели.**
+  - Готовые курсы: «Таджикский язык», «Работа с данными», «Анализ данных», «Создание агентов», «Популярные фреймворки», «Тестирование проектов», «Деловые документы» — или свой курс.
+  - Сборка новой модели Ollama со встроенными ролью, параметрами и примерами.
+  - Примеры: вручную, импортом JSONL/CSV или генерацией с ИИ, в том числе по вашим документам.
+  - **Тестирование обученной модели в сравнении с базовой.**
+  - Полный **набор LoRA-дообучения** подстраивается под любую видеокарту NVIDIA — от GTX 1050 до RTX 5090 и A6000. Размер модели, bf16/fp16, размер пакета, экономия памяти и нужная CUDA-сборка PyTorch выбираются автоматически. Без видеокарты обучение идёт на процессоре.
+- **«Агенты» — создайте своего.**
+  - Инструкции, режим, модель, возможности и **знания из ваших документов**.
+  - Черновик агента от ИИ по одному предложению и 10 шаблонов.
+  - **192 агента из самых популярных GitHub-коллекций** в один клик.
+  - **27 известных открытых агентных проектов** (AutoGPT, Dify, OpenHands, CrewAI, LangGraph…) для скачивания и изучения.
+  - Агента можно выбрать для любого чата рядом с «Режимом».
+- **Доступ «Авто» (рекомендуется):** агент работает внутри проекта без остановок на вопросы. Спрашивает только об опасных действиях и о действиях вне проекта.
+
+<p align="center">
+  <img src="docs/screenshots/training.png" alt="Обучение" width="49%" />
+  <img src="docs/screenshots/training-setup.png" alt="Модель, роль и подбор под видеокарту" width="49%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/agents.png" alt="Агенты" width="49%" />
+  <img src="docs/screenshots/agents-open-source.png" alt="Открытые агенты" width="49%" />
+</p>
+
 ## ✨ Новое в 1.1.9
 
 - **Переключатель «Доступ» рядом с «Режимом»**, как в Claude Code: «Вручную», «Принимать правки», «Только чтение» и «Свои правила» — клавиши 1–4 выбирают вариант в открытом меню. Рискованные действия и всё вне проекта по-прежнему требуют подтверждения.
@@ -92,6 +117,7 @@
 
 | Версия | Скачивания |
 |---|---|
+| [v1.2.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) | [![v1.2.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.0/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) |
 | [v1.1.9](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) | [![v1.1.9](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.9/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) |
 | [v1.1.8](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) | [![v1.1.8](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.8/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) |
 | [v1.1.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) | [![v1.1.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.7/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) |

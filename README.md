@@ -20,6 +20,21 @@
 
 ---
 
+## ✨ New in 1.2.0
+
+- **Training — teach your local models.** Ready courses (*Tajik language*, *Working with data*, *Data analysis*, *Building agents*, *Popular frameworks*, *Testing projects*, *Business documents*) or your own. Build a new Ollama model with the role, parameters and examples built in, write examples by hand, import JSONL/CSV or generate them with AI (also from your documents), and **test the trained model against the base one**. A complete **LoRA fine-tuning kit** adapts to any NVIDIA GPU — GTX 1050 … RTX 5090 and A6000 (model size, bf16/fp16, batch, memory saving and the right CUDA build of PyTorch are chosen automatically) — or the CPU.
+- **Agents — create your own.** Instructions, mode, model, abilities and **knowledge from your documents**; AI drafts an agent from one sentence; 10 templates; **192 agents from the most-starred GitHub collections** in one click; **27 famous open-source agent projects** (AutoGPT, Dify, OpenHands, CrewAI, LangGraph…) to download and study. Pick an agent for any chat next to the mode.
+- **Auto access (recommended):** the agent keeps working inside the project without stopping to ask; only dangerous actions and anything outside the project ask.
+
+<p align="center">
+  <img src="docs/screenshots/training.png" alt="Training" width="49%" />
+  <img src="docs/screenshots/training-setup.png" alt="Model, role and GPU fit" width="49%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/agents.png" alt="Agents" width="49%" />
+  <img src="docs/screenshots/agents-open-source.png" alt="Open-source agents" width="49%" />
+</p>
+
 ## ✨ New in 1.1.9
 
 - **Access switcher next to the mode**, like Claude Code: *Manual*, *Accept edits*, *Read only* and *Custom rules* — keys 1–4 pick one in the open menu. Risky actions and anything outside the project still always ask.
@@ -93,6 +108,7 @@
 
 | Version | Downloads |
 |---|---|
+| [v1.2.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) | [![v1.2.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.0/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) |
 | [v1.1.9](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) | [![v1.1.9](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.9/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) |
 | [v1.1.8](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) | [![v1.1.8](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.8/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) |
 | [v1.1.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) | [![v1.1.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.7/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) |

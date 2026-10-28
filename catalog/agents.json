@@ -1,0 +1,3544 @@
+{
+  "generatedAt": "2026-10-28",
+  "count": 192,
+  "agents": [
+    {
+      "name": "ui-ux-designer",
+      "description": "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools. Specializes in design tokens, component libraries, and inclusive design.",
+      "category": "design",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/multi-platform-apps/agents/ui-ux-designer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/multi-platform-apps/agents/ui-ux-designer.md",
+      "tools": []
+    },
+    {
+      "name": "seo-content-writer",
+      "description": "Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices.",
+      "category": "writing",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/seo-content-creation/agents/seo-content-writer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/seo-content-creation/agents/seo-content-writer.md",
+      "tools": []
+    },
+    {
+      "name": "backend-architect",
+      "description": "Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems. Masters REST/GraphQL/gRPC APIs, event-driven architectures, service mesh patterns, and modern backend frameworks. Handles service boundary definition, inter-service communication, resi…",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/api-scaffolding/agents/backend-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/api-scaffolding/agents/backend-architect.md",
+      "tools": []
+    },
+    {
+      "name": "api-documenter",
+      "description": "Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals.",
+      "category": "writing",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/api-testing-observability/agents/api-documenter.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/api-testing-observability/agents/api-documenter.md",
+      "tools": []
+    },
+    {
+      "name": "backend-security-coder",
+      "description": "Expert in secure backend coding practices specializing in input validation, authentication, and API security.",
+      "category": "quality",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/backend-api-security/agents/backend-security-coder.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/backend-api-security/agents/backend-security-coder.md",
+      "tools": []
+    },
+    {
+      "name": "cloud-architect",
+      "description": "Expert cloud architect specializing in AWS/Azure/GCP/OCI multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns. Masters serverless, microservices, security, compliance, and disaster recovery.",
+      "category": "devops",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/cicd-automation/agents/cloud-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/cicd-automation/agents/cloud-architect.md",
+      "tools": []
+    },
+    {
+      "name": "kubernetes-architect",
+      "description": "Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration. Masters EKS/AKS/GKE/OKE, service mesh (Istio/Linkerd), progressive delivery, multi-tenancy, and platform engineering. Handles security, observabi…",
+      "category": "devops",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/cicd-automation/agents/kubernetes-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/cicd-automation/agents/kubernetes-architect.md",
+      "tools": []
+    },
+    {
+      "name": "hybrid-cloud-architect",
+      "description": "Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP/OCI and private clouds (OpenStack/VMware). Masters hybrid connectivity, workload placement optimization, edge computing, and cross-cloud automation. Handles compliance, cost optimization, disaster recov…",
+      "category": "devops",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/cloud-infrastructure/agents/hybrid-cloud-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/cloud-infrastructure/agents/hybrid-cloud-architect.md",
+      "tools": []
+    },
+    {
+      "name": "docs-architect",
+      "description": "Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.",
+      "category": "writing",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/code-documentation/agents/docs-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/code-documentation/agents/docs-architect.md",
+      "tools": []
+    },
+    {
+      "name": "architect-review",
+      "description": "Master software architect specializing in modern architecture patterns, clean architecture, microservices, event-driven systems, and DDD. Reviews system designs and code changes for architectural integrity, scalability, and maintainability.",
+      "category": "quality",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/comprehensive-review/agents/architect-review.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/comprehensive-review/agents/architect-review.md",
+      "tools": []
+    },
+    {
+      "name": "database-architect",
+      "description": "Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures. Masters SQL/NoSQL/TimeSeries database selection, normalization strategies, migration planning, and performance-first design. Handles both greenfield…",
+      "category": "data",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/database-cloud-optimization/agents/database-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/database-cloud-optimization/agents/database-architect.md",
+      "tools": []
+    },
+    {
+      "name": "frontend-security-coder",
+      "description": "Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns.",
+      "category": "quality",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/frontend-mobile-security/agents/frontend-security-coder.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/frontend-mobile-security/agents/frontend-security-coder.md",
+      "tools": []
+    },
+    {
+      "name": "mobile-security-coder",
+      "description": "Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific security patterns.",
+      "category": "quality",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/frontend-mobile-security/agents/mobile-security-coder.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/frontend-mobile-security/agents/mobile-security-coder.md",
+      "tools": []
+    },
+    {
+      "name": "seo-authority-builder",
+      "description": "Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies missing credibility elements.",
+      "category": "business",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/seo-analysis-monitoring/agents/seo-authority-builder.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/seo-analysis-monitoring/agents/seo-authority-builder.md",
+      "tools": []
+    },
+    {
+      "name": "seo-content-refresher",
+      "description": "Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating.",
+      "category": "writing",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/seo-analysis-monitoring/agents/seo-content-refresher.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/seo-analysis-monitoring/agents/seo-content-refresher.md",
+      "tools": []
+    },
+    {
+      "name": "seo-content-auditor",
+      "description": "Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.",
+      "category": "quality",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/seo-content-creation/agents/seo-content-auditor.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/seo-content-creation/agents/seo-content-auditor.md",
+      "tools": []
+    },
+    {
+      "name": "seo-content-planner",
+      "description": "Creates comprehensive content outlines and topic clusters for SEO. Plans content calendars and identifies topic gaps.",
+      "category": "writing",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/seo-content-creation/agents/seo-content-planner.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/seo-content-creation/agents/seo-content-planner.md",
+      "tools": []
+    },
+    {
+      "name": "seo-structure-architect",
+      "description": "Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization.",
+      "category": "business",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/seo-technical-optimization/agents/seo-structure-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/seo-technical-optimization/agents/seo-structure-architect.md",
+      "tools": []
+    },
+    {
+      "name": "design-system-architect",
+      "description": "Expert design system architect specializing in design tokens, component libraries, theming infrastructure, and scalable design operations. Masters token architecture, multi-brand systems, and design-development collaboration.",
+      "category": "design",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/ui-design/agents/design-system-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/ui-design/agents/design-system-architect.md",
+      "tools": []
+    },
+    {
+      "name": "ui-designer",
+      "description": "Expert UI designer specializing in component creation, layout systems, and visual design implementation. Masters modern design patterns, responsive layouts, and design-to-code workflows.",
+      "category": "design",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/ui-design/agents/ui-designer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/ui-design/agents/ui-designer.md",
+      "tools": []
+    },
+    {
+      "name": "ui-visual-validator",
+      "description": "Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification. Masters screenshot analysis, visual regression testing, and component validation.",
+      "category": "design",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/accessibility-compliance/agents/ui-visual-validator.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/agents/ui-visual-validator.md",
+      "tools": []
+    },
+    {
+      "name": "team-debugger",
+      "description": "Hypothesis-driven debugging investigator that investigates one assigned hypothesis, gathering evidence to confirm or falsify it with file:line citations and confidence levels. Use when debugging complex issues with multiple potential root causes.",
+      "category": "quality",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/agent-teams/agents/team-debugger.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/agent-teams/agents/team-debugger.md",
+      "tools": [
+        "Read",
+        "Glob",
+        "Grep",
+        "Bash",
+        "TaskList",
+        "TaskGet",
+        "TaskUpdate",
+        "SendMessage"
+      ]
+    },
+    {
+      "name": "team-reviewer",
+      "description": "Multi-dimensional code reviewer that operates on one assigned review dimension (security, performance, architecture, testing, or accessibility) with structured finding format. Use when performing parallel code reviews across multiple quality dimensions.",
+      "category": "quality",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/agent-teams/agents/team-reviewer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/agent-teams/agents/team-reviewer.md",
+      "tools": [
+        "Read",
+        "Glob",
+        "Grep",
+        "Bash",
+        "TaskList",
+        "TaskGet",
+        "TaskUpdate",
+        "SendMessage"
+      ]
+    },
+    {
+      "name": "django-pro",
+      "description": "Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/api-scaffolding/agents/django-pro.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/api-scaffolding/agents/django-pro.md",
+      "tools": []
+    },
+    {
+      "name": "fastapi-pro",
+      "description": "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/api-scaffolding/agents/fastapi-pro.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/api-scaffolding/agents/fastapi-pro.md",
+      "tools": []
+    },
+    {
+      "name": "graphql-architect",
+      "description": "Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/api-scaffolding/agents/graphql-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/api-scaffolding/agents/graphql-architect.md",
+      "tools": []
+    },
+    {
+      "name": "frontend-developer",
+      "description": "Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture. Optimizes performance and ensures accessibility.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/application-performance/agents/frontend-developer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/application-performance/agents/frontend-developer.md",
+      "tools": []
+    },
+    {
+      "name": "performance-engineer",
+      "description": "Expert performance engineer specializing in modern observability, application optimization, and scalable system performance. Masters OpenTelemetry, distributed tracing, load testing, multi-tier caching, Core Web Vitals, and performance monitoring. Handles end-to-end optimization, real user monitori…",
+      "category": "quality",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/application-performance/agents/performance-engineer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/application-performance/agents/performance-engineer.md",
+      "tools": []
+    },
+    {
+      "name": "event-sourcing-architect",
+      "description": "Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/backend-development/agents/event-sourcing-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/backend-development/agents/event-sourcing-architect.md",
+      "tools": []
+    },
+    {
+      "name": "security-auditor",
+      "description": "Review code and architecture for security vulnerabilities, OWASP Top 10, auth flaws, and compliance issues. Use for security review during feature development.",
+      "category": "quality",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/backend-development/agents/security-auditor.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/backend-development/agents/security-auditor.md",
+      "tools": []
+    },
+    {
+      "name": "temporal-python-pro",
+      "description": "Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testing strategies, and production deployment.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/backend-development/agents/temporal-python-pro.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/backend-development/agents/temporal-python-pro.md",
+      "tools": []
+    },
+    {
+      "name": "test-automator",
+      "description": "Create comprehensive test suites including unit, integration, and E2E tests. Supports TDD/BDD workflows. Use for test creation during feature development.",
+      "category": "quality",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/backend-development/agents/test-automator.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/backend-development/agents/test-automator.md",
+      "tools": []
+    },
+    {
+      "name": "business-analyst",
+      "description": "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.",
+      "category": "data",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/business-analytics/agents/business-analyst.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/agents/business-analyst.md",
+      "tools": []
+    },
+    {
+      "name": "deployment-engineer",
+      "description": "Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation. Masters GitHub Actions, ArgoCD/Flux, progressive delivery, container security, and platform engineering. Handles zero-downtime deployments, security scanning, and developer exper…",
+      "category": "devops",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/cicd-automation/agents/deployment-engineer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/cicd-automation/agents/deployment-engineer.md",
+      "tools": []
+    },
+    {
+      "name": "devops-troubleshooter",
+      "description": "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. Masters log analysis, distributed tracing, Kubernetes debugging, performance optimization, and root cause analysis. Handles production outages, system reliability, and preventive moni…",
+      "category": "devops",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/cicd-automation/agents/devops-troubleshooter.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/cicd-automation/agents/devops-troubleshooter.md",
+      "tools": []
+    },
+    {
+      "name": "code-reviewer",
+      "description": "Elite code review expert specializing in modern AI-powered code analysis, security vulnerabilities, performance optimization, and production reliability. Masters static analysis tools, security scanning, and configuration review with 2024/2025 best practices.",
+      "category": "quality",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/code-documentation/agents/code-reviewer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/code-documentation/agents/code-reviewer.md",
+      "tools": []
+    },
+    {
+      "name": "content-marketer",
+      "description": "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing. Masters modern content tools, social media automation, and conversion optimization with 2024/2025 best practices.",
+      "category": "writing",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/content-marketing/agents/content-marketer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/content-marketing/agents/content-marketer.md",
+      "tools": []
+    },
+    {
+      "name": "data-engineer",
+      "description": "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.",
+      "category": "data",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/data-engineering/agents/data-engineer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/data-engineering/agents/data-engineer.md",
+      "tools": []
+    },
+    {
+      "name": "database-optimizer",
+      "description": "Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures. Masters advanced indexing, N+1 resolution, multi-tier caching, partitioning strategies, and cloud database optimization. Handles complex query analysis, migration strategies, and per…",
+      "category": "data",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/database-cloud-optimization/agents/database-optimizer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/database-cloud-optimization/agents/database-optimizer.md",
+      "tools": []
+    },
+    {
+      "name": "sql-pro",
+      "description": "Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems.",
+      "category": "data",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/database-design/agents/sql-pro.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/database-design/agents/sql-pro.md",
+      "tools": []
+    },
+    {
+      "name": "database-admin",
+      "description": "Expert database administrator specializing in modern cloud databases, automation, and reliability engineering. Masters AWS/Azure/GCP/OCI database services, Infrastructure as Code, high availability, disaster recovery, performance optimization, and compliance. Handles multi-cloud strategies, contain…",
+      "category": "data",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/database-migrations/agents/database-admin.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/database-migrations/agents/database-admin.md",
+      "tools": []
+    },
+    {
+      "name": "debugger",
+      "description": "Debugging specialist for errors, test failures, and unexpected behavior.",
+      "category": "quality",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/debugging-toolkit/agents/debugger.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/debugging-toolkit/agents/debugger.md",
+      "tools": []
+    },
+    {
+      "name": "monorepo-architect",
+      "description": "Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/developer-essentials/agents/monorepo-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/developer-essentials/agents/monorepo-architect.md",
+      "tools": []
+    },
+    {
+      "name": "reference-builder",
+      "description": "Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/documentation-generation/agents/reference-builder.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/documentation-generation/agents/reference-builder.md",
+      "tools": []
+    },
+    {
+      "name": "dotnet-architect",
+      "description": "Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns. Masters async/await, dependency injection, caching strategies, and performance optimization.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/dotnet-contribution/agents/dotnet-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/dotnet-contribution/agents/dotnet-architect.md",
+      "tools": []
+    },
+    {
+      "name": "mobile-developer",
+      "description": "Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/frontend-mobile-development/agents/mobile-developer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/frontend-mobile-development/agents/mobile-developer.md",
+      "tools": []
+    },
+    {
+      "name": "incident-responder",
+      "description": "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. Masters incident command, blameless post-mortems, error budget management, and system reliability patterns. Handles critical outages, communication strategies, and co…",
+      "category": "devops",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/incident-response/agents/incident-responder.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/incident-response/agents/incident-responder.md",
+      "tools": []
+    },
+    {
+      "name": "javascript-pro",
+      "description": "Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/javascript-typescript/agents/javascript-pro.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/javascript-typescript/agents/javascript-pro.md",
+      "tools": []
+    },
+    {
+      "name": "typescript-pro",
+      "description": "Master TypeScript with advanced types, generics, and strict type safety. Handles complex type systems, decorators, and enterprise-grade patterns.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/javascript-typescript/agents/typescript-pro.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/javascript-typescript/agents/typescript-pro.md",
+      "tools": []
+    },
+    {
+      "name": "java-pro",
+      "description": "Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/jvm-languages/agents/java-pro.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/jvm-languages/agents/java-pro.md",
+      "tools": []
+    },
+    {
+      "name": "ai-engineer",
+      "description": "Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.",
+      "category": "ai",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/llm-application-dev/agents/ai-engineer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/llm-application-dev/agents/ai-engineer.md",
+      "tools": []
+    },
+    {
+      "name": "prompt-engineer",
+      "description": "Expert prompt engineer specializing in advanced prompting techniques, LLM optimization, and AI system design. Masters chain-of-thought, constitutional AI, and production prompt strategies. Use when building AI features, improving agent performance, or crafting system prompts.",
+      "category": "ai",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/llm-application-dev/agents/prompt-engineer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/llm-application-dev/agents/prompt-engineer.md",
+      "tools": []
+    },
+    {
+      "name": "vector-database-engineer",
+      "description": "Expert in vector databases, embedding strategies, and semantic search implementation. Masters Pinecone, Weaviate, Qdrant, Milvus, and pgvector for RAG applications, recommendation systems, and similarity search.",
+      "category": "data",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/llm-application-dev/agents/vector-database-engineer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/llm-application-dev/agents/vector-database-engineer.md",
+      "tools": []
+    },
+    {
+      "name": "llm-finetuning-architect",
+      "description": "Fine-tuning strategist who owns the eval gate and method/model selection. Refuses to plan training without a baselined eval harness.",
+      "category": "ai",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/llm-finetuning/agents/llm-finetuning-architect.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/llm-finetuning/agents/llm-finetuning-architect.md",
+      "tools": []
+    },
+    {
+      "name": "data-scientist",
+      "description": "Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence.",
+      "category": "data",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/machine-learning-ops/agents/data-scientist.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/machine-learning-ops/agents/data-scientist.md",
+      "tools": []
+    },
+    {
+      "name": "ml-engineer",
+      "description": "Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring.",
+      "category": "ai",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/machine-learning-ops/agents/ml-engineer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/machine-learning-ops/agents/ml-engineer.md",
+      "tools": []
+    },
+    {
+      "name": "mlops-engineer",
+      "description": "Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools. Implements automated training, deployment, and monitoring across cloud platforms.",
+      "category": "ai",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/machine-learning-ops/agents/mlops-engineer.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/machine-learning-ops/agents/mlops-engineer.md",
+      "tools": []
+    },
+    {
+      "name": "gallery-researcher",
+      "description": "Gallery search and inspiration agent. Delegates here when user wants to find references, explore styles, build a mood board, or needs inspiration before deciding what to generate. Searches the MeiGen gallery database of 1300+ curated AI-generated images.",
+      "category": "education",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/meigen-ai-design/agents/gallery-researcher.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/meigen-ai-design/agents/gallery-researcher.md",
+      "tools": [
+        "mcp__meigen__search_gallery",
+        "mcp__meigen__get_inspiration"
+      ]
+    },
+    {
+      "name": "prompt-crafter",
+      "description": "Batch prompt writing agent. Delegates here when you need to write multiple distinct prompts at once — for parallel image generation (e.g., \"5 logo concepts\"), serial-to-parallel workflows (e.g., generate logo then apply to mug/t-shirt/poster), or any task requiring 2+ prompts crafted simultaneously.",
+      "category": "ai",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/meigen-ai-design/agents/prompt-crafter.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/meigen-ai-design/agents/prompt-crafter.md",
+      "tools": []
+    },
+    {
+      "name": "flutter-expert",
+      "description": "Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment. Handles state management, animations, testing, and performance optimization for mobile, web, desktop, and embedded platforms.",
+      "category": "development",
+      "repo": "wshobson/agents",
+      "branch": "main",
+      "path": "plugins/multi-platform-apps/agents/flutter-expert.md",
+      "stars": 41892,
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/multi-platform-apps/agents/flutter-expert.md",
+      "tools": []
+    },
+    {
+      "name": "ui-ux-tester",
+      "description": "Exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting.",
+      "category": "quality",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/04-quality-security/ui-ux-tester.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep",
+        "WebSearch",
+        "chrome-mcp",
+        "computer-use"
+      ]
+    },
+    {
+      "name": "api-designer",
+      "description": "Designing new APIs, creating API specifications, or refactoring existing API architecture for scalability and developer experience. Invoke when you need REST/GraphQL endpoint design, OpenAPI documentation, authentication patterns, or API versioning strategies.",
+      "category": "design",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/01-core-development/api-designer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/api-designer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "java-architect",
+      "description": "Designing enterprise Java architectures, migrating Spring Boot applications, or establishing microservices patterns for scalable cloud-native systems.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/java-architect.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/java-architect.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "devops-incident-responder",
+      "description": "Use when actively responding to production incidents, diagnosing critical service failures, or conducting incident postmortems to implement permanent fixes and preventative measures.",
+      "category": "devops",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/03-infrastructure/devops-incident-responder.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-incident-responder.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "ad-security-reviewer",
+      "description": "Audit Active Directory security posture, evaluate privilege escalation risks, review identity delegation patterns, or assess authentication protocol hardening.",
+      "category": "quality",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/04-quality-security/ad-security-reviewer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ad-security-reviewer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "architect-reviewer",
+      "description": "Evaluate system design decisions, architectural patterns, and technology choices at the macro level.",
+      "category": "quality",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/04-quality-security/architect-reviewer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/architect-reviewer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "data-analyst",
+      "description": "Use when you need to extract insights from business data, create dashboards and reports, or perform statistical analysis to support decision-making.",
+      "category": "data",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/05-data-ai/data-analyst.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-analyst.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "powershell-ui-architect",
+      "description": "Use when designing or building desktop graphical interfaces (WinForms, WPF, Metro-style dashboards) or terminal user interfaces (TUIs) for PowerShell automation tools that need clean separation between UI and business logic.",
+      "category": "design",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/06-developer-experience/powershell-ui-architect.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-ui-architect.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "ux-researcher",
+      "description": "Conduct user research, analyze user behavior, or generate actionable insights to validate design decisions and uncover user needs. Invoke when you need usability testing, user interviews, survey design, analytics interpretation, persona development, or competitive research to inform product strateg…",
+      "category": "business",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/08-business-product/ux-researcher.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/ux-researcher.md",
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "data-researcher",
+      "description": "Discover, collect, and validate data from multiple sources to fuel analysis and decision-making. Invoke this agent for identifying data sources, gathering raw datasets, performing quality checks, and preparing data for downstream analysis or modeling.",
+      "category": "education",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/10-research-analysis/data-researcher.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/data-researcher.md",
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "research-analyst",
+      "description": "Comprehensive research across multiple sources with synthesis of findings into actionable insights, trend identification, and detailed reporting.",
+      "category": "education",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/10-research-analysis/research-analyst.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/research-analyst.md",
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "backend-developer",
+      "description": "Building server-side APIs, microservices, and backend systems that require robust architecture, scalability planning, and production-ready implementation.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/01-core-development/backend-developer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/backend-developer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "design-bridge",
+      "description": "Translate a DESIGN.md from the VoltAgent/awesome-design-md repository into polished Claude Code instructions for building user interfaces that faithfully match the chosen brand. Invoke this agent whenever a developer or designer asks to replicate the look and feel of an existing product or website.",
+      "category": "writing",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/01-core-development/design-bridge.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/design-bridge.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "electron-pro",
+      "description": "Building Electron desktop applications that require native OS integration, cross-platform distribution, security hardening, and performance optimization. Use electron-pro for complete desktop app development from architecture to signed, distributable installers.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/01-core-development/electron-pro.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/electron-pro.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "fullstack-developer",
+      "description": "Build complete features spanning database, API, and frontend layers together as a cohesive unit.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/01-core-development/fullstack-developer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/fullstack-developer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "microservices-architect",
+      "description": "Use when designing distributed system architecture, decomposing monolithic applications into independent microservices, or establishing communication patterns between services at scale.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/01-core-development/microservices-architect.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/microservices-architect.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "angular-architect",
+      "description": "Use when architecting enterprise Angular 15+ applications with complex state management, optimizing RxJS patterns, designing micro-frontend systems, or solving performance and scalability challenges in large codebases.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/angular-architect.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/angular-architect.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "django-developer",
+      "description": "Use when building Django 4+ web applications, REST APIs, or modernizing existing Django projects with async views and enterprise patterns.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/django-developer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/django-developer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "expo-react-native-expert",
+      "description": "Use when building mobile applications with Expo and React Native that require native module integration, navigation setup, performant animations, push notifications, OTA updates, or App Store/Play Store deployment.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/expo-react-native-expert.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/expo-react-native-expert.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "fastapi-developer",
+      "description": "Use when building modern async Python APIs with FastAPI, implementing Pydantic v2 validation, dependency injection patterns, or deploying high-performance ASGI applications.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/fastapi-developer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/fastapi-developer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "golang-pro",
+      "description": "Use when building Go applications requiring concurrent programming, high-performance systems, microservices, or cloud-native architectures where idiomatic patterns, error handling excellence, and efficiency are critical.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/golang-pro.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/golang-pro.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "kotlin-specialist",
+      "description": "Use when building Kotlin applications requiring advanced coroutine patterns, multiplatform code sharing, or Android/server-side development with functional programming principles.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/kotlin-specialist.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/kotlin-specialist.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "nextjs-developer",
+      "description": "Building production Next.js 14+ applications that require full-stack development with App Router, server components, and advanced performance optimization. Invoke when you need to architect or implement complete Next.js applications, optimize Core Web Vitals, implement server actions and mutations,…",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/nextjs-developer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/nextjs-developer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "node-specialist",
+      "description": "Build, optimize, or debug Node.js backend applications, APIs, CLIs, or microservices requiring deep ecosystem knowledge and server-side JavaScript expertise.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/node-specialist.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/node-specialist.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "python-pro",
+      "description": "Build type-safe, production-ready Python code for web APIs, system utilities, or complex applications requiring modern async patterns and extensive type coverage.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/python-pro.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/python-pro.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "react-specialist",
+      "description": "Use when optimizing existing React applications for performance, implementing advanced React 18+ features, or solving complex state management and architectural challenges within React codebases.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/react-specialist.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/react-specialist.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "rust-engineer",
+      "description": "Use when building Rust systems where memory safety, ownership patterns, zero-cost abstractions, and performance optimization are critical for systems programming, embedded development, async applications, or high-performance services.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/rust-engineer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rust-engineer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "swift-expert",
+      "description": "Building native iOS, macOS, or server-side Swift applications requiring advanced concurrency patterns, protocol-oriented architecture, and Swift-specific optimizations. Invoke for SwiftUI modernization, async/await implementation, actor-based state management, or memory safety concerns.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/02-language-specialists/swift-expert.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/swift-expert.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "database-administrator",
+      "description": "Optimizing database performance, implementing high-availability architectures, setting up disaster recovery, or managing database infrastructure for production systems.",
+      "category": "devops",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/03-infrastructure/database-administrator.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/database-administrator.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "devops-engineer",
+      "description": "Building or optimizing infrastructure automation, CI/CD pipelines, containerization strategies, and deployment workflows to accelerate software delivery while maintaining reliability and security.",
+      "category": "devops",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/03-infrastructure/devops-engineer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-engineer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "docker-expert",
+      "description": "Build, optimize, or secure Docker container images and orchestration for production environments.",
+      "category": "devops",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/03-infrastructure/docker-expert.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/docker-expert.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "kubernetes-specialist",
+      "description": "Design, deploy, configure, or troubleshoot Kubernetes clusters and workloads in production environments.",
+      "category": "devops",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/03-infrastructure/kubernetes-specialist.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/kubernetes-specialist.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "security-engineer",
+      "description": "Implementing comprehensive security solutions across infrastructure, building automated security controls into CI/CD pipelines, or establishing compliance and vulnerability management programs. Invoke for threat modeling, zero-trust architecture design, security automation implementation, and shift…",
+      "category": "devops",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/03-infrastructure/security-engineer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/security-engineer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "accessibility-tester",
+      "description": "Comprehensive accessibility testing, WCAG compliance verification, or assessment of assistive technology support.",
+      "category": "quality",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/04-quality-security/accessibility-tester.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/accessibility-tester.md",
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash"
+      ]
+    },
+    {
+      "name": "penetration-tester",
+      "description": "Conduct authorized security penetration tests to identify real vulnerabilities through active exploitation and validation. Use penetration-tester for offensive security testing, vulnerability exploitation, and hands-on risk demonstration.",
+      "category": "quality",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/04-quality-security/penetration-tester.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/penetration-tester.md",
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash"
+      ]
+    },
+    {
+      "name": "powershell-security-hardening",
+      "description": "Harden PowerShell automation, secure remoting configuration, enforce least-privilege design, or align scripts with enterprise security baselines and compliance frameworks.",
+      "category": "quality",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/04-quality-security/powershell-security-hardening.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/powershell-security-hardening.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "surgeon-reviewer",
+      "description": "A ruthlessly prioritized code review that reports only real problems — bugs, money-losing logic, maintenance traps — ranked by blast radius, with zero style opinions and a clear ship/no-ship verdict.",
+      "category": "quality",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/04-quality-security/surgeon-reviewer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/surgeon-reviewer.md",
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash"
+      ]
+    },
+    {
+      "name": "llm-architect",
+      "description": "Use when designing LLM systems for production, implementing fine-tuning or RAG architectures, optimizing inference serving infrastructure, or managing multi-model deployments.",
+      "category": "ai",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/05-data-ai/llm-architect.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/llm-architect.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "build-engineer",
+      "description": "Optimize build performance, reduce compilation times, or scale build systems across growing teams.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/06-developer-experience/build-engineer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/build-engineer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "docs-drift-editor",
+      "description": "Update Markdown documentation pages that have drifted out of sync with a code change, inside an isolated git worktree, without inventing commands, URLs, or features not present in the diff.",
+      "category": "writing",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/06-developer-experience/docs-drift-editor.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/docs-drift-editor.md",
+      "tools": [
+        "Read",
+        "Edit",
+        "Grep",
+        "Glob",
+        "Bash"
+      ]
+    },
+    {
+      "name": "documentation-engineer",
+      "description": "Create, architect, or overhaul comprehensive documentation systems including API docs, tutorials, guides, and developer-friendly content that keeps pace with code changes.",
+      "category": "writing",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/06-developer-experience/documentation-engineer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/documentation-engineer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "git-workflow-manager",
+      "description": "Design, establish, or optimize Git workflows, branching strategies, and merge management for a project or team.",
+      "category": "business",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/06-developer-experience/git-workflow-manager.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/git-workflow-manager.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "powershell-module-architect",
+      "description": "Architecting and refactoring PowerShell modules, designing profile systems, or creating cross-version compatible automation libraries. Invoke it for module design reviews, profile optimization, packaging reusable code, and standardizing function structure across teams.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/06-developer-experience/powershell-module-architect.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-module-architect.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "refactoring-specialist",
+      "description": "Use when you need to transform poorly structured, complex, or duplicated code into clean, maintainable systems while preserving all existing behavior.",
+      "category": "quality",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/06-developer-experience/refactoring-specialist.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/refactoring-specialist.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "mobile-app-developer",
+      "description": "Developing iOS and Android mobile applications with focus on native or cross-platform implementation, performance optimization, and platform-specific user experience.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/07-specialized-domains/mobile-app-developer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/mobile-app-developer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "quant-analyst",
+      "description": "Develop quantitative trading strategies, build financial models with rigorous mathematical foundations, or conduct advanced risk analytics for derivatives and portfolios. Invoke this agent for statistical arbitrage strategy development, backtesting with historical validation, derivatives pricing mo…",
+      "category": "data",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/07-specialized-domains/quant-analyst.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/quant-analyst.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "seo-specialist",
+      "description": "Comprehensive SEO optimization encompassing technical audits, keyword strategy, content optimization, and search rankings improvement.",
+      "category": "business",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/07-specialized-domains/seo-specialist.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/seo-specialist.md",
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "x-api-integration",
+      "description": "Building X/Twitter data products, integrating X API alternatives, designing tweet search workflows, or documenting social data API usage.",
+      "category": "development",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/07-specialized-domains/x-api-integration.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/x-api-integration.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "content-quality-editor",
+      "description": "Use this agent before publishing any AI-generated content — blog posts, READMEs, release notes, commit messages, PR descriptions, documentation, or social posts. Strips AI writing patterns using unslop, then performs a final quality pass.",
+      "category": "business",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/08-business-product/content-quality-editor.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-quality-editor.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash"
+      ]
+    },
+    {
+      "name": "growth-loops",
+      "description": "Use when the user wants to design a growth loop, understand PLG mechanics, or build sustainable acquisition. Triggers on: 'growth loop', 'flywheel', 'viral loop', 'PLG growth', 'product-led growth', 'growth mechanics', 'how do we grow', 'word of mouth'.",
+      "category": "business",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/08-business-product/growth-loops.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/growth-loops.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "landing-page-copywriter",
+      "description": "Writing or optimizing landing page copy, hero sections, CTAs, or conversion-focused funnel content for a specific audience and offer.",
+      "category": "business",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/08-business-product/landing-page-copywriter.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/landing-page-copywriter.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "product-manager",
+      "description": "Make product strategy decisions, prioritize features, or define roadmap plans based on user needs and business goals.",
+      "category": "business",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/08-business-product/product-manager.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/product-manager.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "technical-writer",
+      "description": "Create, improve, or maintain technical documentation including API references, user guides, SDK documentation, and getting-started guides.",
+      "category": "business",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/08-business-product/technical-writer.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/technical-writer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "telegram-ads-analyst",
+      "description": "Use when the user wants to advertise in Telegram channels, vet a channel before buying a post, check whether a channel's audience is real, or price a Telegram ad. Triggers on: 'Telegram ads', 'Telegram channel advertising', 'buy a post in a Telegram channel', 'Telegram CPM', '1/24 post', 'fake Tele…",
+      "category": "business",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/08-business-product/telegram-ads-analyst.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/telegram-ads-analyst.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "performance-monitor",
+      "description": "Use when you need to analyze existing metric, log, and output files to spot performance patterns and anomalies, then write a grounded, evidence-cited observability plan (what to measure, thresholds, dashboards) as Markdown.",
+      "category": "quality",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/09-meta-orchestration/performance-monitor.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/performance-monitor.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep"
+      ]
+    },
+    {
+      "name": "ab-test-analysis",
+      "description": "Use when the user wants to analyze A/B test results, interpret p-values, determine statistical significance, or make a ship/no-ship decision. Triggers on: 'analyze A/B test', 'p-value', 'statistical significance', 'confidence interval', 'ship or no ship', 'test results', 'did it work'.",
+      "category": "education",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/10-research-analysis/ab-test-analysis.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/ab-test-analysis.md",
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "competitive-analyst",
+      "description": "Use when you need to analyze direct and indirect competitors, benchmark against market leaders, or develop strategies to strengthen competitive positioning and market advantage.",
+      "category": "education",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/10-research-analysis/competitive-analyst.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/competitive-analyst.md",
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "market-researcher",
+      "description": "Analyze markets, understand consumer behavior, assess competitive landscapes, and size opportunities to inform business strategy and market entry decisions.",
+      "category": "education",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/10-research-analysis/market-researcher.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/market-researcher.md",
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "scientific-literature-researcher",
+      "description": "Use when you need to search scientific literature and retrieve structured experimental data from published studies. Invoke this agent when the task requires evidence-grounded answers from full-text research papers, including methods, results, sample sizes, and quality scores.",
+      "category": "education",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/10-research-analysis/scientific-literature-researcher.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/scientific-literature-researcher.md",
+      "tools": [
+        "Read",
+        "WebFetch",
+        "WebSearch",
+        "mcp__bgpt__search_papers"
+      ]
+    },
+    {
+      "name": "trend-analyst",
+      "description": "Use when analyzing emerging patterns, predicting industry shifts, or developing future scenarios to inform strategic planning and competitive positioning.",
+      "category": "education",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "branch": "main",
+      "path": "categories/10-research-analysis/trend-analyst.md",
+      "stars": 26125,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/trend-analyst.md",
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "mobile-app-builder",
+      "description": "Developing native iOS or Android applications, implementing React Native features, or optimizing mobile performance. This agent specializes in creating smooth, native-feeling mobile experiences.",
+      "category": "development",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "engineering/mobile-app-builder.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/engineering/mobile-app-builder.md",
+      "tools": [
+        "Write",
+        "Read",
+        "MultiEdit",
+        "Bash",
+        "Grep"
+      ]
+    },
+    {
+      "name": "test-writer-fixer",
+      "description": "Code changes have been made and you need to write new tests, run existing tests, analyze failures, and fix them while maintaining test integrity. This agent should be triggered proactively after code modifications to ensure comprehensive test coverage and suite health.",
+      "category": "quality",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "engineering/test-writer-fixer.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/engineering/test-writer-fixer.md",
+      "tools": []
+    },
+    {
+      "name": "api-tester",
+      "description": "Comprehensive API testing including performance testing, load testing, and contract testing. This agent specializes in ensuring APIs are robust, performant, and meet specifications before deployment.",
+      "category": "quality",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "testing/api-tester.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/testing/api-tester.md",
+      "tools": [
+        "Bash",
+        "Read",
+        "Write",
+        "Grep",
+        "WebFetch",
+        "MultiEdit"
+      ]
+    },
+    {
+      "name": "devops-automator",
+      "description": "Setting up CI/CD pipelines, configuring cloud infrastructure, implementing monitoring systems, or automating deployment processes. This agent specializes in making deployment and operations seamless for rapid development cycles.",
+      "category": "devops",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "engineering/devops-automator.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/engineering/devops-automator.md",
+      "tools": [
+        "Write",
+        "Read",
+        "MultiEdit",
+        "Bash",
+        "Grep"
+      ]
+    },
+    {
+      "name": "rapid-prototyper",
+      "description": "Quickly create a new application prototype, MVP, or proof-of-concept within the 6-day development cycle. This agent specializes in scaffolding projects, integrating trending features, and building functional demos rapidly.",
+      "category": "development",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "engineering/rapid-prototyper.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/engineering/rapid-prototyper.md",
+      "tools": [
+        "Write",
+        "MultiEdit",
+        "Bash",
+        "Read",
+        "Glob",
+        "Task"
+      ]
+    },
+    {
+      "name": "trend-researcher",
+      "description": "Identify market opportunities, analyze trending topics, research viral content, or understand emerging user behaviors. This agent specializes in finding product opportunities from TikTok trends, App Store patterns, and social media virality.",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "product/trend-researcher.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/product/trend-researcher.md",
+      "tools": [
+        "WebSearch",
+        "WebFetch",
+        "Read",
+        "Write",
+        "Grep"
+      ]
+    },
+    {
+      "name": "performance-benchmarker",
+      "description": "Comprehensive performance testing, profiling, and optimization recommendations. This agent specializes in measuring speed, identifying bottlenecks, and providing actionable optimization strategies for applications.",
+      "category": "quality",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "testing/performance-benchmarker.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/testing/performance-benchmarker.md",
+      "tools": [
+        "Bash",
+        "Read",
+        "Write",
+        "Grep",
+        "MultiEdit",
+        "WebFetch"
+      ]
+    },
+    {
+      "name": "test-results-analyzer",
+      "description": "Analyzing test results, synthesizing test data, identifying trends, and generating quality metrics reports. This agent specializes in turning raw test data into actionable insights that drive quality improvements.",
+      "category": "quality",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "testing/test-results-analyzer.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/testing/test-results-analyzer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Grep",
+        "Bash",
+        "MultiEdit",
+        "TodoWrite"
+      ]
+    },
+    {
+      "name": "brand-guardian",
+      "description": "Establishing brand guidelines, ensuring visual consistency, managing brand assets, or evolving brand identity. This agent specializes in creating and maintaining cohesive brand experiences across all touchpoints while enabling rapid development.",
+      "category": "design",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "design/brand-guardian.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/design/brand-guardian.md",
+      "tools": [
+        "Write",
+        "Read",
+        "MultiEdit",
+        "WebSearch",
+        "WebFetch"
+      ]
+    },
+    {
+      "name": "visual-storyteller",
+      "description": "Creating visual narratives, designing infographics, building presentations, or communicating complex ideas through imagery. This agent specializes in transforming data and concepts into compelling visual stories that engage users and stakeholders.",
+      "category": "design",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "design/visual-storyteller.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/design/visual-storyteller.md",
+      "tools": [
+        "Write",
+        "Read",
+        "MultiEdit",
+        "WebSearch",
+        "WebFetch"
+      ]
+    },
+    {
+      "name": "whimsy-injector",
+      "description": "PROACTIVELY use this agent after any UI/UX changes to ensure delightful, playful elements are incorporated. This agent specializes in adding joy, surprise, and memorable moments to user experiences. The agent should be triggered automatically when design or interface updates are made.",
+      "category": "design",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "design/whimsy-injector.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/design/whimsy-injector.md",
+      "tools": [
+        "Read",
+        "Write",
+        "MultiEdit",
+        "Grep",
+        "Glob"
+      ]
+    },
+    {
+      "name": "app-store-optimizer",
+      "description": "Preparing app store listings, researching keywords, optimizing app metadata, improving conversion rates, or analyzing app store performance. This agent specializes in maximizing organic app store visibility and downloads.",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "marketing/app-store-optimizer.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/marketing/app-store-optimizer.md",
+      "tools": [
+        "Write",
+        "Read",
+        "WebSearch",
+        "WebFetch",
+        "MultiEdit"
+      ]
+    },
+    {
+      "name": "tiktok-strategist",
+      "description": "Create TikTok marketing strategies, develop viral content ideas, plan TikTok campaigns, or optimize for TikTok's algorithm. This agent specializes in creating shareable moments and leveraging TikTok trends for app growth.",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "marketing/tiktok-strategist.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/marketing/tiktok-strategist.md",
+      "tools": [
+        "Write",
+        "Read",
+        "WebSearch",
+        "WebFetch"
+      ]
+    },
+    {
+      "name": "feedback-synthesizer",
+      "description": "Analyze user feedback from multiple sources, identify patterns in user complaints or requests, synthesize insights from reviews, or prioritize feature development based on user input. This agent excels at turning raw feedback into actionable product insights.",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "product/feedback-synthesizer.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/product/feedback-synthesizer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Grep",
+        "WebFetch",
+        "MultiEdit"
+      ]
+    },
+    {
+      "name": "sprint-prioritizer",
+      "description": "Planning 6-day development cycles, prioritizing features, managing product roadmaps, or making trade-off decisions. This agent specializes in maximizing value delivery within tight timelines.",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "product/sprint-prioritizer.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/product/sprint-prioritizer.md",
+      "tools": [
+        "Write",
+        "Read",
+        "TodoWrite",
+        "Grep"
+      ]
+    },
+    {
+      "name": "experiment-tracker",
+      "description": "PROACTIVELY use this agent when experiments are started, modified, or when results need analysis. This agent specializes in tracking A/B tests, feature experiments, and iterative improvements within the 6-day development cycle. Should be triggered automatically when experimental code paths or featu…",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "project-management/experiment-tracker.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/project-management/experiment-tracker.md",
+      "tools": [
+        "Read",
+        "Write",
+        "MultiEdit",
+        "Grep",
+        "Glob",
+        "TodoWrite"
+      ]
+    },
+    {
+      "name": "project-shipper",
+      "description": "PROACTIVELY use this agent when approaching launch milestones, release deadlines, or go-to-market activities. This agent specializes in coordinating launches, managing release processes, and executing go-to-market strategies within the 6-day development cycle. Should be triggered automatically when…",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "project-management/project-shipper.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/project-management/project-shipper.md",
+      "tools": [
+        "Read",
+        "Write",
+        "MultiEdit",
+        "Grep",
+        "Glob",
+        "TodoWrite",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "studio-producer",
+      "description": "PROACTIVELY use this agent when coordinating across multiple teams, allocating resources, or optimizing studio workflows. This agent specializes in cross-functional coordination, resource management, and process optimization within the 6-day development cycle. Should be triggered automatically when…",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "project-management/studio-producer.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/project-management/studio-producer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "MultiEdit",
+        "Grep",
+        "Glob",
+        "TodoWrite"
+      ]
+    },
+    {
+      "name": "analytics-reporter",
+      "description": "Analyzing metrics, generating insights from data, creating performance reports, or making data-driven recommendations. This agent excels at transforming raw analytics into actionable intelligence that drives studio growth and optimization.",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "studio-operations/analytics-reporter.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/studio-operations/analytics-reporter.md",
+      "tools": [
+        "Write",
+        "Read",
+        "MultiEdit",
+        "WebSearch",
+        "Grep"
+      ]
+    },
+    {
+      "name": "finance-tracker",
+      "description": "Managing budgets, optimizing costs, forecasting revenue, or analyzing financial performance. This agent excels at transforming financial chaos into strategic clarity, ensuring studio resources generate maximum return.",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "studio-operations/finance-tracker.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/studio-operations/finance-tracker.md",
+      "tools": [
+        "Write",
+        "Read",
+        "MultiEdit",
+        "WebSearch",
+        "Grep"
+      ]
+    },
+    {
+      "name": "infrastructure-maintainer",
+      "description": "Monitoring system health, optimizing performance, managing scaling, or ensuring infrastructure reliability. This agent excels at keeping studio applications running smoothly while preparing for growth and preventing disasters.",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "studio-operations/infrastructure-maintainer.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/studio-operations/infrastructure-maintainer.md",
+      "tools": [
+        "Write",
+        "Read",
+        "MultiEdit",
+        "WebSearch",
+        "Grep",
+        "Bash"
+      ]
+    },
+    {
+      "name": "legal-compliance-checker",
+      "description": "Reviewing terms of service, privacy policies, ensuring regulatory compliance, or handling legal requirements. This agent excels at navigating the complex legal landscape of app development while maintaining user trust and avoiding costly violations.",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "studio-operations/legal-compliance-checker.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/studio-operations/legal-compliance-checker.md",
+      "tools": [
+        "Write",
+        "Read",
+        "MultiEdit",
+        "WebSearch",
+        "Grep"
+      ]
+    },
+    {
+      "name": "support-responder",
+      "description": "Handling customer support inquiries, creating support documentation, setting up automated responses, or analyzing support patterns. This agent excels at maintaining high-quality support across all studio projects while identifying product improvement opportunities.",
+      "category": "business",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "studio-operations/support-responder.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/studio-operations/support-responder.md",
+      "tools": [
+        "Write",
+        "Read",
+        "MultiEdit",
+        "WebSearch",
+        "Grep"
+      ]
+    },
+    {
+      "name": "tool-evaluator",
+      "description": "Evaluating new development tools, frameworks, or services for the studio. This agent specializes in rapid tool assessment, comparative analysis, and making recommendations that align with the 6-day development cycle philosophy.",
+      "category": "quality",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "testing/tool-evaluator.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/testing/tool-evaluator.md",
+      "tools": [
+        "WebSearch",
+        "WebFetch",
+        "Write",
+        "Read",
+        "Bash"
+      ]
+    },
+    {
+      "name": "workflow-optimizer",
+      "description": "Optimizing human-agent collaboration workflows and analyzing workflow efficiency. This agent specializes in identifying bottlenecks, streamlining processes, and ensuring smooth handoffs between human creativity and AI assistance.",
+      "category": "quality",
+      "repo": "contains-studio/agents",
+      "branch": "main",
+      "path": "testing/workflow-optimizer.md",
+      "stars": 12419,
+      "license": null,
+      "url": "https://github.com/contains-studio/agents/blob/main/testing/workflow-optimizer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Bash",
+        "TodoWrite",
+        "MultiEdit",
+        "Grep"
+      ]
+    },
+    {
+      "name": "django-api-developer",
+      "description": "Expert Django API developer specializing in Django REST Framework and GraphQL.",
+      "category": "development",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/django/django-api-developer.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/django/django-api-developer.md",
+      "tools": []
+    },
+    {
+      "name": "django-backend-expert",
+      "description": "Expert Django backend developer specializing in models, views, services, and Django-specific implementations.",
+      "category": "development",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/django/django-backend-expert.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/django/django-backend-expert.md",
+      "tools": []
+    },
+    {
+      "name": "ml-data-expert",
+      "description": "Expert en Machine Learning et Data Science avec Python. DOIT ÊTRE UTILISÉ pour l'analyse de données, les modèles ML/AI, le traitement de données, la visualisation avancée, et l'intelligence artificielle. Maîtrise scikit-learn, TensorFlow, PyTorch, pandas, numpy, et l'écosystème data science moderne.",
+      "category": "data",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/python/ml-data-expert.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/python/ml-data-expert.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Bash",
+        "Grep",
+        "Glob",
+        "LS",
+        "WebFetch"
+      ]
+    },
+    {
+      "name": "react-component-architect",
+      "description": "Expert React architect specializing in modern patterns and component design.",
+      "category": "development",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/react/react-component-architect.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/react/react-component-architect.md",
+      "tools": []
+    },
+    {
+      "name": "react-nextjs-expert",
+      "description": "Expert in Next.js framework specializing in SSR, SSG, ISR, and full-stack React applications. Provides intelligent, project-aware Next.js solutions that leverage current best practices and integrate with existing architectures.",
+      "category": "development",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/react/react-nextjs-expert.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/react/react-nextjs-expert.md",
+      "tools": []
+    },
+    {
+      "name": "api-architect",
+      "description": "Universal API designer specializing in RESTful design, GraphQL schemas, and modern contract standards. **",
+      "category": "development",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/universal/api-architect.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/universal/api-architect.md",
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Write",
+        "WebFetch",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "django-orm-expert",
+      "description": "Expert in Django ORM optimization, complex queries, and database performance. Masters query optimization, database design, and migrations for high-performance Django applications while respecting existing project architecture.",
+      "category": "development",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/django/django-orm-expert.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/django/django-orm-expert.md",
+      "tools": []
+    },
+    {
+      "name": "laravel-backend-expert",
+      "description": "Laravel backend specialist for any Laravel architecture.",
+      "category": "development",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/laravel/laravel-backend-expert.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/laravel/laravel-backend-expert.md",
+      "tools": []
+    },
+    {
+      "name": "devops-cicd-expert",
+      "description": "Specialized agent for Python DevOps, CI/CD, deployment automation, containerization, and infrastructure as code",
+      "category": "devops",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/python/devops-cicd-expert.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/python/devops-cicd-expert.md",
+      "tools": []
+    },
+    {
+      "name": "django-expert",
+      "description": "Expert Django spécialisé dans le développement web complet avec Django 5.0+. DOIT ÊTRE UTILISÉ pour les projets Django, les applications web complètes, l'administration avancée, et l'écosystème Django. Maîtrise Django moderne, DRF, Celery, et l'architecture scalable.",
+      "category": "development",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/python/django-expert.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/python/django-expert.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Bash",
+        "Grep",
+        "Glob",
+        "LS",
+        "WebFetch"
+      ]
+    },
+    {
+      "name": "fastapi-expert",
+      "description": "Expert FastAPI spécialisé dans les APIs modernes hautes performances. DOIT ÊTRE UTILISÉ pour le développement d'APIs FastAPI, l'architecture microservices, et l'intégration avec des bases de données asynchrones. Maîtrise FastAPI 0.115+, Pydantic V2, et les patterns API modernes.",
+      "category": "development",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/python/fastapi-expert.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/python/fastapi-expert.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Bash",
+        "Grep",
+        "Glob",
+        "LS",
+        "WebFetch"
+      ]
+    },
+    {
+      "name": "performance-expert",
+      "description": "Specialized agent for Python performance optimization, profiling, concurrent programming, and system efficiency",
+      "category": "quality",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/python/performance-expert.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/python/performance-expert.md",
+      "tools": []
+    },
+    {
+      "name": "python-expert",
+      "description": "Expert développeur Python spécialisé dans le développement moderne Python 3.12+. DOIT ÊTRE UTILISÉ pour les tâches de développement Python, les API FastAPI/Flask, l'architecture des projets Python, et l'optimisation des performances. Crée des solutions intelligentes et adaptées au projet qui s'intè…",
+      "category": "development",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/python/python-expert.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/python/python-expert.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Bash",
+        "Grep",
+        "Glob",
+        "LS",
+        "WebFetch"
+      ]
+    },
+    {
+      "name": "security-expert",
+      "description": "Specialized agent for Python security, cryptography, secure coding practices, vulnerability assessment, and compliance",
+      "category": "quality",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/python/security-expert.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/python/security-expert.md",
+      "tools": []
+    },
+    {
+      "name": "testing-expert",
+      "description": "Specialized agent for Python testing, test automation, quality assurance, and comprehensive testing strategies",
+      "category": "quality",
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "branch": "main",
+      "path": "agents/specialized/python/testing-expert.md",
+      "stars": 4401,
+      "license": "MIT",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/agents/specialized/python/testing-expert.md",
+      "tools": []
+    },
+    {
+      "name": "content-writer",
+      "description": "Create compelling, informative content that explains complex topics in simple terms. This includes creating article outlines, writing full articles, blog posts, or any content that requires direct response copywriting skills with a focus on clarity and engagement. The agent operates in two modes: '…",
+      "category": "writing",
+      "repo": "iannuttall/claude-agents",
+      "branch": "main",
+      "path": "agents/content-writer.md",
+      "stars": 2040,
+      "license": "MIT",
+      "url": "https://github.com/iannuttall/claude-agents/blob/main/agents/content-writer.md",
+      "tools": []
+    },
+    {
+      "name": "frontend-designer",
+      "description": "Convert design mockups, wireframes, or visual concepts into detailed technical specifications and implementation guides for frontend development. This includes analyzing UI/UX designs, creating design systems, generating component architectures, and producing comprehensive documentation that develo…",
+      "category": "design",
+      "repo": "iannuttall/claude-agents",
+      "branch": "main",
+      "path": "agents/frontend-designer.md",
+      "stars": 2040,
+      "license": "MIT",
+      "url": "https://github.com/iannuttall/claude-agents/blob/main/agents/frontend-designer.md",
+      "tools": []
+    },
+    {
+      "name": "code-refactorer",
+      "description": "Improve existing code structure, readability, or maintainability without changing functionality. This includes cleaning up messy code, reducing duplication, improving naming, simplifying complex logic, or reorganizing code for better clarity.",
+      "category": "quality",
+      "repo": "iannuttall/claude-agents",
+      "branch": "main",
+      "path": "agents/code-refactorer.md",
+      "stars": 2040,
+      "license": "MIT",
+      "url": "https://github.com/iannuttall/claude-agents/blob/main/agents/code-refactorer.md",
+      "tools": [
+        "Edit",
+        "MultiEdit",
+        "Write",
+        "NotebookEdit",
+        "Grep",
+        "LS",
+        "Read"
+      ]
+    },
+    {
+      "name": "prd-writer",
+      "description": "Create a comprehensive Product Requirements Document (PRD) for a software project or feature. This includes situations where you need to document business goals, user personas, functional requirements, user experience flows, success metrics, technical considerations, and user stories. The agent wil…",
+      "category": "writing",
+      "repo": "iannuttall/claude-agents",
+      "branch": "main",
+      "path": "agents/prd-writer.md",
+      "stars": 2040,
+      "license": "MIT",
+      "url": "https://github.com/iannuttall/claude-agents/blob/main/agents/prd-writer.md",
+      "tools": [
+        "Task",
+        "Bash",
+        "Grep",
+        "LS",
+        "Read",
+        "Write",
+        "WebSearch",
+        "Glob"
+      ]
+    },
+    {
+      "name": "project-task-planner",
+      "description": "Create a comprehensive development task list from a Product Requirements Document (PRD). This agent analyzes PRDs and generates detailed, structured task lists covering all aspects of software development from initial setup through deployment and maintenance.",
+      "category": "business",
+      "repo": "iannuttall/claude-agents",
+      "branch": "main",
+      "path": "agents/project-task-planner.md",
+      "stars": 2040,
+      "license": "MIT",
+      "url": "https://github.com/iannuttall/claude-agents/blob/main/agents/project-task-planner.md",
+      "tools": [
+        "Task",
+        "Bash",
+        "Edit",
+        "MultiEdit",
+        "Write",
+        "NotebookEdit",
+        "Grep",
+        "LS",
+        "Read",
+        "ExitPlanMode",
+        "TodoWrite",
+        "WebSearch"
+      ]
+    },
+    {
+      "name": "vibe-coding-coach",
+      "description": "Users want to build applications through conversation, focusing on the vision and feel of their app rather than technical implementation details. This agent excels at translating user ideas, visual references, and 'vibes' into working applications while handling all technical complexities behind th…",
+      "category": "ai",
+      "repo": "iannuttall/claude-agents",
+      "branch": "main",
+      "path": "agents/vibe-coding-coach.md",
+      "stars": 2040,
+      "license": "MIT",
+      "url": "https://github.com/iannuttall/claude-agents/blob/main/agents/vibe-coding-coach.md",
+      "tools": []
+    },
+    {
+      "name": "ux-designer",
+      "description": "A creative and empathetic professional focused on enhancing user satisfaction by improving the usability, accessibility, and pleasure provided in the interaction between the user and a product.",
+      "category": "design",
+      "repo": "lst97/claude-code-sub-agents",
+      "branch": "main",
+      "path": "agents/development/ux-designer.md",
+      "stars": 1702,
+      "license": "MIT",
+      "url": "https://github.com/lst97/claude-code-sub-agents/blob/main/agents/development/ux-designer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Grep",
+        "Glob",
+        "Bash",
+        "LS",
+        "WebSearch",
+        "WebFetch",
+        "TodoWrite",
+        "Task",
+        "mcp__context7__resolve-library-id",
+        "mcp__context7__get-library-docs",
+        "mcp__sequential-thinking__sequentialthinking",
+        "mcp__playwright__browser_navigate",
+        "mcp__playwright__browser_snapshot"
+      ]
+    },
+    {
+      "name": "full-stack-developer",
+      "description": "A versatile AI Full Stack Developer proficient in designing, building, and maintaining all aspects of web applications, from the user interface to the server-side logic and database management.",
+      "category": "development",
+      "repo": "lst97/claude-code-sub-agents",
+      "branch": "main",
+      "path": "agents/development/full-stack-developer.md",
+      "stars": 1702,
+      "license": "MIT",
+      "url": "https://github.com/lst97/claude-code-sub-agents/blob/main/agents/development/full-stack-developer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Grep",
+        "Glob",
+        "Bash",
+        "LS",
+        "WebSearch",
+        "WebFetch",
+        "TodoWrite",
+        "Task",
+        "mcp__context7__resolve-library-id",
+        "mcp__context7__get-library-docs",
+        "mcp__sequential-thinking__sequentialthinking",
+        "mcp__magic__21st_magic_component_builder"
+      ]
+    },
+    {
+      "name": "nextjs-pro",
+      "description": "An expert Next.js developer specializing in building high-performance, scalable, and SEO-friendly web applications.Leverages the full potential of Next.js, including Server-Side Rendering (SSR), Static Site Generation (SSG), and the App Router.Focuses on modern development practices, robust testing…",
+      "category": "development",
+      "repo": "lst97/claude-code-sub-agents",
+      "branch": "main",
+      "path": "agents/development/nextjs-pro.md",
+      "stars": 1702,
+      "license": "MIT",
+      "url": "https://github.com/lst97/claude-code-sub-agents/blob/main/agents/development/nextjs-pro.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Grep",
+        "Glob",
+        "Bash",
+        "LS",
+        "WebFetch",
+        "WebSearch",
+        "Task",
+        "mcp__context7__resolve-library-id",
+        "mcp__context7__get-library-docs",
+        "mcp__magic__21st_magic_component_builder",
+        "mcp__magic__21st_magic_component_inspiration",
+        "mcp__magic__21st_magic_component_refiner"
+      ]
+    },
+    {
+      "name": "react-pro",
+      "description": "An expert React developer specializing in creating modern, performant, and scalable web applications. Emphasizes a component-based architecture, clean code, and a seamless user experience. Leverages advanced React features like Hooks and the Context API, and is proficient in state management and pe…",
+      "category": "development",
+      "repo": "lst97/claude-code-sub-agents",
+      "branch": "main",
+      "path": "agents/development/react-pro.md",
+      "stars": 1702,
+      "license": "MIT",
+      "url": "https://github.com/lst97/claude-code-sub-agents/blob/main/agents/development/react-pro.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Grep",
+        "Glob",
+        "Bash",
+        "LS",
+        "WebFetch",
+        "WebSearch",
+        "Task",
+        "mcp__context7__resolve-library-id",
+        "mcp__context7__get-library-docs",
+        "mcp__magic__21st_magic_component_builder",
+        "mcp__magic__21st_magic_component_inspiration",
+        "mcp__magic__21st_magic_component_refiner"
+      ]
+    },
+    {
+      "name": "documentation-expert",
+      "description": "A sophisticated AI Software Documentation Expert for designing, creating, and maintaining comprehensive and user-friendly software documentation.",
+      "category": "writing",
+      "repo": "lst97/claude-code-sub-agents",
+      "branch": "main",
+      "path": "agents/specialization/documentation-expert.md",
+      "stars": 1702,
+      "license": "MIT",
+      "url": "https://github.com/lst97/claude-code-sub-agents/blob/main/agents/specialization/documentation-expert.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Grep",
+        "Glob",
+        "Bash",
+        "LS",
+        "Task",
+        "mcp__context7__resolve-library-id",
+        "mcp__context7__get-library-docs"
+      ]
+    },
+    {
+      "name": "agent-organizer",
+      "description": "A highly advanced AI agent that functions as a master orchestrator for complex, multi-agent tasks. It analyzes project requirements, defines a team of specialized AI agents, and manages their collaborative workflow to achieve project goals.",
+      "category": "ai",
+      "repo": "lst97/claude-code-sub-agents",
+      "branch": "main",
+      "path": "agents/agent-organizer.md",
+      "stars": 1702,
+      "license": "MIT",
+      "url": "https://github.com/lst97/claude-code-sub-agents/blob/main/agents/agent-organizer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Grep",
+        "Glob",
+        "Bash",
+        "TodoWrite"
+      ]
+    },
+    {
+      "name": "postgres-pro",
+      "description": "An expert in PostgreSQL and Pglite, specializing in robust database architecture, performance tuning, and the implementation of in-browser database solutions. Excels at designing efficient data models, optimizing queries for speed and reliability, and leveraging Pglite for innovative web applicatio…",
+      "category": "data",
+      "repo": "lst97/claude-code-sub-agents",
+      "branch": "main",
+      "path": "agents/data-ai/postgres-pro.md",
+      "stars": 1702,
+      "license": "MIT",
+      "url": "https://github.com/lst97/claude-code-sub-agents/blob/main/agents/data-ai/postgres-pro.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Grep",
+        "Glob",
+        "Bash",
+        "LS",
+        "WebFetch",
+        "WebSearch",
+        "Task",
+        "mcp__context7__resolve-library-id",
+        "mcp__context7__get-library-docs",
+        "mcp__sequential-thinking__sequentialthinking"
+      ]
+    },
+    {
+      "name": "dx-optimizer",
+      "description": "A specialist in Developer Experience (DX). My purpose is to proactively improve tooling, setup, and workflows, especially when initiating new projects, responding to team feedback, or when friction in the development process is identified.",
+      "category": "development",
+      "repo": "lst97/claude-code-sub-agents",
+      "branch": "main",
+      "path": "agents/development/dx-optimizer.md",
+      "stars": 1702,
+      "license": "MIT",
+      "url": "https://github.com/lst97/claude-code-sub-agents/blob/main/agents/development/dx-optimizer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Grep",
+        "Glob",
+        "Bash",
+        "LS",
+        "WebSearch",
+        "WebFetch",
+        "Task",
+        "mcp__context7__resolve-library-id",
+        "mcp__context7__get-library-docs",
+        "mcp__sequential-thinking__sequentialthinking"
+      ]
+    },
+    {
+      "name": "electorn-pro",
+      "description": "An expert in building cross-platform desktop applications using Electron and TypeScript. Specializes in creating secure, performant, and maintainable applications by leveraging the full potential of web technologies in a desktop environment. Focuses on robust inter-process communication, native sys…",
+      "category": "development",
+      "repo": "lst97/claude-code-sub-agents",
+      "branch": "main",
+      "path": "agents/development/electorn-pro.md",
+      "stars": 1702,
+      "license": "MIT",
+      "url": "https://github.com/lst97/claude-code-sub-agents/blob/main/agents/development/electorn-pro.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Grep",
+        "Glob",
+        "LS",
+        "Bash",
+        "WebSearch",
+        "WebFetch",
+        "Task",
+        "mcp__context7__resolve-library-id",
+        "mcp__context7__get-library-docs",
+        "mcp__sequential-thinking__sequentialthinking"
+      ]
+    },
+    {
+      "name": "legacy-modernizer",
+      "description": "A specialist agent for planning and executing the incremental modernization of legacy systems. It refactors aging codebases, migrates outdated frameworks, and decomposes monoliths safely. Use this to reduce technical debt, improve maintainability, and upgrade technology stacks without disrupting op…",
+      "category": "development",
+      "repo": "lst97/claude-code-sub-agents",
+      "branch": "main",
+      "path": "agents/development/legacy-modernizer.md",
+      "stars": 1702,
+      "license": "MIT",
+      "url": "https://github.com/lst97/claude-code-sub-agents/blob/main/agents/development/legacy-modernizer.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Grep",
+        "Glob",
+        "Bash",
+        "LS",
+        "WebSearch",
+        "WebFetch",
+        "TodoWrite",
+        "Task",
+        "mcp__context7__resolve-library-id",
+        "mcp__context7__get-library-docs",
+        "mcp__sequential-thinking__sequentialthinking"
+      ]
+    },
+    {
+      "name": "qa-expert",
+      "description": "A sophisticated AI Quality Assurance (QA) Expert for designing, implementing, and managing comprehensive QA processes to ensure software products meet the highest standards of quality, reliability, and user satisfaction.",
+      "category": "quality",
+      "repo": "lst97/claude-code-sub-agents",
+      "branch": "main",
+      "path": "agents/quality-testing/qa-expert.md",
+      "stars": 1702,
+      "license": "MIT",
+      "url": "https://github.com/lst97/claude-code-sub-agents/blob/main/agents/quality-testing/qa-expert.md",
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Grep",
+        "Glob",
+        "Bash",
+        "LS",
+        "WebSearch",
+        "WebFetch",
+        "Task",
+        "mcp__context7__resolve-library-id",
+        "mcp__context7__get-library-docs",
+        "mcp__sequential-thinking__sequentialthinking",
+        "mcp__playwright__browser_navigate",
+        "mcp__playwright__browser_snapshot",
+        "mcp__playwright__browser_click",
+        "mcp__playwright__browser_type",
+        "mcp__playwright__browser_take_screenshot"
+      ]
+    },
+    {
+      "name": "swiftui-expert",
+      "description": "Expert in SwiftUI development, focusing on building dynamic, responsive, and maintainable applications for Apple platforms. Handles view composition, state management, and performance optimization in SwiftUI.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/swiftui-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/swiftui-expert.md",
+      "tools": []
+    },
+    {
+      "name": "electron-expert",
+      "description": "Specializes in building cross-platform desktop applications using Electron. Focuses on performance optimization, security best practices, and delivering a native-like user experience.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/electron-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/electron-expert.md",
+      "tools": []
+    },
+    {
+      "name": "github-actions-expert",
+      "description": "Expert in GitHub Actions for automating workflows and CI/CD processes.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/github-actions-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/github-actions-expert.md",
+      "tools": []
+    },
+    {
+      "name": "gitlab-ci-expert",
+      "description": "Expert in configuring, optimizing, and maintaining GitLab CI/CD pipelines for efficient software delivery.",
+      "category": "devops",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/gitlab-ci-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/gitlab-ci-expert.md",
+      "tools": []
+    },
+    {
+      "name": "go-expert",
+      "description": "Go specialist focusing on idiomatic Go, concurrency, and performance optimization.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/go-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/go-expert.md",
+      "tools": []
+    },
+    {
+      "name": "html-expert",
+      "description": "Expert in HTML structure, semantics, and best practices for building clean, accessible, and optimized web pages.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/html-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/html-expert.md",
+      "tools": []
+    },
+    {
+      "name": "java-expert",
+      "description": "Master Java developer specializing in writing efficient, clean, and maintainable Java code across various domains.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/java-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/java-expert.md",
+      "tools": []
+    },
+    {
+      "name": "javascript-expert",
+      "description": "Expert in modern JavaScript specializing in language features, optimization, and best practices. Handles asynchronous patterns, code quality, and performance tuning.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/javascript-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/javascript-expert.md",
+      "tools": []
+    },
+    {
+      "name": "kotlin-expert",
+      "description": "Expert in Kotlin programming language, focusing on idiomatic Kotlin code, coroutines, extension functions, and memory management.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/kotlin-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/kotlin-expert.md",
+      "tools": []
+    },
+    {
+      "name": "kubernetes-expert",
+      "description": "Master Kubernetes for container orchestration, pod management, and cluster optimization.",
+      "category": "devops",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/kubernetes-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/kubernetes-expert.md",
+      "tools": []
+    },
+    {
+      "name": "liquibase-expert",
+      "description": "Expert in Liquibase for database schema management, migrations, and version control.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/liquibase-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/liquibase-expert.md",
+      "tools": []
+    },
+    {
+      "name": "mongodb-expert",
+      "description": "Master MongoDB operations, schema design, performance optimization, and data modeling. Handles indexing, aggregations, and replication.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/mongodb-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/mongodb-expert.md",
+      "tools": []
+    },
+    {
+      "name": "mongoose-expert",
+      "description": "Mongoose ODM specialist for MongoDB, proficient in schema design, query optimization, and data validation.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/mongoose-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/mongoose-expert.md",
+      "tools": []
+    },
+    {
+      "name": "mssql-expert",
+      "description": "Expert in Microsoft SQL Server handling query optimization, database design, and advanced T-SQL features.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/mssql-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/mssql-expert.md",
+      "tools": []
+    },
+    {
+      "name": "mysql-expert",
+      "description": "Expert in MySQL database management, query optimization, and schema design. Provides efficient solutions for MySQL-related tasks.",
+      "category": "development",
+      "repo": "0xfurai/claude-code-subagents",
+      "branch": "main",
+      "path": "agents/mysql-expert.md",
+      "stars": 1020,
+      "license": "MIT",
+      "url": "https://github.com/0xfurai/claude-code-subagents/blob/main/agents/mysql-expert.md",
+      "tools": []
+    }
+  ],
+  "projects": [
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "name": "AutoGPT",
+      "kind": "autonomous",
+      "description": {
+        "en": "The pioneering autonomous agent, now a platform to build, deploy and run continuous AI agents.",
+        "ru": "Первый знаменитый автономный агент; теперь платформа для создания и запуска постоянно работающих агентов.",
+        "tg": "Аввалин агенти мустақили машҳур; акнун платформа барои сохтан ва иҷрои агентҳои доимо фаъол."
+      },
+      "stars": 187793,
+      "language": "Python",
+      "license": null,
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "homepage": "https://agpt.co"
+    },
+    {
+      "repo": "langgenius/dify",
+      "name": "dify",
+      "kind": "platform",
+      "description": {
+        "en": "Visual platform for building AI agents and workflows: RAG, tools, prompt studio and one-click APIs.",
+        "ru": "Визуальная платформа для создания ИИ-агентов и процессов: RAG, инструменты, студия промптов и готовый API.",
+        "tg": "Платформаи визуалӣ барои сохтани агентҳо ва равандҳои ЗС: RAG, абзорҳо, студияи промптҳо ва API-и тайёр."
+      },
+      "stars": 159760,
+      "language": "Python",
+      "license": null,
+      "url": "https://github.com/langgenius/dify",
+      "homepage": "https://dify.ai"
+    },
+    {
+      "repo": "langflow-ai/langflow",
+      "name": "langflow",
+      "kind": "platform",
+      "description": {
+        "en": "Drag-and-drop builder for agents and multi-agent flows, exported as APIs or MCP servers.",
+        "ru": "Конструктор агентов и мультиагентных цепочек перетаскиванием блоков; экспорт в API или MCP-сервер.",
+        "tg": "Конструктори агентҳо ва занҷирҳои бисёрагентӣ бо кашидани блокҳо; содирот ба API ё сервери MCP."
+      },
+      "stars": 156080,
+      "language": "Python",
+      "license": "MIT",
+      "url": "https://github.com/langflow-ai/langflow",
+      "homepage": "http://www.langflow.org"
+    },
+    {
+      "repo": "browser-use/browser-use",
+      "name": "browser-use",
+      "kind": "computer",
+      "description": {
+        "en": "Makes websites accessible to AI agents: they click, type and navigate like a person.",
+        "ru": "Даёт агентам управлять сайтами: нажимать, вводить текст и переходить по страницам как человек.",
+        "tg": "Ба агентҳо имкон медиҳад, ки сайтҳоро идора кунанд: мисли инсон пахш кунанд, матн ворид кунанд ва саҳифаҳоро гузаранд."
+      },
+      "stars": 119335,
+      "language": "Python",
+      "license": "MIT",
+      "url": "https://github.com/browser-use/browser-use",
+      "homepage": "https://browser-use.com"
+    },
+    {
+      "repo": "OpenHands/OpenHands",
+      "name": "OpenHands",
+      "kind": "coding",
+      "description": {
+        "en": "AI software engineer: writes code, runs commands, browses and fixes issues end to end.",
+        "ru": "ИИ-разработчик: пишет код, выполняет команды, ищет в сети и закрывает задачи целиком.",
+        "tg": "Барномасози ЗС: код менависад, фармонҳо иҷро мекунад, дар шабака ҷустуҷӯ мекунад ва вазифаҳоро пурра ҳал мекунад."
+      },
+      "stars": 92049,
+      "language": "TypeScript",
+      "license": "MIT",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "homepage": "https://openhands.dev"
+    },
+    {
+      "repo": "FoundationAgents/MetaGPT",
+      "name": "MetaGPT",
+      "kind": "multi",
+      "description": {
+        "en": "A multi-agent \"software company\": product manager, architect and engineers in one framework.",
+        "ru": "Мультиагентная «софтверная компания»: менеджер продукта, архитектор и инженеры в одном фреймворке.",
+        "tg": "«Ширкати нармафзор»-и бисёрагентӣ: менеҷери маҳсулот, меъмор ва муҳандисон дар як фреймворк."
+      },
+      "stars": 71039,
+      "language": "Python",
+      "license": "MIT",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "homepage": "https://atoms.dev/"
+    },
+    {
+      "repo": "cline/cline",
+      "name": "cline",
+      "kind": "coding",
+      "description": {
+        "en": "Autonomous coding agent in your IDE that edits files and runs commands with your approval.",
+        "ru": "Автономный агент для кода в вашей IDE: правит файлы и выполняет команды с вашего разрешения.",
+        "tg": "Агенти мустақил барои код дар IDE-и шумо: файлҳоро таҳрир ва фармонҳоро бо иҷозати шумо иҷро мекунад."
+      },
+      "stars": 70945,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "url": "https://github.com/cline/cline",
+      "homepage": "https://cline.bot"
+    },
+    {
+      "repo": "openinterpreter/openinterpreter",
+      "name": "openinterpreter",
+      "kind": "coding",
+      "description": {
+        "en": "Lets language models run code on your computer to complete tasks in natural language.",
+        "ru": "Даёт моделям выполнять код на вашем компьютере, чтобы решать задачи по описанию на обычном языке.",
+        "tg": "Ба моделҳо имкон медиҳад, ки дар компютери шумо код иҷро кунанд ва вазифаҳоро аз рӯи тавсифи оддӣ ҳал намоянд."
+      },
+      "stars": 68702,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "homepage": "http://openinterpreter.com/"
+    },
+    {
+      "repo": "microsoft/autogen",
+      "name": "autogen",
+      "kind": "framework",
+      "description": {
+        "en": "Microsoft framework for multi-agent conversations and event-driven agent systems.",
+        "ru": "Фреймворк Microsoft для диалогов нескольких агентов и событийных агентных систем.",
+        "tg": "Фреймворки Microsoft барои муколамаи якчанд агент ва системаҳои агентии ба рӯйдодҳо асосёфта."
+      },
+      "stars": 61597,
+      "language": "Python",
+      "license": "CC-BY-4.0",
+      "url": "https://github.com/microsoft/autogen",
+      "homepage": "https://microsoft.github.io/autogen/"
+    },
+    {
+      "repo": "crewAIInc/crewAI",
+      "name": "crewAI",
+      "kind": "framework",
+      "description": {
+        "en": "Orchestrates role-playing agents that work together as a crew on complex tasks.",
+        "ru": "Команды агентов с ролями, которые вместе решают сложные задачи.",
+        "tg": "Дастаҳои агентҳо бо нақшҳо, ки якҷоя вазифаҳои мураккабро ҳал мекунанд."
+      },
+      "stars": 60194,
+      "language": "Python",
+      "license": "MIT",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "homepage": "https://crewai.com"
+    },
+    {
+      "repo": "FoundationAgents/OpenManus",
+      "name": "OpenManus",
+      "kind": "autonomous",
+      "description": {
+        "en": "Open-source general agent in the spirit of Manus: plans, browses, writes code and completes tasks.",
+        "ru": "Открытый универсальный агент в духе Manus: планирует, работает в браузере, пишет код и доводит задачи до конца.",
+        "tg": "Агенти универсалии кушода дар рӯҳияи Manus: нақша мекашад, дар браузер кор мекунад, код менависад ва вазифаро анҷом медиҳад."
+      },
+      "stars": 58804,
+      "language": "Python",
+      "license": "MIT",
+      "url": "https://github.com/FoundationAgents/OpenManus",
+      "homepage": "https://openmanus.github.io/"
+    },
+    {
+      "repo": "aaif-goose/goose",
+      "name": "goose",
+      "kind": "coding",
+      "description": {
+        "en": "Extensible on-machine agent that installs, edits, tests and runs code with any LLM.",
+        "ru": "Расширяемый локальный агент: устанавливает, правит, тестирует и запускает код с любой моделью.",
+        "tg": "Агенти маҳаллии васеъшаванда: кодро бо ҳар гуна модел насб, таҳрир, санҷиш ва иҷро мекунад."
+      },
+      "stars": 55844,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "url": "https://github.com/aaif-goose/goose",
+      "homepage": "https://goose-docs.ai/"
+    },
+    {
+      "repo": "Aider-AI/aider",
+      "name": "aider",
+      "kind": "coding",
+      "description": {
+        "en": "AI pair programming in your terminal with automatic git commits.",
+        "ru": "Парное программирование с ИИ прямо в терминале и автоматическими коммитами git.",
+        "tg": "Барномасозии ҷуфтӣ бо ЗС бевосита дар терминал бо коммитҳои худкори git."
+      },
+      "stars": 49785,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Aider-AI/aider",
+      "homepage": "https://aider.chat/"
+    },
+    {
+      "repo": "langchain-ai/langgraph",
+      "name": "langgraph",
+      "kind": "framework",
+      "description": {
+        "en": "Low-level framework for reliable, stateful agents as graphs — with persistence, streaming and human-in-the-loop.",
+        "ru": "Фреймворк для надёжных агентов в виде графов: сохранение состояния, стриминг и участие человека.",
+        "tg": "Фреймворк барои агентҳои боэътимод дар шакли граф: нигоҳ доштани ҳолат, стриминг ва иштироки инсон."
+      },
+      "stars": 44021,
+      "language": "Python",
+      "license": "MIT",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "homepage": "https://docs.langchain.com/oss/python/langgraph/"
+    },
+    {
+      "repo": "agno-agi/agno",
+      "name": "agno",
+      "kind": "framework",
+      "description": {
+        "en": "Fast framework for agents with memory, knowledge and tools, plus a runtime to serve them.",
+        "ru": "Быстрый фреймворк для агентов с памятью, знаниями и инструментами и среда для их запуска.",
+        "tg": "Фреймворки тез барои агентҳо бо хотира, дониш ва абзорҳо ва муҳит барои иҷрои онҳо."
+      },
+      "stars": 42926,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "url": "https://github.com/agno-agi/agno",
+      "homepage": "https://docs.agno.com"
+    },
+    {
+      "repo": "OpenBMB/ChatDev",
+      "name": "ChatDev",
+      "kind": "multi",
+      "description": {
+        "en": "Virtual software company of communicating agents that design, code and test together.",
+        "ru": "Виртуальная IT-компания из общающихся агентов, которые вместе проектируют, пишут код и тестируют.",
+        "tg": "Ширкати виртуалии IT аз агентҳои бо ҳам муоширатдошта, ки якҷоя тарҳрезӣ, коднависӣ ва санҷиш мекунанд."
+      },
+      "stars": 34600,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "homepage": "https://arxiv.org/abs/2307.07924"
+    },
+    {
+      "repo": "openai/openai-agents-python",
+      "name": "openai-agents-python",
+      "kind": "framework",
+      "description": {
+        "en": "Lightweight SDK for multi-agent workflows: handoffs, guardrails and tracing.",
+        "ru": "Лёгкий SDK для мультиагентных сценариев: передача задач, ограничители и трассировка.",
+        "tg": "SDK-и сабук барои сенарияҳои бисёрагентӣ: супоридани вазифаҳо, маҳдудкунандаҳо ва пайгирӣ."
+      },
+      "stars": 30345,
+      "language": "Python",
+      "license": "MIT",
+      "url": "https://github.com/openai/openai-agents-python",
+      "homepage": "https://openai.github.io/openai-agents-python/"
+    },
+    {
+      "repo": "huggingface/smolagents",
+      "name": "smolagents",
+      "kind": "framework",
+      "description": {
+        "en": "Minimal library from Hugging Face for agents that think in code; works with any model.",
+        "ru": "Минималистичная библиотека Hugging Face: агенты, которые «думают кодом», с любой моделью.",
+        "tg": "Китобхонаи соддаи Hugging Face: агентҳое, ки «бо код фикр мекунанд», бо ҳар гуна модел."
+      },
+      "stars": 30106,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "url": "https://github.com/huggingface/smolagents",
+      "homepage": "https://huggingface.co/docs/smolagents"
+    },
+    {
+      "repo": "mastra-ai/mastra",
+      "name": "mastra",
+      "kind": "framework",
+      "description": {
+        "en": "TypeScript framework for agents, workflows, RAG and evals — from the team behind Gatsby.",
+        "ru": "TypeScript-фреймворк для агентов, процессов, RAG и оценки качества от создателей Gatsby.",
+        "tg": "Фреймворки TypeScript барои агентҳо, равандҳо, RAG ва арзёбии сифат аз созандагони Gatsby."
+      },
+      "stars": 29135,
+      "language": "TypeScript",
+      "license": null,
+      "url": "https://github.com/mastra-ai/mastra",
+      "homepage": "https://mastra.ai"
+    },
+    {
+      "repo": "microsoft/semantic-kernel",
+      "name": "semantic-kernel",
+      "kind": "framework",
+      "description": {
+        "en": "Enterprise SDK for AI agents in C#, Python and Java.",
+        "ru": "Корпоративный SDK для ИИ-агентов на C#, Python и Java.",
+        "tg": "SDK-и корпоративӣ барои агентҳои ЗС дар C#, Python ва Java."
+      },
+      "stars": 28709,
+      "language": "C#",
+      "license": "MIT",
+      "url": "https://github.com/microsoft/semantic-kernel",
+      "homepage": "https://aka.ms/semantic-kernel"
+    },
+    {
+      "repo": "letta-ai/letta",
+      "name": "letta",
+      "kind": "autonomous",
+      "description": {
+        "en": "Stateful agents with long-term memory that learn and remember across sessions (formerly MemGPT).",
+        "ru": "Агенты с долговременной памятью, которые учатся и помнят всё между сессиями (бывший MemGPT).",
+        "tg": "Агентҳо бо хотираи дарозмуддат, ки меомӯзанд ва байни сессияҳо ҳама чизро дар хотир медоранд (пештар MemGPT)."
+      },
+      "stars": 25271,
+      "language": null,
+      "license": "Apache-2.0",
+      "url": "https://github.com/letta-ai/letta",
+      "homepage": "https://docs.letta.com/"
+    },
+    {
+      "repo": "Skyvern-AI/skyvern",
+      "name": "skyvern",
+      "kind": "computer",
+      "description": {
+        "en": "Automates browser workflows with LLMs and computer vision.",
+        "ru": "Автоматизирует работу в браузере с помощью языковых моделей и компьютерного зрения.",
+        "tg": "Корро дар браузер бо ёрии моделҳои забонӣ ва биниши компютерӣ худкор мегардонад."
+      },
+      "stars": 23288,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "url": "https://github.com/Skyvern-AI/skyvern",
+      "homepage": "https://www.skyvern.com"
+    },
+    {
+      "repo": "google/adk-python",
+      "name": "adk-python",
+      "kind": "framework",
+      "description": {
+        "en": "Google Agent Development Kit: code-first toolkit to build, evaluate and deploy agents.",
+        "ru": "Agent Development Kit от Google: набор для создания, оценки и развёртывания агентов в коде.",
+        "tg": "Agent Development Kit аз Google: маҷмӯа барои сохтан, арзёбӣ ва ҷойгиркунии агентҳо дар код."
+      },
+      "stars": 22028,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "url": "https://github.com/google/adk-python",
+      "homepage": "https://google.github.io/adk-docs/"
+    },
+    {
+      "repo": "pydantic/pydantic-ai",
+      "name": "pydantic-ai",
+      "kind": "framework",
+      "description": {
+        "en": "Type-safe agent framework from the Pydantic team, built for production apps.",
+        "ru": "Типобезопасный фреймворк агентов от команды Pydantic для продакшн-приложений.",
+        "tg": "Фреймворки агентҳо бо бехатарии навъҳо аз дастаи Pydantic барои барномаҳои истеҳсолӣ."
+      },
+      "stars": 20916,
+      "language": "Python",
+      "license": "MIT",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "homepage": "https://pydantic.dev/pydantic-ai"
+    },
+    {
+      "repo": "SWE-agent/SWE-agent",
+      "name": "SWE-agent",
+      "kind": "coding",
+      "description": {
+        "en": "Princeton research agent that resolves real GitHub issues automatically.",
+        "ru": "Исследовательский агент Принстона, который сам исправляет реальные задачи с GitHub.",
+        "tg": "Агенти тадқиқотии Принстон, ки масъалаҳои воқеии GitHub-ро худкор ислоҳ мекунад."
+      },
+      "stars": 20660,
+      "language": "Python",
+      "license": "MIT",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "homepage": "https://swe-agent.com"
+    },
+    {
+      "repo": "camel-ai/camel",
+      "name": "camel",
+      "kind": "multi",
+      "description": {
+        "en": "Research community and framework for large-scale multi-agent systems.",
+        "ru": "Исследовательское сообщество и фреймворк для крупных мультиагентных систем.",
+        "tg": "Ҷамъияти тадқиқотӣ ва фреймворк барои системаҳои калони бисёрагентӣ."
+      },
+      "stars": 17986,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "url": "https://github.com/camel-ai/camel",
+      "homepage": "https://docs.camel-ai.org/"
+    },
+    {
+      "repo": "VoltAgent/voltagent",
+      "name": "voltagent",
+      "kind": "framework",
+      "description": {
+        "en": "Open-source TypeScript agent framework with built-in observability console.",
+        "ru": "Открытый TypeScript-фреймворк агентов со встроенной консолью наблюдения.",
+        "tg": "Фреймворки кушодаи агентҳо дар TypeScript бо консоли дохилии мушоҳида."
+      },
+      "stars": 10884,
+      "language": "TypeScript",
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/voltagent",
+      "homepage": "https://voltagent.dev"
+    }
+  ]
+}
