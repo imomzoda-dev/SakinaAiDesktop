@@ -20,6 +20,12 @@
 
 ---
 
+## ✨ New in 1.1.9
+
+- **Access switcher next to the mode**, like Claude Code: *Manual*, *Accept edits*, *Read only* and *Custom rules* — keys 1–4 pick one in the open menu. Risky actions and anything outside the project still always ask.
+- **Command and skill suggestions** (`/…`, `@…`) redesigned: one-line names, descriptions underneath, scrolling and key hints.
+- **Check for updates** is now on *Settings → Updates* too, with download progress and *Restart and update*; the update card's buttons no longer overflow a narrow sidebar.
+
 ## ✨ New in 1.1.8
 
 - **Fixed: Design generation stopped at 94–95 % with "Generation cancelled".** Large decks are no longer cut off by a total time limit; a request stops only when the model sends nothing for a while, a timeout is a clear error with *Retry* (never "cancelled"), temporary overloads are retried automatically (*attempt 2 of 3*), and a fully received design is kept even if the connection drops at the end.
@@ -87,6 +93,7 @@
 
 | Version | Downloads |
 |---|---|
+| [v1.1.9](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) | [![v1.1.9](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.9/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) |
 | [v1.1.8](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) | [![v1.1.8](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.8/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) |
 | [v1.1.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) | [![v1.1.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.7/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) |
 | [v1.1.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) | [![v1.1.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.6/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) |

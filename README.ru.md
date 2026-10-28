@@ -19,6 +19,12 @@
 
 ---
 
+## ✨ Новое в 1.1.9
+
+- **Переключатель «Доступ» рядом с «Режимом»**, как в Claude Code: «Вручную», «Принимать правки», «Только чтение» и «Свои правила» — клавиши 1–4 выбирают вариант в открытом меню. Рискованные действия и всё вне проекта по-прежнему требуют подтверждения.
+- **Подсказки команд и навыков** (`/…`, `@…`) в новом дизайне: имя в одну строку, описание под ним, прокрутка и подсказка по клавишам.
+- **«Проверить наличие обновлений»** теперь есть и в «Настройки → Обновления» — с прогрессом загрузки и кнопкой «Перезапустить и обновить»; кнопки карточки обновления больше не вылезают за край узкого сайдбара.
+
 ## ✨ Новое в 1.1.8
 
 - **Исправлено: генерация в Design обрывалась на 94–95 % с «Генерация отменена».** Большие презентации больше не обрезаются общим лимитом времени; запрос прерывается, только если модель долго молчит, истечение времени — понятная ошибка с кнопкой «Повторить» (а не «отмена»), временная перегрузка повторяется сама («попытка 2 из 3»), а полностью полученный дизайн сохраняется, даже если связь оборвалась в конце.
@@ -86,6 +92,7 @@
 
 | Версия | Скачивания |
 |---|---|
+| [v1.1.9](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) | [![v1.1.9](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.9/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) |
 | [v1.1.8](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) | [![v1.1.8](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.8/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) |
 | [v1.1.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) | [![v1.1.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.7/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) |
 | [v1.1.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) | [![v1.1.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.6/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) |
