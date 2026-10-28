@@ -20,6 +20,12 @@
 
 ---
 
+## ✨ New in 1.1.8
+
+- **Fixed: Design generation stopped at 94–95 % with "Generation cancelled".** Large decks are no longer cut off by a total time limit; a request stops only when the model sends nothing for a while, a timeout is a clear error with *Retry* (never "cancelled"), temporary overloads are retried automatically (*attempt 2 of 3*), and a fully received design is kept even if the connection drops at the end.
+- Provider timeouts are now **inactivity timeouts** everywhere — long chat and agent answers keep streaming as long as the model writes.
+- Gemini's **503 "high demand"** is shown as a clear "model overloaded (temporary)" message and retried automatically.
+
 ## ✨ New in 1.1.7
 
 <img src="docs/screenshots/29-voice-input.png" alt="Voice input in the composer" width="900" />
@@ -81,6 +87,7 @@
 
 | Version | Downloads |
 |---|---|
+| [v1.1.8](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) | [![v1.1.8](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.8/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) |
 | [v1.1.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) | [![v1.1.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.7/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) |
 | [v1.1.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) | [![v1.1.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.6/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) |
 | [v1.1.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) | [![v1.1.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.5/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) |

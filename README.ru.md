@@ -19,6 +19,12 @@
 
 ---
 
+## ✨ Новое в 1.1.8
+
+- **Исправлено: генерация в Design обрывалась на 94–95 % с «Генерация отменена».** Большие презентации больше не обрезаются общим лимитом времени; запрос прерывается, только если модель долго молчит, истечение времени — понятная ошибка с кнопкой «Повторить» (а не «отмена»), временная перегрузка повторяется сама («попытка 2 из 3»), а полностью полученный дизайн сохраняется, даже если связь оборвалась в конце.
+- Тайм-аут провайдера теперь везде — **тайм-аут простоя**: длинные ответы в чате и у агента идут до конца, пока модель пишет.
+- **503 «high demand»** у Gemini показывается понятным сообщением «модель временно перегружена» и повторяется автоматически.
+
 ## ✨ Новое в 1.1.7
 
 <img src="docs/screenshots/29-voice-input.png" alt="Голосовой ввод в поле сообщения" width="900" />
@@ -80,6 +86,7 @@
 
 | Версия | Скачивания |
 |---|---|
+| [v1.1.8](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) | [![v1.1.8](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.8/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.8) |
 | [v1.1.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) | [![v1.1.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.7/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) |
 | [v1.1.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) | [![v1.1.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.6/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) |
 | [v1.1.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) | [![v1.1.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.5/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) |
