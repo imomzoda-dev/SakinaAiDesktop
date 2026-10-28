@@ -19,6 +19,14 @@
 
 ---
 
+## ✨ Новое в 1.1.7
+
+<img src="docs/screenshots/29-voice-input.png" alt="Голосовой ввод в поле сообщения" width="900" />
+
+- **Голосовой ввод**, как в ChatGPT и Claude: кнопка микрофона рядом с «Отправить». Пока вы говорите, в поле видны живая волна и таймер; «Стоп» (или Enter) превращает речь в текст на месте курсора — отправьте сразу или сначала поправьте. «✕» или Esc отменяет; **Ctrl+Shift+M** начинает и заканчивает диктовку.
+- Распознавание — через ваших провайдеров: API, совместимые с Whisper (OpenAI, Groq, локальные серверы Whisper), или Gemini. Провайдер, модель и язык речи (авто, русский, английский, таджикский) — в *Настройки → Общие → Голосовой ввод*. Запись уходит только этому провайдеру и не сохраняется; в режиме «Только локально» — только на ваши локальные серверы.
+- **Понятные ошибки квоты**: длинный ответ Google о квоте показывается одной строкой; модель без квоты на вашем тарифе (*limit: 0*) так и называется, а проверка подключения сама находит работающую модель.
+
 ## ✨ Новое в 1.1.6
 
 <img src="docs/screenshots/27-design-export-menu.png" alt="Design — экспорт презентации в PowerPoint" width="900" />
@@ -72,6 +80,7 @@
 
 | Версия | Скачивания |
 |---|---|
+| [v1.1.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) | [![v1.1.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.7/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) |
 | [v1.1.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) | [![v1.1.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.6/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) |
 | [v1.1.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) | [![v1.1.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.5/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) |
 | [v1.1.4](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) | [![v1.1.4](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.4/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) |

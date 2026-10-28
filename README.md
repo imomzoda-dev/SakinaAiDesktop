@@ -20,6 +20,14 @@
 
 ---
 
+## ✨ New in 1.1.7
+
+<img src="docs/screenshots/29-voice-input.png" alt="Voice input in the composer" width="900" />
+
+- **Voice input**, like ChatGPT and Claude: a microphone button next to *Send*. While you speak the box shows a live waveform and a timer; *Stop* (or Enter) turns your speech into text at the cursor — send it right away or edit it first. ✕ or Esc cancels; **Ctrl+Shift+M** starts and finishes dictation.
+- Transcription uses your own providers — Whisper-compatible APIs (OpenAI, Groq, local Whisper servers) or Gemini. Provider, model and spoken language (auto, Russian, English, Tajik) are in *Settings → General → Voice input*. Recordings go only to that provider and are never stored; *Local only* mode keeps them on your local servers.
+- **Clear quota errors**: Google's long quota reports become one readable line; a model with no quota on your plan (*limit: 0*) is reported as such, and the connection test finds a model that works.
+
 ## ✨ New in 1.1.6
 
 <img src="docs/screenshots/27-design-export-menu.png" alt="Design — export a deck to PowerPoint" width="900" />
@@ -73,6 +81,7 @@
 
 | Version | Downloads |
 |---|---|
+| [v1.1.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) | [![v1.1.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.7/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.7) |
 | [v1.1.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) | [![v1.1.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.6/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.6) |
 | [v1.1.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) | [![v1.1.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.5/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.5) |
 | [v1.1.4](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) | [![v1.1.4](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.4/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.4) |
