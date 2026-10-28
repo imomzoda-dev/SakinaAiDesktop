@@ -19,6 +19,25 @@
 
 ---
 
+## ✨ Новое в 1.3.0 — ваш аккаунт Sakina
+
+- **Аккаунт Sakina:** регистрация по e-mail с подтверждением, вход, восстановление пароля — ссылка из письма открывает программу. Сеанс хранится зашифрованным (Windows DPAPI) и восстанавливается при запуске.
+- **Знакомство при первом запуске:** как к вам обращаться (любой алфавит, включая таджикские буквы), откуда узнали о Sakina, для чего и на каком языке общаться (Русский / Тоҷикӣ / English) — с продолжением с того же шага.
+- **Персональное общение:** «Добрый вечер, Алекс!» по часам компьютера; локальные модели знают ваше имя и используют его естественно. Имя передаётся как данные, а не инструкция; облачным моделям — только если вы включите.
+- **Карточка аккаунта** в боковой панели и **Настройки → Аккаунт и профиль:** имя, язык, e-mail, пароль, персонализация, выход.
+- **Офлайн-режим:** настроенный аккаунт открывается без интернета — локальные модели, чаты и настройки работают.
+- **Настройки рабочего места** рядом с «Задачами»: шрифт редактора и терминала, автосохранение, форматирование и очистка при сохранении, отступы, перенос строк, миникарта, оболочка, ИИ-автодополнение.
+- **«Обучение» проверяет компьютер** (процессор, память, все видеокарты, диск) и оценивает 35 популярных моделей Ollama: где каждая будет работать, сколько памяти нужно, скорость и поддержка LoRA.
+
+<p align="center">
+  <img src="docs/screenshots/account-login.png" alt="Вход" width="49%" />
+  <img src="docs/screenshots/onboarding.png" alt="Знакомство" width="49%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/personal-greeting.png" alt="Персональное приветствие" width="49%" />
+  <img src="docs/screenshots/account-settings.png" alt="Аккаунт и профиль" width="49%" />
+</p>
+
 ## ✨ Новое в 1.2.1 — функции Claude Code и настоящая IDE
 
 - **Контрольные точки и откат** (как `/rewind` в Claude Code). У каждого сообщения есть «Откатить сюда», в поле ввода работает `/rewind`: можно вернуть **код и диалог**, только диалог или только код. Файлы, которые агент изменил, создал или удалил после сообщения, восстанавливаются, а само сообщение возвращается в поле ввода.
@@ -140,6 +159,7 @@
 
 | Версия | Скачивания |
 |---|---|
+| [v1.3.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.0) | [![v1.3.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.0/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.0) |
 | [v1.2.1](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.1) | [![v1.2.1](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.1/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.1) |
 | [v1.2.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) | [![v1.2.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.0/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) |
 | [v1.1.9](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) | [![v1.1.9](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.9/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) |

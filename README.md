@@ -20,6 +20,25 @@
 
 ---
 
+## ✨ New in 1.3.0 — your Sakina account
+
+- **Sakina account:** e-mail sign-up with confirmation, sign-in, password reset — the e-mail link opens the app. The session is stored encrypted (Windows DPAPI) and restored on start.
+- **First-run setup:** what to call you (any script, incl. Tajik letters), how you found Sakina, what for, and the language (Русский / Тоҷикӣ / English) — resumes where you stopped.
+- **Personal conversation:** "Good evening, Alex!" by your local clock; local models know your name and use it naturally. The name is passed as data, never as instructions, and cloud models do not get it unless you turn that on.
+- **Account card** in the sidebar and **Settings → Account & Profile:** name, language, e-mail, password, personalization, sign-out.
+- **Offline mode:** a set-up account opens without the internet — local models, chats and settings keep working.
+- **Workspace settings** next to Tasks: editor and terminal font size, auto-save, format and tidy on save, indentation, word wrap, minimap, shell, AI completion.
+- **Training checks your computer** (CPU, RAM, every GPU, disk) and rates 35 popular Ollama models for it: where each runs, memory, speed and LoRA support.
+
+<p align="center">
+  <img src="docs/screenshots/account-login.png" alt="Sign in" width="49%" />
+  <img src="docs/screenshots/onboarding.png" alt="First-run setup" width="49%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/personal-greeting.png" alt="Personal greeting" width="49%" />
+  <img src="docs/screenshots/account-settings.png" alt="Account & Profile" width="49%" />
+</p>
+
 ## ✨ New in 1.2.1 — Claude Code features and a real IDE
 
 - **Checkpoints & rewind** (like `/rewind` in Claude Code). Every message has *Rewind to here*, and `/rewind` works in the input box: restore **code and conversation**, only the conversation or only the code. Files the agent changed, created or deleted after that message come back, and the message returns to the input box to edit and resend.
@@ -131,6 +150,7 @@
 
 | Version | Downloads |
 |---|---|
+| [v1.3.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.0) | [![v1.3.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.0/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.0) |
 | [v1.2.1](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.1) | [![v1.2.1](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.1/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.1) |
 | [v1.2.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) | [![v1.2.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.2.0/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.2.0) |
 | [v1.1.9](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) | [![v1.1.9](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.1.9/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.1.9) |
