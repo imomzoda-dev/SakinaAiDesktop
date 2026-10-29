@@ -12,7 +12,7 @@
 ![Languages](https://img.shields.io/badge/UI-English%20%7C%20Русский%20%7C%20Тоҷикӣ-6b7280)
 [![License](https://img.shields.io/badge/license-EULA%20(freeware)-6b7280)](LICENSE.md)
 
-[**⬇ Download Sakina 1.3.4 for Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [What's new](#-whats-new-in-134) · [Changelog](CHANGELOG.md) · [Русский](README.ru.md)
+[**⬇ Download Sakina 1.3.5 for Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [What's new](#-whats-new-in-135) · [Changelog](CHANGELOG.md) · [Русский](README.ru.md)
 
 <img src="docs/screenshots/chat.png" alt="Sakina AI Desktop — chat" width="900" />
 
@@ -20,8 +20,9 @@
 
 ---
 
-## ✨ What's new in 1.3.4
+## ✨ What's new in 1.3.5
 
+- **Continue with Google.** Sign in or create your account with Google in one click. Google's page opens in your own browser — your Google password never passes through Sakina — and Sakina comes back to the front already signed in. Your name and photo come from Google; an existing e-mail account with the same address simply gets a second way to sign in, and you can add a password later in *Settings → Account*.
 - **Design, rebuilt as a gallery.** Everything you create lives in one place, like Claude's Artifacts: cards with a live preview, the time of the last edit, favorites, search, filters by type and sorting. Hover a card to open it full screen, present a deck, duplicate or delete it.
 - **New: Documents.** Reports, proposals, articles, guides, plans and resumes, laid out like a printed page with a title block, numbered sections, tables, callouts and charts. Export to PDF (A4), PNG or HTML.
 - **New: Dashboards.** KPI tiles, interactive charts, filters that really work and a sortable table, built from sample data for your field, in light and dark themes.
@@ -29,6 +30,11 @@
 - **Smoother background work.** “Minimize to background” now flies the window into its capsule at the top right and grows it back when you open it again.
 - **Image export.** Save a full-length PNG of any design, document or dashboard.
 - **A new About page** with the live GitHub repository (stars, forks, downloads, latest release), what you have done in Sakina on this computer, update status and one-click system details for bug reports.
+
+
+<p align="center">
+  <img src="docs/screenshots/google-sign-in.png" alt="Continue with Google" width="70%" />
+</p>
 
 <p align="center">
   <img src="docs/screenshots/design-gallery.png" alt="Design gallery with live previews" width="49%" />
@@ -125,16 +131,16 @@ Connect cloud providers and your own servers on the local network with a 6-step 
 | 🖥️ **Local & LAN AI** | 28 server types with a 6-step connection test; detects Open WebUI / Ollama / OpenAI-compatible servers and fixes the address in one click |
 | ✨ **Skills, Connectors, Plugins** | 232 skills, 58 MCP connectors, the official Anthropic marketplace and any GitHub marketplace in Claude Code format |
 | 📄 **Any file** | Word, Excel, PowerPoint, PDF, images, audio and video open inside the app |
-| 👤 **Account** | Sign in with e-mail (confirmation, password reset), a one-time setup, profile and name on every computer, full account deletion |
+| 👤 **Account** | Continue with Google or sign in with e-mail (confirmation, password reset), a one-time setup, profile and name on every computer, full account deletion |
 | 🧭 **Comfort** | Global hotkey `Ctrl+Shift+Space`, tray icon, command palette `Ctrl+K`, shortcuts `Ctrl+/`, light and dark themes, English, Russian and Tajik interface |
 | 🔒 **Safety** | Path guard, command risk analysis, permission rules, audit log, encrypted secrets, backups with SHA-256 verification, database copy before every schema upgrade |
 
 ## Download & install
 
-1. Download **`Sakina-AI-Desktop-Setup-1.3.4.exe`** from the [latest release](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
+1. Download **`Sakina-AI-Desktop-Setup-1.3.5.exe`** from the [latest release](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
 2. Run it and follow the wizard (install for you only or for all users, choose the folder).
 3. Windows SmartScreen may warn because the installer is not code-signed yet: click **More info → Run anyway**.
-4. Create a Sakina account or sign in, answer the short setup once — and you are ready.
+4. Continue with Google or create a Sakina account with your e-mail, answer the short setup once — and you are ready.
 
 **Requirements:** Windows 10 or 11 (x64), 4 GB RAM (8 GB+ recommended), about 500 MB of disk space. Node.js is needed only for local MCP connectors (npx).
 
@@ -158,7 +164,7 @@ In Sakina: **Models → Local AI → Add local server**, pick the server type (O
 
 - No telemetry and no ads.
 - Chats, files, projects, designs and settings live in `%APPDATA%\sakina-ai-desktop` on your computer. Chat history is never uploaded.
-- Your Sakina account stores only your e-mail, name and setup answers; you can delete the account and all of it at any time in *Settings → Account*.
+- Your Sakina account stores only your e-mail, name, photo (with Google) and setup answers; with Google sign-in Sakina never sees your Google password; you can delete the account and all of it at any time in *Settings → Account*.
 - Requests go only to the AI providers and connectors you configure; update checks contact GitHub.
 - API keys, connector tokens and the sign-in session are encrypted with Windows DPAPI and never written to logs or exports.
 
@@ -178,9 +184,9 @@ In Sakina: **Models → Local AI → Add local server**, pick the server type (O
 
 | Version | Downloads |
 |---|---|
+| [v1.3.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.5) | [![v1.3.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.5/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.5) |
 | [v1.3.4](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.4) | [![v1.3.4](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.4/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.4) |
 | [v1.3.3](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.3) | [![v1.3.3](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.3/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.3) |
-| [v1.3.2](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.2) | [![v1.3.2](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.2/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.2) |
 | **All versions** | [![Total](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/total?label=total&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases) |
 
 Counters come live from GitHub; the app shows the same numbers in *Settings → About* and *Settings → Updates*.
