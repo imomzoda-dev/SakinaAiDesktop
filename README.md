@@ -12,7 +12,7 @@
 ![Languages](https://img.shields.io/badge/UI-English%20%7C%20Русский%20%7C%20Тоҷикӣ-6b7280)
 [![License](https://img.shields.io/badge/license-EULA%20(freeware)-6b7280)](LICENSE.md)
 
-[**⬇ Download Sakina 1.3.7 for Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [What's new](#-whats-new-in-137) · [Changelog](CHANGELOG.md) · [Русский](README.ru.md)
+[**⬇ Download Sakina 1.3.8 for Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [What's new](#-whats-new-in-138) · [Changelog](CHANGELOG.md) · [Русский](README.ru.md)
 
 <img src="docs/screenshots/chat.png" alt="Sakina AI Desktop — chat" width="900" />
 
@@ -20,7 +20,13 @@
 
 ---
 
-## ✨ What's new in 1.3.7
+## ✨ What's new in 1.3.8
+
+- **You can see the AI at work.** Instead of a blinking cursor, a living orb and a status line show what is happening right now — “Thinking…”, “Reading the attachments…”, “Loading the model into memory…”, “Searching the web: github.com…”, “Reading app.py…”, “Running npm test…”, “Analysing the result…” — with the time spent and `Esc` to stop. The moment the answer starts, the text takes its place.
+
+<p align="center">
+  <img src="docs/screenshots/working.png" alt="The AI working indicator" width="80%" />
+</p>
 
 - **Create images right in the chat.** Pick *Create image* in the new **+** card or a template, describe the picture and your own provider draws it — OpenAI GPT Image, Google Gemini (“Nano Banana”) and Imagen, OpenRouter, Together FLUX or LocalAI. Choose the frame (square, landscape, portrait, wide, tall) and a style (photo, anime, 3D, watercolour, oil, pixel art, pencil, comic, claymation, neon, minimal). While it is drawn, a frame of the right shape slowly comes to life; the finished picture fades in.
 - **Work with the picture:** *Edit* it (it becomes the reference — just say “make it night”), get *another version*, copy it, download it or open it full screen with zoom, drag and arrow keys. Attach your own photo and turn it into an anime portrait, a collectible figure or a product shot.
@@ -135,7 +141,7 @@ Connect cloud providers and your own servers on the local network with a 6-step 
 
 | | |
 |---|---|
-| 💬 **Chat** | Streaming, Markdown, tables, code highlighting, Mermaid, HTML/SVG preview, reasoning blocks, attachments incl. PDF and Office with file-type icons, screenshots and sketches, voice input, branching edits, search, export, response styles, slash commands |
+| 💬 **Chat** | Streaming, Markdown, tables, code highlighting, Mermaid, HTML/SVG preview, reasoning blocks, a live “what the AI is doing” indicator, attachments incl. PDF and Office with file-type icons, screenshots and sketches, voice input, branching edits, search, export, response styles, slash commands |
 | 🖼️ **Images** | Create and edit pictures with GPT Image, Gemini / Imagen, OpenRouter, FLUX or LocalAI: frames, 12 styles, trending ideas and templates, edit from a reference, full-screen viewer, save and copy |
 | 🎨 **Design** | Documents, slides, designs, dashboards, designs in your codebase and design systems; gallery with live previews, versions, device preview, full screen and presenting with slide overview, background generation; Word / PowerPoint / Excel / PDF / Markdown / PNG / HTML, design tokens and source export |
 | 🛠️ **Code workspace & agent** | Explorer, Monaco editor, Ctrl+P, tasks, background processes, status bar, terminal, Git, collapsible AI panel, subagents, questions from the agent, hooks, checkpoints and rewind, approvals for risky actions |
@@ -152,7 +158,7 @@ Connect cloud providers and your own servers on the local network with a 6-step 
 
 ## Download & install
 
-1. Download **`Sakina-AI-Desktop-Setup-1.3.7.exe`** from the [latest release](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
+1. Download **`Sakina-AI-Desktop-Setup-1.3.8.exe`** from the [latest release](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
 2. Run it and follow the wizard (install for you only or for all users, choose the folder).
 3. Windows SmartScreen may warn because the installer is not code-signed yet: click **More info → Run anyway**.
 4. Continue with Google or create a Sakina account with your e-mail, answer the short setup once — and you are ready.
@@ -199,6 +205,7 @@ In Sakina: **Models → Local AI → Add local server**, pick the server type (O
 
 | Version | Downloads |
 |---|---|
+| [v1.3.8](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.8) | [![v1.3.8](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.8/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.8) |
 | [v1.3.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.7) | [![v1.3.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.7/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.7) |
 | [v1.3.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.6) | [![v1.3.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.6/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.6) |
 | [v1.3.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.5) | [![v1.3.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.5/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.5) |

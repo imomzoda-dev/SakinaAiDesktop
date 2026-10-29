@@ -12,7 +12,7 @@
 ![Языки](https://img.shields.io/badge/интерфейс-Русский%20%7C%20English%20%7C%20Тоҷикӣ-6b7280)
 [![Лицензия](https://img.shields.io/badge/лицензия-EULA%20(бесплатно)-6b7280)](LICENSE.md)
 
-[**⬇ Скачать Sakina 1.3.7 для Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [Что нового](#-что-нового-в-137) · [Журнал изменений](CHANGELOG.md) · [English](README.md)
+[**⬇ Скачать Sakina 1.3.8 для Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [Что нового](#-что-нового-в-138) · [Журнал изменений](CHANGELOG.md) · [English](README.md)
 
 <img src="docs/screenshots/chat.png" alt="Sakina AI Desktop — чат" width="900" />
 
@@ -20,7 +20,13 @@
 
 ---
 
-## ✨ Что нового в 1.3.7
+## ✨ Что нового в 1.3.8
+
+- **Видно, как работает ИИ.** Вместо мигающего курсора — живая «искра» и строка состояния, которая говорит, что происходит прямо сейчас: «Думаю…», «Читаю вложения…», «Загружаю модель в память…», «Ищу в интернете: github.com…», «Читаю app.py…», «Выполняю команду npm test…», «Анализирую результат…» — со временем ожидания и подсказкой `Esc` — остановить. Как только ответ начинает печататься, его место занимает текст.
+
+<p align="center">
+  <img src="docs/screenshots/working.png" alt="Индикатор работы ИИ" width="80%" />
+</p>
 
 - **Создание изображений прямо в чате.** Выберите «Создать изображение» в новой карточке **+** или шаблон, опишите картинку — её нарисует ваш провайдер: OpenAI GPT Image, Google Gemini («Nano Banana») и Imagen, OpenRouter, Together FLUX или LocalAI. Формат (квадрат, альбомный, портретный, широкий, вертикальный) и стиль (фото, аниме, 3D, акварель, масло, пиксель-арт, карандаш, комикс, пластилин, неон, минимализм). Пока изображение создаётся, рамка нужного формата плавно «проявляется»; готовая картинка появляется мягко.
 - **Работа с изображением:** «Изменить» (картинка становится образцом — просто напишите «сделай ночь»), «Другой вариант», копирование, скачивание и просмотр на весь экран с масштабом, перетаскиванием и стрелками. Прикрепите своё фото и превратите его в аниме-портрет, коллекционную фигурку или фото товара.
@@ -76,7 +82,7 @@
 
 ### Чат
 
-Потоковые ответы с Markdown, таблицами, кодом, Mermaid и предпросмотром HTML, блоки рассуждений, вложения (PDF, Office, изображения), голосовой ввод, ветвление правок и поиск. Sakina обращается к вам по имени и помнит черновики.
+Потоковые ответы с Markdown, таблицами, кодом, Mermaid и предпросмотром HTML, блоки рассуждений, живой индикатор того, что делает ИИ, вложения (PDF, Office, изображения), голосовой ввод, ветвление правок и поиск. Sakina обращается к вам по имени и помнит черновики.
 
 <p align="center">
   <img src="docs/screenshots/welcome.png" alt="Экран приветствия" width="49%" />
@@ -152,7 +158,7 @@
 
 ## Установка
 
-1. Скачайте **`Sakina-AI-Desktop-Setup-1.3.7.exe`** из [последнего релиза](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
+1. Скачайте **`Sakina-AI-Desktop-Setup-1.3.8.exe`** из [последнего релиза](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
 2. Запустите и следуйте мастеру (установка для себя или для всех пользователей, выбор папки).
 3. Windows SmartScreen может предупредить, потому что установщик пока не подписан: нажмите **Подробнее → Выполнить в любом случае**.
 4. Нажмите «Продолжить с Google» или создайте аккаунт по e-mail, один раз ответьте на короткую настройку — и можно работать.
@@ -199,6 +205,7 @@ ollama serve
 
 | Версия | Скачивания |
 |---|---|
+| [v1.3.8](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.8) | [![v1.3.8](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.8/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.8) |
 | [v1.3.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.7) | [![v1.3.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.7/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.7) |
 | [v1.3.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.6) | [![v1.3.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.6/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.6) |
 | [v1.3.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.5) | [![v1.3.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.5/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.5) |
