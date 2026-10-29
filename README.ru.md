@@ -12,7 +12,7 @@
 ![Языки](https://img.shields.io/badge/интерфейс-Русский%20%7C%20English%20%7C%20Тоҷикӣ-6b7280)
 [![Лицензия](https://img.shields.io/badge/лицензия-EULA%20(бесплатно)-6b7280)](LICENSE.md)
 
-[**⬇ Скачать Sakina 1.3.8 для Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [Что нового](#-что-нового-в-138) · [Журнал изменений](CHANGELOG.md) · [English](README.md)
+[**⬇ Скачать Sakina 1.3.9 для Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [Что нового](#-что-нового-в-139) · [Журнал изменений](CHANGELOG.md) · [English](README.md)
 
 <img src="docs/screenshots/chat.png" alt="Sakina AI Desktop — чат" width="900" />
 
@@ -20,8 +20,10 @@
 
 ---
 
-## ✨ Что нового в 1.3.8
+## ✨ Что нового в 1.3.9
 
+- **Плавный индикатор работы ИИ.** Когда фраза меняет длину, строка плавно перетекает к новой ширине, а таймер мягко сдвигается следом, а не прыгает; старая фраза уходит, новая поднимается снизу.
+- **Читаемый терминал в светлой теме.** Команды PowerShell, числа и другие цвета больше не сливаются с белым фоном: у светлой темы своя палитра из 16 цветов (контраст каждого от 5,6:1), а слишком бледные цвета программ автоматически становятся читаемыми.
 - **Видно, как работает ИИ.** Вместо мигающего курсора — живая «искра» и строка состояния, которая говорит, что происходит прямо сейчас: «Думаю…», «Читаю вложения…», «Загружаю модель в память…», «Ищу в интернете: github.com…», «Читаю app.py…», «Выполняю команду npm test…», «Анализирую результат…» — со временем ожидания и подсказкой `Esc` — остановить. Как только ответ начинает печататься, его место занимает текст.
 
 <p align="center">
@@ -158,7 +160,7 @@
 
 ## Установка
 
-1. Скачайте **`Sakina-AI-Desktop-Setup-1.3.8.exe`** из [последнего релиза](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
+1. Скачайте **`Sakina-AI-Desktop-Setup-1.3.9.exe`** из [последнего релиза](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
 2. Запустите и следуйте мастеру (установка для себя или для всех пользователей, выбор папки).
 3. Windows SmartScreen может предупредить, потому что установщик пока не подписан: нажмите **Подробнее → Выполнить в любом случае**.
 4. Нажмите «Продолжить с Google» или создайте аккаунт по e-mail, один раз ответьте на короткую настройку — и можно работать.
@@ -205,6 +207,7 @@ ollama serve
 
 | Версия | Скачивания |
 |---|---|
+| [v1.3.9](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.9) | [![v1.3.9](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.9/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.9) |
 | [v1.3.8](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.8) | [![v1.3.8](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.8/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.8) |
 | [v1.3.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.7) | [![v1.3.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.7/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.7) |
 | [v1.3.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.6) | [![v1.3.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.6/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.6) |
