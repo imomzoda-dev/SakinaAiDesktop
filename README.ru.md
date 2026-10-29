@@ -12,7 +12,7 @@
 ![Языки](https://img.shields.io/badge/интерфейс-Русский%20%7C%20English%20%7C%20Тоҷикӣ-6b7280)
 [![Лицензия](https://img.shields.io/badge/лицензия-EULA%20(бесплатно)-6b7280)](LICENSE.md)
 
-[**⬇ Скачать Sakina 1.3.5 для Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [Что нового](#-что-нового-в-135) · [Журнал изменений](CHANGELOG.md) · [English](README.md)
+[**⬇ Скачать Sakina 1.3.6 для Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [Что нового](#-что-нового-в-136) · [Журнал изменений](CHANGELOG.md) · [English](README.md)
 
 <img src="docs/screenshots/chat.png" alt="Sakina AI Desktop — чат" width="900" />
 
@@ -20,8 +20,11 @@
 
 ---
 
-## ✨ Что нового в 1.3.5
+## ✨ Что нового в 1.3.6
 
+- **Фото профиля.** Нажмите на фото в *Настройки → Аккаунт и профиль* или перетащите на него картинку и обрежьте её в круглой рамке (перетаскивание, масштаб ползунком, колёсиком мыши или клавишами). Фото сохраняется в JPEG 512×512 без геолокации и данных камеры, хранится в аккаунте и видно на всех компьютерах. Аккаунт Google может вернуть фото из Google.
+- **Новая страница «Аккаунт и профиль»:** обложка, крупное фото, способы входа и понятные разделы — профиль, персонализация, вход и безопасность и отдельная «опасная зона».
+- **Шкала надёжности пароля** вместо списка правил: четыре деления заполняются и меняют цвет по мере ввода, рядом — одна полезная подсказка.
 - **«Продолжить с Google».** Вход и регистрация через Google в один клик. Страница Google открывается в вашем браузере — пароль Google никогда не проходит через Sakina, — а программа сама возвращается на передний план уже с выполненным входом. Имя и фото берутся из Google; если у вас уже есть аккаунт с тем же e-mail, к нему просто добавляется второй способ входа, а пароль можно задать позже в *Настройки → Аккаунт*.
 - **Дизайн — теперь галерея.** Всё, что вы создаёте, собрано в одном месте, как «Артефакты» в Claude: карточки с живым превью, время последнего изменения, избранное, поиск, фильтр по типу и сортировка. Наведите на карточку, чтобы открыть её на весь экран, начать показ презентации, сделать копию или удалить.
 - **Новое: Документы.** Отчёты, коммерческие предложения, статьи, инструкции, планы и резюме, свёрстанные как печатная страница: титульный блок, нумерованные разделы, таблицы, выноски и графики. Экспорт в PDF (A4), PNG или HTML.
@@ -32,6 +35,10 @@
 - **Новая страница «О программе»:** живые данные репозитория GitHub (звёзды, форки, загрузки, последний релиз), ваша работа в Sakina на этом компьютере, состояние обновлений и сведения о системе в один клик — для сообщений об ошибках.
 
 
+<p align="center">
+  <img src="docs/screenshots/account.png" alt="Аккаунт и профиль с фото" width="49%" />
+  <img src="docs/screenshots/password-strength.png" alt="Шкала надёжности пароля" width="49%" />
+</p>
 <p align="center">
   <img src="docs/screenshots/google-sign-in.png" alt="Продолжить с Google" width="70%" />
 </p>
@@ -131,13 +138,13 @@
 | 🖥️ **Локальный и сетевой ИИ** | 28 типов серверов с проверкой подключения в 6 шагов; распознаёт Open WebUI / Ollama / OpenAI-совместимые серверы и исправляет адрес в один клик |
 | ✨ **Skills, коннекторы, плагины** | 232 навыка, 58 MCP-коннекторов, официальный маркетплейс Anthropic и любой маркетплейс GitHub в формате Claude Code |
 | 📄 **Любые файлы** | Word, Excel, PowerPoint, PDF, изображения, аудио и видео открываются прямо в приложении |
-| 👤 **Аккаунт** | «Продолжить с Google» или вход по e-mail (подтверждение, сброс пароля), разовая настройка, профиль и имя на любом компьютере, полное удаление аккаунта |
+| 👤 **Аккаунт** | «Продолжить с Google» или вход по e-mail (подтверждение, сброс пароля, шкала надёжности), фото профиля с кадрированием, разовая настройка, профиль и имя на любом компьютере, полное удаление аккаунта |
 | 🧭 **Удобство** | Глобальная клавиша `Ctrl+Shift+Space`, значок в трее, палитра команд `Ctrl+K`, сочетания клавиш `Ctrl+/`, светлая и тёмная темы, интерфейс на русском, английском и таджикском |
 | 🔒 **Безопасность** | Защита путей, анализ риска команд, правила доступа, журнал аудита, зашифрованные секреты, резервные копии с проверкой SHA-256, копия базы перед каждым обновлением схемы |
 
 ## Установка
 
-1. Скачайте **`Sakina-AI-Desktop-Setup-1.3.5.exe`** из [последнего релиза](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
+1. Скачайте **`Sakina-AI-Desktop-Setup-1.3.6.exe`** из [последнего релиза](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
 2. Запустите и следуйте мастеру (установка для себя или для всех пользователей, выбор папки).
 3. Windows SmartScreen может предупредить, потому что установщик пока не подписан: нажмите **Подробнее → Выполнить в любом случае**.
 4. Нажмите «Продолжить с Google» или создайте аккаунт по e-mail, один раз ответьте на короткую настройку — и можно работать.
@@ -184,6 +191,7 @@ ollama serve
 
 | Версия | Скачивания |
 |---|---|
+| [v1.3.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.6) | [![v1.3.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.6/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.6) |
 | [v1.3.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.5) | [![v1.3.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.5/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.5) |
 | [v1.3.4](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.4) | [![v1.3.4](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.4/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.4) |
 | [v1.3.3](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.3) | [![v1.3.3](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.3/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.3) |
