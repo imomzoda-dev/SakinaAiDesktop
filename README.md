@@ -4,7 +4,7 @@
 
 # Sakina AI Desktop
 
-**A professional desktop workspace for AI — cloud models, your own local and LAN models, an agent that works with your files and terminal, an AI Workspace you change by talking to it, Design, Skills, Connectors and Plugins.**
+**Your AI workspace on Windows. Chat with any cloud or local model, let an agent work in your code and terminal, and create documents, slides, designs and dashboards — with your data staying on your computer.**
 
 [![Latest release](https://img.shields.io/github/v/release/imomzoda-dev/SakinaAiDesktop?label=release&color=D97757)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/total?color=D97757)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases)
@@ -12,233 +12,139 @@
 ![Languages](https://img.shields.io/badge/UI-English%20%7C%20Русский%20%7C%20Тоҷикӣ-6b7280)
 [![License](https://img.shields.io/badge/license-EULA%20(freeware)-6b7280)](LICENSE.md)
 
-[**⬇ Download for Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [Changelog](CHANGELOG.md) · [Русский](README.ru.md)
+[**⬇ Download Sakina 1.3.4 for Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [What's new](#-whats-new-in-134) · [Changelog](CHANGELOG.md) · [Русский](README.ru.md)
 
-<img src="docs/screenshots/01-chat.png" alt="Sakina AI Desktop — chat" width="900" />
+<img src="docs/screenshots/chat.png" alt="Sakina AI Desktop — chat" width="900" />
 
 </div>
 
 ---
 
-## ✨ New in 1.3.3
+## ✨ What's new in 1.3.4
 
-- **First-run setup once per account:** it no longer comes back after signing out and in, or on every start. The finished setup is kept in the account itself and on this computer.
-- **Delete account, done right:** a clear dialog shows what is deleted on the server and what stays on this computer, asks for your password and e-mail, and can also erase the chats on this computer. One SQL function on the server is enough — no privileged key in the app.
-- **Code workspace:** the AI panel collapses to a slim rail (header button, the rail, or Ctrl+Alt+B) and shows when the agent is working or waiting for you.
-
-<p align="center">
-  <img src="docs/screenshots/account-delete.png" alt="Delete account" width="49%" />
-  <img src="docs/screenshots/workspace-ai-collapsed.png" alt="Code workspace with the AI panel collapsed" width="49%" />
-</p>
-
-## ✨ New in 1.3.2
-
-- **Account fixes:** the first-run setup no longer repeats on every start, nicknames always save, and profile changes are kept on this computer and synced automatically when the account server refuses them. An e-mail link that confirms the address but cannot sign in by itself now leads straight to sign-in.
-
-## ✨ New in 1.3.1
-
-- **Sign-in screens:** an animated developer card at the bottom of the brand panel (GitHub · *Developed by Imomzoda Mehriddin*) over gently drifting glows, a soft dot grid and twinkling sparks — still when reduced motion is on.
+- **Design, rebuilt as a gallery.** Everything you create lives in one place, like Claude's Artifacts: cards with a live preview, the time of the last edit, favorites, search, filters by type and sorting. Hover a card to open it full screen, present a deck, duplicate or delete it.
+- **New: Documents.** Reports, proposals, articles, guides, plans and resumes, laid out like a printed page with a title block, numbered sections, tables, callouts and charts. Export to PDF (A4), PNG or HTML.
+- **New: Dashboards.** KPI tiles, interactive charts, filters that really work and a sortable table, built from sample data for your field, in light and dark themes.
+- **Full screen and presenting.** Any document, design or dashboard opens full screen (`F`) with desktop, tablet and phone frames. Decks present from the current slide (`F5`): arrows, a click or Space for the next slide, a progress line, and an overview of all slides (`G`). The controls hide while you read; `Esc` brings you back exactly where you were.
+- **Smoother background work.** “Minimize to background” now flies the window into its capsule at the top right and grows it back when you open it again.
+- **Image export.** Save a full-length PNG of any design, document or dashboard.
+- **A new About page** with the live GitHub repository (stars, forks, downloads, latest release), what you have done in Sakina on this computer, update status and one-click system details for bug reports.
 
 <p align="center">
-  <img src="docs/screenshots/account-login-dark.png" alt="Sign in — dark theme" width="80%" />
-</p>
-
-## ✨ New in 1.3.0 — your Sakina account
-
-- **Sakina account:** e-mail sign-up with confirmation, sign-in, password reset — the e-mail link opens the app. The session is stored encrypted (Windows DPAPI) and restored on start.
-- **First-run setup:** what to call you (any script, incl. Tajik letters), how you found Sakina, what for, and the language (Русский / Тоҷикӣ / English) — resumes where you stopped.
-- **Personal conversation:** "Good evening, Alex!" by your local clock; local models know your name and use it naturally. The name is passed as data, never as instructions, and cloud models do not get it unless you turn that on.
-- **Account card** in the sidebar and **Settings → Account & Profile:** name, language, e-mail, password, personalization, sign-out.
-- **Offline mode:** a set-up account opens without the internet — local models, chats and settings keep working.
-- **Workspace settings** next to Tasks: editor and terminal font size, auto-save, format and tidy on save, indentation, word wrap, minimap, shell, AI completion.
-- **Training checks your computer** (CPU, RAM, every GPU, disk) and rates 35 popular Ollama models for it: where each runs, memory, speed and LoRA support.
-
-<p align="center">
-  <img src="docs/screenshots/account-login.png" alt="Sign in" width="49%" />
-  <img src="docs/screenshots/onboarding.png" alt="First-run setup" width="49%" />
+  <img src="docs/screenshots/design-gallery.png" alt="Design gallery with live previews" width="49%" />
+  <img src="docs/screenshots/design-document.png" alt="A document in the Design editor" width="49%" />
 </p>
 <p align="center">
-  <img src="docs/screenshots/personal-greeting.png" alt="Personal greeting" width="49%" />
-  <img src="docs/screenshots/account-settings.png" alt="Account & Profile" width="49%" />
-</p>
-
-## ✨ New in 1.2.1 — Claude Code features and a real IDE
-
-- **Checkpoints & rewind** (like `/rewind` in Claude Code). Every message has *Rewind to here*, and `/rewind` works in the input box: restore **code and conversation**, only the conversation or only the code. Files the agent changed, created or deleted after that message come back, and the message returns to the input box to edit and resend.
-- **Subagents (`task` tool).** The agent hands broad research to a read-only subagent with its own context — optionally in the role of one of your agents — and gets back a concise report.
-- **The agent asks you** (like AskUserQuestion): options as cards, keys 1–5, your own answer, or *Skip* to let it decide.
-- **Background processes.** Dev servers, watchers and long builds run in the background; the agent reads only new output and stops them. The new **Processes** panel shows live output with *Stop* and *Send to chat*.
-- **Hooks** (*Settings → Hooks*), compatible with Claude Code: your commands on `PreToolUse`, `PostToolUse`, `UserPromptSubmit` and `Stop`; JSON on stdin, exit code 2 blocks. Six templates (Prettier after edits, block `git push --force`, protect `.env`, command log…) and a *Test run* button. Hooks are only added by you — never read from project files.
-- **The code workspace is now a full IDE:** **Ctrl+P** quick open with fuzzy search and `file.ts:42` line jumps, a **Tasks** panel (package.json scripts for npm/pnpm/yarn/bun, Makefile, Cargo, Go, .NET, Python/Django, Flutter, deno — one click to run), a **status bar** (Git branch, errors/warnings, processes, line/column, indentation, encoding, EOL, language), **breadcrumbs** and a **tab menu** (close others/right/saved/all, copy path, reveal).
-- **Design polish:** one consistent page-title style, the brand scrollbar in the sidebar, no more cut-off status on the Training page.
-
-<p align="center">
-  <img src="docs/screenshots/31-workspace-tasks-processes.png" alt="Tasks, background processes and status bar" width="49%" />
-  <img src="docs/screenshots/30-quick-open.png" alt="Quick open (Ctrl+P)" width="49%" />
+  <img src="docs/screenshots/design-dashboard.png" alt="A dashboard made by AI" width="49%" />
+  <img src="docs/screenshots/design-fullscreen.png" alt="Full screen view" width="49%" />
 </p>
 <p align="center">
-  <img src="docs/screenshots/34-rewind.png" alt="Rewind to a checkpoint" width="49%" />
-  <img src="docs/screenshots/35-question.png" alt="The agent asks a question" width="49%" />
+  <img src="docs/screenshots/design-present.png" alt="Presenting a deck" width="49%" />
+  <img src="docs/screenshots/design-overview.png" alt="Overview of all slides" width="49%" />
 </p>
-<p align="center">
-  <img src="docs/screenshots/32-hooks.png" alt="Hooks" width="49%" />
-  <img src="docs/screenshots/33-hook-dialog.png" alt="Hook editor with a test run" width="49%" />
-</p>
-
-## ✨ New in 1.2.0
-
-- **Training — teach your local models.** Ready courses (*Tajik language*, *Working with data*, *Data analysis*, *Building agents*, *Popular frameworks*, *Testing projects*, *Business documents*) or your own. Build a new Ollama model with the role, parameters and examples built in, write examples by hand, import JSONL/CSV or generate them with AI (also from your documents), and **test the trained model against the base one**. A complete **LoRA fine-tuning kit** adapts to any NVIDIA GPU — GTX 1050 … RTX 5090 and A6000 (model size, bf16/fp16, batch, memory saving and the right CUDA build of PyTorch are chosen automatically) — or the CPU.
-- **Agents — create your own.** Instructions, mode, model, abilities and **knowledge from your documents**; AI drafts an agent from one sentence; 10 templates; **192 agents from the most-starred GitHub collections** in one click; **27 famous open-source agent projects** (AutoGPT, Dify, OpenHands, CrewAI, LangGraph…) to download and study. Pick an agent for any chat next to the mode.
-- **Auto access (recommended):** the agent keeps working inside the project without stopping to ask; only dangerous actions and anything outside the project ask.
-
-<p align="center">
-  <img src="docs/screenshots/training.png" alt="Training" width="49%" />
-  <img src="docs/screenshots/training-setup.png" alt="Model, role and GPU fit" width="49%" />
-</p>
-<p align="center">
-  <img src="docs/screenshots/agents.png" alt="Agents" width="49%" />
-  <img src="docs/screenshots/agents-open-source.png" alt="Open-source agents" width="49%" />
-</p>
-
-## ✨ New in 1.1.9
-
-- **Access switcher next to the mode**, like Claude Code: *Manual*, *Accept edits*, *Read only* and *Custom rules* — keys 1–4 pick one in the open menu. Risky actions and anything outside the project still always ask.
-- **Command and skill suggestions** (`/…`, `@…`) redesigned: one-line names, descriptions underneath, scrolling and key hints.
-- **Check for updates** is now on *Settings → Updates* too, with download progress and *Restart and update*; the update card's buttons no longer overflow a narrow sidebar.
-
-## ✨ New in 1.1.8
-
-- **Fixed: Design generation stopped at 94–95 % with "Generation cancelled".** Large decks are no longer cut off by a total time limit; a request stops only when the model sends nothing for a while, a timeout is a clear error with *Retry* (never "cancelled"), temporary overloads are retried automatically (*attempt 2 of 3*), and a fully received design is kept even if the connection drops at the end.
-- Provider timeouts are now **inactivity timeouts** everywhere — long chat and agent answers keep streaming as long as the model writes.
-- Gemini's **503 "high demand"** is shown as a clear "model overloaded (temporary)" message and retried automatically.
-
-## ✨ New in 1.1.7
-
-<img src="docs/screenshots/29-voice-input.png" alt="Voice input in the composer" width="900" />
-
-- **Voice input**, like ChatGPT and Claude: a microphone button next to *Send*. While you speak the box shows a live waveform and a timer; *Stop* (or Enter) turns your speech into text at the cursor — send it right away or edit it first. ✕ or Esc cancels; **Ctrl+Shift+M** starts and finishes dictation.
-- Transcription uses your own providers — Whisper-compatible APIs (OpenAI, Groq, local Whisper servers) or Gemini. Provider, model and spoken language (auto, Russian, English, Tajik) are in *Settings → General → Voice input*. Recordings go only to that provider and are never stored; *Local only* mode keeps them on your local servers.
-- **Clear quota errors**: Google's long quota reports become one readable line; a model with no quota on your plan (*limit: 0*) is reported as such, and the connection test finds a model that works.
-
-## ✨ New in 1.1.6
-
-<img src="docs/screenshots/27-design-export-menu.png" alt="Design — export a deck to PowerPoint" width="900" />
-
-- **Export decks to PowerPoint (.pptx).** Every slide keeps its artwork (backgrounds, charts, cards — as a 2× picture) and all text becomes native, **editable PowerPoint text boxes** with the same lines, fonts, sizes, colours and alignment. Opens cleanly in PowerPoint; about 90 KB per slide.
-- **Tajik interface** proofread end to end — grammar, consistent terminology, translated Git commands; dates and numbers now use Tajik formatting.
-- **Command palette** (Ctrl+K): *New presentation…*, *New design…*, *Create with AI*, Design and AI Workspace.
-- **Design in the background** can be cancelled; the dock's *Open* button now expands the running job on any page (it used to make the card disappear).
-
-| | |
-|---|---|
-| <img src="docs/screenshots/28-pptx-in-powerpoint.png" alt="Exported deck rendered by PowerPoint" /> | <img src="docs/screenshots/17-design-slides.png" alt="The same deck in Sakina" /> |
-| **Rendered by PowerPoint** — the exported .pptx, text editable | **The same deck in Sakina** |
-
-## ✨ New in 1.1.5
-
-<img src="docs/screenshots/22-customize-connectors.png" alt="Customize — connectors with logos and collections" width="900" />
-
-- **Customize** — Skills, Connectors and Plugins in one place, like Claude: section switch, Mine / Browse, search, filter and **Add**; featured collections, "most popular" and category sections, cards with real service logos, verified developers and sign-in type, a details window with the server's tools.
-- **58 connectors** (was 19): Linear, Atlassian (Jira, Confluence), Asana, monday.com, ClickUp, Slack, Zapier, Canva, Miro, Webflow, Wix, Vercel, Cloudflare, Stripe, PayPal, Square, Neon, Prisma Postgres, MongoDB, Airtable, HubSpot, PostHog, Perplexity and more — every endpoint and package checked. Account-based services connect in one click with sign-in in your browser.
-- **Import MCP servers** from Claude Desktop or by pasting a JSON config (Cursor, VS Code) — imported servers start disabled, secrets are stored encrypted.
-- **Design in the background** — a live progress bar with stages; **Minimize to background** turns the window into a compact indicator at the top right while you keep working, and tells you when the design is ready.
-- **Smart code editor** — IntelliSense like VS Code for Python, Go, Rust, Java, C#, C/C++, PHP, Ruby, Kotlin, Dart, SQL and shells: type `pri` → `print`, signatures, docs, snippets, module members, your own functions and classes, parameter hints. **AI completion** suggests the next lines as grey text (Tab accepts).
-
-| | |
-|---|---|
-| <img src="docs/screenshots/23-connector-details.png" alt="Connector details" /> | <img src="docs/screenshots/26-python-intellisense.png" alt="Python IntelliSense" /> |
-| **Connector details** — developer, sign-in, tools | **Code editor** — IntelliSense and AI completion |
-| <img src="docs/screenshots/24-design-progress.png" alt="Design progress" /> | <img src="docs/screenshots/25-design-background.png" alt="Design in the background" /> |
-| **Design** — live progress with stages | **Background generation** — keep working, get notified |
-
-## ✨ New in 1.1.4
-
-<img src="docs/screenshots/15-ai-workspace.png" alt="AI Workspace — widgets created from the chat" width="900" />
-
-- **AI Workspace (generative UI).** Change the app in plain words — *"Add a calendar on the right in Liquid Glass style"*, *"Make it wider"*, *"Show CPU and GPU load"*, *"Undo that"*. The model plans declarative, validated operations; 12 working widgets (calendar, tasks, notes, calculator, clock, system & GPU monitor, model monitor, charts, KPI cards, tables, progress, custom), drag-and-drop between the right panel, the dashboard and floating panels, undo/redo with snapshots, export/import. Works with every connected model — local or cloud.
-- **Safe AI-made widgets.** Generated code runs only in an isolated sandbox (own origin, strict CSP, no network, no Node.js, no IPC) after you review its permissions and approve it; every version can be rolled back.
-- **Design** — like Claude Design: **Slides**, **Design**, **Design in codebase** (follows your project's tokens and stack) and **Design system**. Refine by text, keep every version, preview on desktop / tablet / phone, present full screen, export to **PowerPoint**, **PDF** or **HTML**.
-- **A real code workspace.** Right-click any file or folder: new file/folder, rename, cut/copy/paste, duplicate, delete (restorable), copy path, reveal in Explorer, open in the default app. Built-in previews for **Word, Excel, PowerPoint**, images, PDF, audio and video.
-- **232 Skills** — +132 professional programming & design skills (ui-ux-pro-max, Vercel, Emil Kowalski, Matt Pocock, wshobson/agents, GSAP, Supabase, Android, WordPress…), categories, sorting, one-click starter packs and updates from GitHub.
-- **Downloads per version** in *Settings → Updates*, **Check for updates** in *About*, and iOS-style glass notifications.
-
-| | |
-|---|---|
-| <img src="docs/screenshots/16-design.png" alt="Design" /> | <img src="docs/screenshots/17-design-slides.png" alt="Slides" /> |
-| **Design** — slides, designs and design systems | **Slides** — refine by text, present, export to PDF |
-| <img src="docs/screenshots/18-design-page.png" alt="Design preview" /> | <img src="docs/screenshots/19-explorer-office.png" alt="Explorer and Excel preview" /> |
-| **Design** — versions and live preview | **Code workspace** — context menu and Excel preview |
-
-## Downloads by version
-
-| Version | Downloads |
-|---|---|
-| [v1.3.3](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.3) | [![v1.3.3](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.3/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.3) |
-| [v1.3.2](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.2) | [![v1.3.2](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.2/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.2) |
-| **All versions** | [![Total](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/total?label=total&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases) |
-
-Counters come live from GitHub; the app shows the same numbers in *Settings → Updates → Versions and downloads*.
 
 ## Why Sakina
 
-- **Any model, one app.** OpenAI, Anthropic Claude, Google Gemini, OpenRouter, Groq, DeepSeek, Mistral, Moonshot Kimi and any OpenAI-compatible API — **plus your own models**: Ollama, Open WebUI, vLLM, SGLang, llama.cpp, LM Studio, Kimi K2 self-hosted and 20 more local/LAN servers.
-- **Private by design.** No telemetry. Chats, projects and settings stay on your PC; API keys are encrypted with Windows DPAPI. Route sensitive projects to local models only.
-- **An agent that really works.** Reads and edits files, runs commands in your terminal, uses Git — every risky action waits for your approval, and every step is visible in a timeline.
-- **Claude-style extensibility.** Skills (SKILL.md), Connectors (MCP) and Plugins (Claude Code format) — install the most popular ones from GitHub in one click.
+- **Any model, one app.** OpenAI, Anthropic Claude, Google Gemini, OpenRouter, Groq, DeepSeek, Mistral, Moonshot Kimi and any OpenAI-compatible API — **plus your own models**: Ollama, Open WebUI, vLLM, SGLang, llama.cpp, LM Studio, Kimi K2 self-hosted and more local or LAN servers.
+- **Private by design.** No telemetry. Chats, projects, files, designs and API keys stay on your PC; keys are encrypted with Windows DPAPI. Route sensitive projects to local models only.
+- **An agent that really works.** It reads and edits files, runs commands in your terminal, uses Git, asks you questions and runs subagents — every risky action waits for your approval, and every change can be rewound.
+- **Create, not just chat.** Documents, slide decks, interfaces, dashboards and design systems, refined by text, versioned and exported to PDF, PowerPoint, PNG or HTML.
+- **Claude-style extensibility.** Skills (`SKILL.md`), Connectors (MCP), Plugins and Agents in the Claude Code format — install popular ones from GitHub in one click.
 - **Updates itself.** New versions are found on GitHub Releases, downloaded with progress, verified (SHA-512) and installed with one click — your data stays.
 
-## Features
+## A quick tour
+
+### Chat
+
+Streaming answers with Markdown, tables, code, Mermaid and HTML previews, reasoning blocks, attachments (PDF, Office, images), voice input, branching edits and search. Sakina greets you by name and remembers your drafts.
+
+<p align="center">
+  <img src="docs/screenshots/welcome.png" alt="Welcome screen" width="49%" />
+  <img src="docs/screenshots/chat.png" alt="A chat with a formatted answer" width="49%" />
+</p>
+
+### Design
+
+Six kinds of work: **Document**, **Slides**, **Design**, **Dashboard**, **Design in codebase** (follows your project's tokens and components) and **Design system**. Generation runs in the background — minimize it and keep working; a capsule shows the progress and opens the result when it is ready.
+
+<p align="center">
+  <img src="docs/screenshots/design-progress.png" alt="Generation progress" width="49%" />
+  <img src="docs/screenshots/design-background.png" alt="Generation continues in the background" width="49%" />
+</p>
+
+### Code workspace
+
+Explorer, Monaco editor with IntelliSense, Ctrl+P quick open, project tasks, background processes, a terminal (PowerShell, CMD, Git Bash), Git, and an AI panel you can collapse to a slim rail (`Ctrl+Alt+B`). The agent works with checkpoints, hooks, subagents and questions.
+
+<img src="docs/screenshots/code-workspace.png" alt="Code workspace with the AI panel" width="100%" />
+
+### AI Workspace
+
+A personal dashboard you change by talking to it: calendar, tasks, system and model monitors, charts, stats and your own sandboxed widgets — with undo, snapshots and export.
+
+<img src="docs/screenshots/ai-workspace.png" alt="AI Workspace" width="100%" />
+
+### Agents and Training
+
+Create specialised agents (or draft one with AI), browse a catalog of open-source agents, and train your own model: build an Ollama model from a course or your data, compare it with the base model, or get a LoRA kit sized for your GPU.
+
+<p align="center">
+  <img src="docs/screenshots/agents.png" alt="Agents" width="49%" />
+  <img src="docs/screenshots/training.png" alt="Training" width="49%" />
+</p>
+
+### Skills, Connectors and Plugins
+
+A catalog of 232 popular skills in 13 categories, 58 verified MCP connectors (GitHub, Context7, Notion, Playwright, Supabase…) and the official Anthropic plugin marketplace — installed in one click, tokens stored encrypted.
+
+<p align="center">
+  <img src="docs/screenshots/skills.png" alt="Skills catalog" width="49%" />
+  <img src="docs/screenshots/connectors.png" alt="Connectors" width="49%" />
+</p>
+
+### Models, account and About
+
+Connect cloud providers and your own servers on the local network with a 6-step connection test. Your Sakina account keeps your name and setup across computers; the About page shows the version, the GitHub repository and your activity.
+
+<p align="center">
+  <img src="docs/screenshots/models.png" alt="Local and LAN models" width="49%" />
+  <img src="docs/screenshots/about.png" alt="About page" width="49%" />
+</p>
+
+## All features
 
 | | |
 |---|---|
-| 💬 **Chat** | Streaming answers, Markdown, tables, code highlighting, Mermaid, HTML/SVG preview, reasoning ("thinking") blocks, attachments incl. PDF text, branching edits, search, export |
-| 🧠 **Models & routing** | Cloud and local providers, multi-key rotation, live health of local servers, automatic default model, smart / privacy-first / local-only routing |
+| 💬 **Chat** | Streaming, Markdown, tables, code highlighting, Mermaid, HTML/SVG preview, reasoning blocks, attachments incl. PDF and Office, voice input, branching edits, search, export, response styles, slash commands |
+| 🎨 **Design** | Documents, slides, designs, dashboards, designs in your codebase and design systems; gallery with live previews, versions, device preview, full screen and presenting with slide overview, background generation; PDF / PowerPoint / PNG / HTML export |
+| 🛠️ **Code workspace & agent** | Explorer, Monaco editor, Ctrl+P, tasks, background processes, status bar, terminal, Git, collapsible AI panel, subagents, questions from the agent, hooks, checkpoints and rewind, approvals for risky actions |
+| 🪄 **AI Workspace** | Widgets and dashboards created and changed from the chat, 12 built-in widgets, sandboxed custom widgets, drag and drop, undo/redo, snapshots, export/import |
+| 🤖 **Agents** | Your own agents in the Claude Code subagent format, drafted with AI, plus a catalog of open-source agents |
+| 🎓 **Training** | Ollama model builds from courses or your data, side-by-side tests against the base model, GPU-aware LoRA kits |
+| 🧠 **Models & routing** | Cloud and local providers, multi-key rotation, health of local servers, automatic default model, smart / privacy-first / local-only routing |
 | 🖥️ **Local & LAN AI** | 28 server types with a 6-step connection test; detects Open WebUI / Ollama / OpenAI-compatible servers and fixes the address in one click |
-| 🛠️ **Agent & code workspace** | File explorer, Monaco editor, Ctrl+P quick open, project tasks, background processes, status bar, PowerShell / CMD / Git Bash terminal, Git panel, subagents, questions from the agent, hooks, checkpoints & rewind, approvals for risky actions |
-| 🪄 **AI Workspace** | Widgets and dashboards created and changed from the chat, 12 built-in widgets, sandboxed custom widgets, drag-and-drop, undo/redo, snapshots, export/import |
-| 🎨 **Design** | Slides, designs, designs in your codebase and design systems made by AI; versions, device preview, presentation mode, PDF / HTML export |
-| ✨ **Skills** | Catalog of 232 popular skills in 13 categories (Anthropic, ui-ux-pro-max, Vercel, obra/superpowers, wshobson/agents…), starter packs, updates from GitHub, your own skills; used automatically or with `/skill-name` |
-| 📄 **Any file** | Word, Excel, PowerPoint, PDF, images, audio and video open inside the app; explorer context menu with every file action |
-| 🔌 **Connectors** | 58 verified MCP connectors (GitHub, Context7, DeepWiki, Microsoft Learn, Playwright, Notion, Brave Search, Supabase, Sentry…) — tokens stored encrypted |
-| 🧩 **Plugins** | The official Anthropic marketplace (300+ plugins) and any GitHub marketplace in Claude Code format: skills, slash commands and connectors |
-| 🧭 **Comfort** | Global hotkey `Ctrl+Shift+Space`, tray icon, command palette `Ctrl+K`, shortcuts `Ctrl+/`, drafts per chat, response styles, notifications, light/dark themes, collapsible sidebar |
-| 🔒 **Safety** | Path guard, command risk analysis, permission rules, audit log, backups with SHA-256 verification, database copy before every schema upgrade |
-
-## Screenshots
-
-| | |
-|---|---|
-| <img src="docs/screenshots/02-welcome-light.png" alt="Welcome screen" /> | <img src="docs/screenshots/09-workspace.png" alt="Code workspace" /> |
-| **Welcome** — light theme | **Code workspace** — editor, terminal, AI agent |
-| <img src="docs/screenshots/20-skills-catalog.png" alt="Skills catalog" /> | <img src="docs/screenshots/03-skills.png" alt="My skills" /> |
-| **Skills catalog** — 232 skills, categories and starter packs | **My skills** — enable, view, update, remove |
-| <img src="docs/screenshots/05-plugins.png" alt="Plugins" /> | <img src="docs/screenshots/07-connectors-catalog.png" alt="Connectors" /> |
-| **Plugins** — official Anthropic marketplace | **Connectors** — one-click MCP |
-| <img src="docs/screenshots/08-models.png" alt="Models" /> | <img src="docs/screenshots/11-shortcuts.png" alt="Shortcuts" /> |
-| **Local AI** — 6-step connection test | **Keyboard shortcuts** |
-| <img src="docs/screenshots/06-connectors.png" alt="My connectors" /> | <img src="docs/screenshots/10-settings-ru.png" alt="Settings in Russian" /> |
-| **My connectors** — status and tools | **Three languages** — Русский shown |
+| ✨ **Skills, Connectors, Plugins** | 232 skills, 58 MCP connectors, the official Anthropic marketplace and any GitHub marketplace in Claude Code format |
+| 📄 **Any file** | Word, Excel, PowerPoint, PDF, images, audio and video open inside the app |
+| 👤 **Account** | Sign in with e-mail (confirmation, password reset), a one-time setup, profile and name on every computer, full account deletion |
+| 🧭 **Comfort** | Global hotkey `Ctrl+Shift+Space`, tray icon, command palette `Ctrl+K`, shortcuts `Ctrl+/`, light and dark themes, English, Russian and Tajik interface |
+| 🔒 **Safety** | Path guard, command risk analysis, permission rules, audit log, encrypted secrets, backups with SHA-256 verification, database copy before every schema upgrade |
 
 ## Download & install
 
-1. Download **`Sakina-AI-Desktop-Setup-<version>.exe`** from the [latest release](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
+1. Download **`Sakina-AI-Desktop-Setup-1.3.4.exe`** from the [latest release](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
 2. Run it and follow the wizard (install for you only or for all users, choose the folder).
 3. Windows SmartScreen may warn because the installer is not code-signed yet: click **More info → Run anyway**.
+4. Create a Sakina account or sign in, answer the short setup once — and you are ready.
 
-**Requirements:** Windows 10 or 11 (x64), 4 GB RAM (8 GB+ recommended), ~500 MB of disk space. Node.js is needed only for local MCP connectors (npx).
+**Requirements:** Windows 10 or 11 (x64), 4 GB RAM (8 GB+ recommended), about 500 MB of disk space. Node.js is needed only for local MCP connectors (npx).
 
 ### Updating
 
-Sakina checks GitHub Releases at start and every 4 hours (can be turned off in *Settings → Updates*). When a new version appears, a card slides open in the sidebar: **GitHub** opens the release notes, **Update** downloads it with a progress bar, verifies its SHA-512 and offers **Restart and update**. Installing a newer installer manually works too — it shows **Update 1.x → 1.y** instead of *Install* and keeps your chats, projects, settings and keys.
-
-| | | |
-|---|---|---|
-| <img src="docs/screenshots/12-update-available.png" alt="New version found" /> | <img src="docs/screenshots/13-update-downloading.png" alt="Downloading" /> | <img src="docs/screenshots/14-update-ready.png" alt="Ready to restart" /> |
-| **New version found** | **Downloading** | **Ready to restart** |
+Sakina checks GitHub Releases at start and every 4 hours (you can turn it off in *Settings → Updates*). When a new version appears, a card slides open in the sidebar: **Update** downloads it with a progress bar, verifies its SHA-512 and offers **Restart and update**. Installing a newer installer manually works too — your chats, projects, designs, settings and keys are kept.
 
 ## Your own model on another computer
 
-Run the model on the GPU machine, use it from your laptop:
+Run the model on the GPU machine and use it from your laptop:
 
 ```bash
 # On the GPU PC (Ollama example): listen on the local network
@@ -250,20 +156,34 @@ In Sakina: **Models → Local AI → Add local server**, pick the server type (O
 
 ## Privacy
 
-- No telemetry, no accounts, no ads.
-- Data lives in `%APPDATA%\sakina-ai-desktop` on your computer.
-- Requests go only to the providers and connectors you configure; update checks contact GitHub.
-- API keys and connector tokens are encrypted with Windows DPAPI and never written to logs or exports.
+- No telemetry and no ads.
+- Chats, files, projects, designs and settings live in `%APPDATA%\sakina-ai-desktop` on your computer. Chat history is never uploaded.
+- Your Sakina account stores only your e-mail, name and setup answers; you can delete the account and all of it at any time in *Settings → Account*.
+- Requests go only to the AI providers and connectors you configure; update checks contact GitHub.
+- API keys, connector tokens and the sign-in session are encrypted with Windows DPAPI and never written to logs or exports.
 
 ## FAQ
 
-**Is it free?** Yes — Sakina AI Desktop is free to use for personal and commercial work under the [EULA](LICENSE.md). AI providers bill you according to their own prices.
+**Is it free?** Yes — Sakina AI Desktop is free for personal and commercial use under the [EULA](LICENSE.md). AI providers bill you according to their own prices.
 
-**Do I need an internet connection?** Not with local models. Cloud providers, the skills/plugins catalogs and update checks need internet.
+**Do I need an internet connection?** Not for local models. Signing in, cloud providers, the catalogs and update checks need internet.
 
-**Can the AI break the app by changing the interface?** No. The model only sends declarative operations that are validated before anything changes; generated code runs in an isolated sandbox and only after your approval; every change can be undone.
+**Which model should I use for Design?** A strong model with a large output limit gives the best documents, decks and dashboards. Raise *Max output tokens* of the model in *Models* if a long design stops early.
 
-**Can I use Claude Code skills and plugins?** Yes: Skills use the same `SKILL.md` format, and plugins in Claude Code format contribute their skills, slash commands and MCP servers. Subagents and hooks are listed but not executed.
+**Can the AI break the app by changing the interface?** No. The model only sends declarative operations that are validated before anything changes; generated code runs in an isolated sandbox; every change can be undone.
+
+**Can I use Claude Code skills, plugins and agents?** Yes: Skills use the same `SKILL.md` format, plugins contribute their skills, slash commands and MCP servers, agents use the subagent format, and hooks run with the same exit-code rules.
+
+## Downloads by version
+
+| Version | Downloads |
+|---|---|
+| [v1.3.4](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.4) | [![v1.3.4](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.4/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.4) |
+| [v1.3.3](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.3) | [![v1.3.3](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.3/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.3) |
+| [v1.3.2](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.2) | [![v1.3.2](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.2/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.2) |
+| **All versions** | [![Total](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/total?label=total&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases) |
+
+Counters come live from GitHub; the app shows the same numbers in *Settings → About* and *Settings → Updates*.
 
 ## License
 
