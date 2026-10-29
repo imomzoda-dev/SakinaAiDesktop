@@ -12,7 +12,7 @@
 ![Languages](https://img.shields.io/badge/UI-English%20%7C%20Русский%20%7C%20Тоҷикӣ-6b7280)
 [![License](https://img.shields.io/badge/license-EULA%20(freeware)-6b7280)](LICENSE.md)
 
-[**⬇ Download Sakina 1.3.6 for Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [What's new](#-whats-new-in-136) · [Changelog](CHANGELOG.md) · [Русский](README.ru.md)
+[**⬇ Download Sakina 1.3.7 for Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [What's new](#-whats-new-in-137) · [Changelog](CHANGELOG.md) · [Русский](README.ru.md)
 
 <img src="docs/screenshots/chat.png" alt="Sakina AI Desktop — chat" width="900" />
 
@@ -20,20 +20,27 @@
 
 ---
 
-## ✨ What's new in 1.3.6
+## ✨ What's new in 1.3.7
 
-- **Profile photo.** Click your photo in *Settings → Account & Profile* or drop a picture on it, then crop it in a round frame (drag, zoom with the slider, the mouse wheel or the keyboard). It is saved as a 512×512 JPEG without location or camera data, stored in your account and shown on every computer. Google accounts can switch back to their Google photo.
-- **A redesigned Account & Profile page** with a cover, a large photo, your sign-in methods and clear sections — profile, personal touch, sign-in & security and a separate danger zone.
-- **Password strength meter.** Instead of a checklist, a four-step meter fills and changes colour as you type and gives one useful tip.
-- **Continue with Google.** Sign in or create your account with Google in one click. Google's page opens in your own browser — your Google password never passes through Sakina — and Sakina comes back to the front already signed in. Your name and photo come from Google; an existing e-mail account with the same address simply gets a second way to sign in, and you can add a password later in *Settings → Account*.
-- **Design, rebuilt as a gallery.** Everything you create lives in one place, like Claude's Artifacts: cards with a live preview, the time of the last edit, favorites, search, filters by type and sorting. Hover a card to open it full screen, present a deck, duplicate or delete it.
-- **New: Documents.** Reports, proposals, articles, guides, plans and resumes, laid out like a printed page with a title block, numbered sections, tables, callouts and charts. Export to PDF (A4), PNG or HTML.
-- **New: Dashboards.** KPI tiles, interactive charts, filters that really work and a sortable table, built from sample data for your field, in light and dark themes.
-- **Full screen and presenting.** Any document, design or dashboard opens full screen (`F`) with desktop, tablet and phone frames. Decks present from the current slide (`F5`): arrows, a click or Space for the next slide, a progress line, and an overview of all slides (`G`). The controls hide while you read; `Esc` brings you back exactly where you were.
-- **Smoother background work.** “Minimize to background” now flies the window into its capsule at the top right and grows it back when you open it again.
-- **Image export.** Save a full-length PNG of any design, document or dashboard.
-- **A new About page** with the live GitHub repository (stars, forks, downloads, latest release), what you have done in Sakina on this computer, update status and one-click system details for bug reports.
+- **Create images right in the chat.** Pick *Create image* in the new **+** card or a template, describe the picture and your own provider draws it — OpenAI GPT Image, Google Gemini (“Nano Banana”) and Imagen, OpenRouter, Together FLUX or LocalAI. Choose the frame (square, landscape, portrait, wide, tall) and a style (photo, anime, 3D, watercolour, oil, pixel art, pencil, comic, claymation, neon, minimal). While it is drawn, a frame of the right shape slowly comes to life; the finished picture fades in.
+- **Work with the picture:** *Edit* it (it becomes the reference — just say “make it night”), get *another version*, copy it, download it or open it full screen with zoom, drag and arrow keys. Attach your own photo and turn it into an anime portrait, a collectible figure or a product shot.
+- **Trending and Templates**, like ChatGPT: 12 trending ideas with examples made by AI and 12 practical templates (YouTube thumbnail, Instagram post, wallpapers, logo, app icon, greeting card, avatar, interior, food photo, tattoo, colouring page). A template fills in the description with the part to change selected, the frame and the style; “Your photo” templates ask for a photo first.
+- **The new + card in the composer:** add photos and files, take a screenshot (Sakina steps aside for a moment), draw a sketch (brush, marker, eraser, colours, undo), create an image, mention a project file — plus a strip of your recent pictures.
+- **Beautiful attachments:** every file gets its own coloured icon (PDF, Word, Excel, PowerPoint, CSV, archives, code, audio, video, Markdown…) with its name and “type · size”; pictures show as thumbnails. Fixed: the first file attached on the start screen sometimes did not appear.
+- **Exports that fit each Design kind:** documents to **Word (.docx)** with real Word styles (navigable headings, lists, tables with a header row, quotes, code, figures with captions, page numbers), PDF, Markdown, PNG and HTML; dashboards to **Excel (.xlsx)** with their data and tables on separate sheets; design systems to **CSS and JSON design tokens** (light and dark); interfaces to a **source bundle** (.zip with HTML, CSS and JS).
 
+<p align="center">
+  <img src="docs/screenshots/image-gallery.png" alt="Create image: trending templates" width="49%" />
+  <img src="docs/screenshots/image-result.png" alt="A picture created in the chat" width="49%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/attach-menu.png" alt="The + card in the composer" width="49%" />
+  <img src="docs/screenshots/attachments.png" alt="Attachments with file type icons" width="49%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/sketch.png" alt="Draw a sketch and attach it" width="49%" />
+  <img src="docs/screenshots/export-menu.png" alt="Export a document to Word" width="49%" />
+</p>
 
 <p align="center">
   <img src="docs/screenshots/account.png" alt="Account & Profile with a profile photo" width="49%" />
@@ -128,8 +135,9 @@ Connect cloud providers and your own servers on the local network with a 6-step 
 
 | | |
 |---|---|
-| 💬 **Chat** | Streaming, Markdown, tables, code highlighting, Mermaid, HTML/SVG preview, reasoning blocks, attachments incl. PDF and Office, voice input, branching edits, search, export, response styles, slash commands |
-| 🎨 **Design** | Documents, slides, designs, dashboards, designs in your codebase and design systems; gallery with live previews, versions, device preview, full screen and presenting with slide overview, background generation; PDF / PowerPoint / PNG / HTML export |
+| 💬 **Chat** | Streaming, Markdown, tables, code highlighting, Mermaid, HTML/SVG preview, reasoning blocks, attachments incl. PDF and Office with file-type icons, screenshots and sketches, voice input, branching edits, search, export, response styles, slash commands |
+| 🖼️ **Images** | Create and edit pictures with GPT Image, Gemini / Imagen, OpenRouter, FLUX or LocalAI: frames, 12 styles, trending ideas and templates, edit from a reference, full-screen viewer, save and copy |
+| 🎨 **Design** | Documents, slides, designs, dashboards, designs in your codebase and design systems; gallery with live previews, versions, device preview, full screen and presenting with slide overview, background generation; Word / PowerPoint / Excel / PDF / Markdown / PNG / HTML, design tokens and source export |
 | 🛠️ **Code workspace & agent** | Explorer, Monaco editor, Ctrl+P, tasks, background processes, status bar, terminal, Git, collapsible AI panel, subagents, questions from the agent, hooks, checkpoints and rewind, approvals for risky actions |
 | 🪄 **AI Workspace** | Widgets and dashboards created and changed from the chat, 12 built-in widgets, sandboxed custom widgets, drag and drop, undo/redo, snapshots, export/import |
 | 🤖 **Agents** | Your own agents in the Claude Code subagent format, drafted with AI, plus a catalog of open-source agents |
@@ -144,7 +152,7 @@ Connect cloud providers and your own servers on the local network with a 6-step 
 
 ## Download & install
 
-1. Download **`Sakina-AI-Desktop-Setup-1.3.6.exe`** from the [latest release](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
+1. Download **`Sakina-AI-Desktop-Setup-1.3.7.exe`** from the [latest release](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
 2. Run it and follow the wizard (install for you only or for all users, choose the folder).
 3. Windows SmartScreen may warn because the installer is not code-signed yet: click **More info → Run anyway**.
 4. Continue with Google or create a Sakina account with your e-mail, answer the short setup once — and you are ready.
@@ -191,6 +199,7 @@ In Sakina: **Models → Local AI → Add local server**, pick the server type (O
 
 | Version | Downloads |
 |---|---|
+| [v1.3.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.7) | [![v1.3.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.7/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.7) |
 | [v1.3.6](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.6) | [![v1.3.6](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.6/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.6) |
 | [v1.3.5](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.5) | [![v1.3.5](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.5/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.5) |
 | [v1.3.4](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.4) | [![v1.3.4](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.4/total?label=downloads&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.4) |
