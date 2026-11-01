@@ -4,21 +4,35 @@
 
 # Sakina AI Desktop
 
-**Ваше рабочее место с ИИ на Windows. Общайтесь с любой облачной или локальной моделью, доверьте агенту работу с кодом и терминалом, создавайте документы, презентации, дизайны и дашборды — а данные остаются на вашем компьютере.**
+**Ваше рабочее место с ИИ на Windows и Mac. Общайтесь с любой облачной или локальной моделью, доверьте агенту работу с кодом и терминалом, создавайте документы, презентации, дизайны и дашборды — а данные остаются на вашем компьютере.**
 
 [![Последний релиз](https://img.shields.io/github/v/release/imomzoda-dev/SakinaAiDesktop?label=релиз&color=D97757)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest)
 [![Загрузки](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/total?label=загрузки&color=D97757)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases)
-![Платформа](https://img.shields.io/badge/Windows-10%20%7C%2011%20x64-0078d4)
+![Платформа](https://img.shields.io/badge/Windows%2010%20%7C%2011%20·%20macOS%2012%2B-0078d4)
 ![Языки](https://img.shields.io/badge/интерфейс-Русский%20%7C%20English%20%7C%20Тоҷикӣ-6b7280)
 [![Лицензия](https://img.shields.io/badge/лицензия-EULA%20(бесплатно)-6b7280)](LICENSE.md)
 
-[**⬇ Скачать Sakina 1.3.9 для Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest) · [Что нового](#-что-нового-в-139) · [Журнал изменений](CHANGELOG.md) · [English](README.md)
+[**⬇ Windows**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/download/v1.4.0/Sakina-AI-Desktop-Setup-1.4.0.exe) · [**⬇ Mac — Apple Silicon**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/download/v1.4.0/Sakina-AI-Desktop-1.4.0-arm64.dmg) · [**⬇ Mac — Intel**](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/download/v1.4.0/Sakina-AI-Desktop-1.4.0-x64.dmg)
+
+[Что нового](#-что-нового-в-140) · [Установка на Mac](#macos) · [Журнал изменений](CHANGELOG.md) · [English](README.md)
 
 <img src="docs/screenshots/chat.png" alt="Sakina AI Desktop — чат" width="900" />
 
 </div>
 
 ---
+
+## ✨ Что нового в 1.4.0
+
+- **Sakina теперь и на Mac.** Сборки для Apple Silicon (M1–M4) и Intel, macOS 12 Monterey и новее. Откройте DMG и перетащите Sakina в «Программы»; если запустить её прямо с диска или из «Загрузок», она сама предложит перенести себя туда.
+- **Настоящая программа для Mac:** строка меню на языке интерфейса, ⌘C / ⌘V / ⌘Z / ⌘Q / ⌘H / ⌘M, все сочетания Sakina через ⌘ и в виде Mac (⌘K, ⇧⌘P, ⌘/), кнопки окна слева в заголовке, окно возвращается из Dock, значок в строке меню для светлой и тёмной темы, иконка по сетке Apple.
+- **Терминал и агент в zsh** с PATH вашей оболочки — Homebrew, nvm и Python работают у агента, MCP-коннекторов и хуков, даже когда Sakina запущена из Dock. Для хуков есть готовые шаблоны на zsh.
+- **Локальные модели на Apple Silicon:** Sakina распознаёт чип и общую память и советует модели, которые пойдут на GPU через Metal.
+- **Обновления на Mac** как на Windows: скачивание, проверка SHA-512, «Перезапустить и обновить» заменяет программу в «Программах» (при ошибке остаётся прежняя версия).
+
+<p align="center">
+  <img src="docs/screenshots/mac-main.png" alt="Sakina AI Desktop на macOS" width="80%" />
+</p>
 
 ## ✨ Что нового в 1.3.9
 
@@ -155,21 +169,40 @@
 | ✨ **Skills, коннекторы, плагины** | 232 навыка, 58 MCP-коннекторов, официальный маркетплейс Anthropic и любой маркетплейс GitHub в формате Claude Code |
 | 📄 **Любые файлы** | Word, Excel, PowerPoint, PDF, изображения, аудио и видео открываются прямо в приложении |
 | 👤 **Аккаунт** | «Продолжить с Google» или вход по e-mail (подтверждение, сброс пароля, шкала надёжности), фото профиля с кадрированием, разовая настройка, профиль и имя на любом компьютере, полное удаление аккаунта |
-| 🧭 **Удобство** | Глобальная клавиша `Ctrl+Shift+Space`, значок в трее, палитра команд `Ctrl+K`, сочетания клавиш `Ctrl+/`, светлая и тёмная темы, интерфейс на русском, английском и таджикском |
+| 🧭 **Удобство** | Глобальная клавиша `Ctrl+Shift+Space` (⇧⌘Space на Mac), значок в трее / строке меню, палитра команд `Ctrl+K` (⌘K), сочетания клавиш `Ctrl+/` (⌘/), светлая и тёмная темы, интерфейс на русском, английском и таджикском |
 | 🔒 **Безопасность** | Защита путей, анализ риска команд, правила доступа, журнал аудита, зашифрованные секреты, резервные копии с проверкой SHA-256, копия базы перед каждым обновлением схемы |
 
 ## Установка
 
-1. Скачайте **`Sakina-AI-Desktop-Setup-1.3.9.exe`** из [последнего релиза](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
+### Windows
+
+1. Скачайте **[`Sakina-AI-Desktop-Setup-1.4.0.exe`](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/download/v1.4.0/Sakina-AI-Desktop-Setup-1.4.0.exe)** из [последнего релиза](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/latest).
 2. Запустите и следуйте мастеру (установка для себя или для всех пользователей, выбор папки).
 3. Windows SmartScreen может предупредить, потому что установщик пока не подписан: нажмите **Подробнее → Выполнить в любом случае**.
 4. Нажмите «Продолжить с Google» или создайте аккаунт по e-mail, один раз ответьте на короткую настройку — и можно работать.
 
 **Требования:** Windows 10 или 11 (x64), 4 ГБ ОЗУ (рекомендуется 8 ГБ и больше), около 500 МБ на диске. Node.js нужен только для локальных MCP-коннекторов (npx).
 
+<a id="macos"></a>
+### macOS
+
+1. Скачайте образ диска для своего Mac — в меню Apple → *Об этом Mac* указано **Чип: Apple M…** или **Процессор: Intel**:
+   - Apple Silicon (M1, M2, M3, M4): **[`Sakina-AI-Desktop-1.4.0-arm64.dmg`](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/download/v1.4.0/Sakina-AI-Desktop-1.4.0-arm64.dmg)**
+   - Intel: **[`Sakina-AI-Desktop-1.4.0-x64.dmg`](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/download/v1.4.0/Sakina-AI-Desktop-1.4.0-x64.dmg)**
+2. Откройте его и перетащите **Sakina AI Desktop** на папку **Applications** («Программы»).
+3. Запустите Sakina из «Программ» или Launchpad. В первый раз macOS скажет, что не может проверить разработчика: Sakina пока не заверена Apple (для этого нужен платный аккаунт Apple Developer). Разрешите один раз:
+   - **macOS 15 Sequoia и новее:** нажмите **Готово**, откройте **Системные настройки → Конфиденциальность и безопасность**, прокрутите вниз до *«Sakina AI Desktop» заблокирована…* и нажмите **Всё равно открыть**, подтвердите паролем и нажмите **Открыть**.
+   - **macOS 12–14:** щёлкните Sakina в «Программах» правой кнопкой (или с Control), выберите **Открыть** и ещё раз **Открыть**.
+   - Или в «Терминале»: `xattr -dr com.apple.quarantine "/Applications/Sakina AI Desktop.app"`
+4. Нажмите «Продолжить с Google» или войдите по e-mail — один аккаунт работает и на Windows, и на Mac.
+
+Ключи API Sakina хранит в Связке ключей macOS. После обновления macOS может один раз спросить, разрешить ли Sakina доступ к *«Sakina AI Desktop Safe Storage»*, — введите пароль и нажмите **Всегда разрешать**.
+
+**Требования:** macOS 12 Monterey и новее, Apple Silicon или Intel, 4 ГБ ОЗУ (рекомендуется 8 ГБ и больше), около 600 МБ на диске.
+
 ### Обновление
 
-Sakina проверяет GitHub Releases при запуске и каждые 4 часа (можно отключить в *Настройки → Обновления*). Когда выходит новая версия, в боковой панели появляется карточка: **Обновить** скачивает её с прогрессом, проверяет SHA-512 и предлагает **Перезапустить и обновить**. Можно и просто запустить новый установщик — чаты, проекты, дизайны, настройки и ключи сохранятся.
+Sakina проверяет GitHub Releases при запуске и каждые 4 часа (можно отключить в *Настройки → Обновления*). Когда выходит новая версия, в боковой панели появляется карточка: **Обновить** скачивает её с прогрессом, проверяет SHA-512 и предлагает **Перезапустить и обновить**. Можно и просто запустить новый установщик — чаты, проекты, дизайны, настройки и ключи сохранятся. На Mac обновление заменяет Sakina в «Программах» и перезапускает её; если что-то пойдёт не так, остаётся прежняя версия.
 
 ## Своя модель на другом компьютере
 
@@ -186,10 +219,10 @@ ollama serve
 ## Приватность
 
 - Никакой телеметрии и рекламы.
-- Чаты, файлы, проекты, дизайны и настройки хранятся в `%APPDATA%\sakina-ai-desktop` на вашем компьютере. История чатов никуда не отправляется.
+- Чаты, файлы, проекты, дизайны и настройки хранятся на вашем компьютере: `%APPDATA%\sakina-ai-desktop` в Windows, `~/Library/Application Support/sakina-ai-desktop` на Mac. История чатов никуда не отправляется.
 - Аккаунт Sakina хранит только e-mail, имя, фото (при входе через Google) и ответы на настройку; при входе через Google Sakina никогда не видит ваш пароль Google; удалить аккаунт со всеми данными можно в любой момент в *Настройки → Аккаунт*.
 - Запросы уходят только к тем провайдерам ИИ и коннекторам, которые вы настроили; проверка обновлений обращается к GitHub.
-- API-ключи, токены коннекторов и сессия входа шифруются Windows DPAPI и никогда не попадают в журналы и экспорт.
+- API-ключи, токены коннекторов и сессия входа шифруются Windows DPAPI или Связкой ключей macOS и никогда не попадают в журналы и экспорт.
 
 ## Вопросы и ответы
 
@@ -207,6 +240,7 @@ ollama serve
 
 | Версия | Скачивания |
 |---|---|
+| [v1.4.0](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.4.0) | [![v1.4.0](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.4.0/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.4.0) |
 | [v1.3.9](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.9) | [![v1.3.9](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.9/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.9) |
 | [v1.3.8](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.8) | [![v1.3.8](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.8/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.8) |
 | [v1.3.7](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.7) | [![v1.3.7](https://img.shields.io/github/downloads/imomzoda-dev/SakinaAiDesktop/v1.3.7/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=D97757&style=flat-square)](https://github.com/imomzoda-dev/SakinaAiDesktop/releases/tag/v1.3.7) |
